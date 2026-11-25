@@ -1,0 +1,477 @@
+{
+ "expressoes": {
+  "E1.1": {
+   "declarado": 951,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 951,
+     "recuperado": 951
+    }
+   ],
+   "recuperado": 951,
+   "integral": true
+  },
+  "E1.2": {
+   "declarado": 1651,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 1651,
+     "recuperado": 1651
+    }
+   ],
+   "recuperado": 1651,
+   "integral": true
+  },
+  "E1.3": {
+   "declarado": 122,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 122,
+     "recuperado": 122
+    }
+   ],
+   "recuperado": 122,
+   "integral": true
+  },
+  "E1.4": {
+   "declarado": 71,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 71,
+     "recuperado": 71
+    }
+   ],
+   "recuperado": 71,
+   "integral": true
+  },
+  "E1.5": {
+   "declarado": 1633,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 1633,
+     "recuperado": 1633
+    }
+   ],
+   "recuperado": 1633,
+   "integral": true
+  },
+  "E1.6": {
+   "declarado": 317,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 317,
+     "recuperado": 317
+    }
+   ],
+   "recuperado": 317,
+   "integral": true
+  },
+  "E2.1": {
+   "declarado": 81,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 81,
+     "recuperado": 81
+    }
+   ],
+   "recuperado": 81,
+   "integral": true
+  },
+  "E2.2": {
+   "declarado": 41,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 41,
+     "recuperado": 41
+    }
+   ],
+   "recuperado": 41,
+   "integral": true
+  },
+  "E2.3": {
+   "declarado": 451,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 451,
+     "recuperado": 451
+    }
+   ],
+   "recuperado": 451,
+   "integral": true
+  },
+  "E2.4": {
+   "declarado": 79,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 79,
+     "recuperado": 79
+    }
+   ],
+   "recuperado": 79,
+   "integral": true
+  },
+  "E2.5": {
+   "declarado": 153,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 153,
+     "recuperado": 153
+    }
+   ],
+   "recuperado": 153,
+   "integral": true
+  },
+  "E2.6": {
+   "declarado": 295,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 295,
+     "recuperado": 295
+    }
+   ],
+   "recuperado": 295,
+   "integral": true
+  },
+  "E2.7": {
+   "declarado": 1917,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 1917,
+     "recuperado": 1917
+    }
+   ],
+   "recuperado": 1917,
+   "integral": true
+  },
+  "E3.1": {
+   "declarado": 506,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 506,
+     "recuperado": 506
+    }
+   ],
+   "recuperado": 506,
+   "integral": true
+  },
+  "E3.2": {
+   "declarado": 3797,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 3797,
+     "recuperado": 3797
+    }
+   ],
+   "recuperado": 3797,
+   "integral": true
+  },
+  "E3.3": {
+   "declarado": 3262,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 3262,
+     "recuperado": 3262
+    }
+   ],
+   "recuperado": 3262,
+   "integral": true
+  },
+  "E3.4": {
+   "declarado": 447,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 447,
+     "recuperado": 447
+    }
+   ],
+   "recuperado": 447,
+   "integral": true
+  },
+  "E3.5": {
+   "declarado": 285,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 285,
+     "recuperado": 285
+    }
+   ],
+   "recuperado": 285,
+   "integral": true
+  },
+  "E4.1": {
+   "declarado": 714,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 714,
+     "recuperado": 714
+    }
+   ],
+   "recuperado": 714,
+   "integral": true
+  },
+  "E4.2": {
+   "declarado": 270,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 270,
+     "recuperado": 270
+    }
+   ],
+   "recuperado": 270,
+   "integral": true
+  },
+  "E5.1": {
+   "declarado": 1884,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 1884,
+     "recuperado": 1884
+    }
+   ],
+   "recuperado": 1884,
+   "integral": true
+  },
+  "E5.2": {
+   "declarado": 3016,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 3016,
+     "recuperado": 3016
+    }
+   ],
+   "recuperado": 3016,
+   "integral": true
+  },
+  "E5.3": {
+   "declarado": 3071,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 3071,
+     "recuperado": 3071
+    }
+   ],
+   "recuperado": 3071,
+   "integral": true
+  },
+  "E5.4": {
+   "declarado": 238,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 238,
+     "recuperado": 238
+    }
+   ],
+   "recuperado": 238,
+   "integral": true
+  },
+  "E6.1": {
+   "declarado": 468,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 468,
+     "recuperado": 468
+    }
+   ],
+   "recuperado": 468,
+   "integral": true
+  },
+  "E6.2": {
+   "declarado": 891,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 891,
+     "recuperado": 891
+    }
+   ],
+   "recuperado": 891,
+   "integral": true
+  },
+  "E6.3": {
+   "declarado": 3379,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 3379,
+     "recuperado": 3379
+    }
+   ],
+   "recuperado": 3379,
+   "integral": true
+  },
+  "E1.2d": {
+   "declarado": 1841,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 1841,
+     "recuperado": 1841
+    }
+   ],
+   "recuperado": 1841,
+   "integral": true
+  },
+  "E1.5d": {
+   "declarado": 1635,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 1635,
+     "recuperado": 1635
+    }
+   ],
+   "recuperado": 1635,
+   "integral": true
+  },
+  "E2.5d": {
+   "declarado": 172,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 172,
+     "recuperado": 172
+    }
+   ],
+   "recuperado": 172,
+   "integral": true
+  },
+  "E2.6c": {
+   "declarado": 694,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 694,
+     "recuperado": 694
+    }
+   ],
+   "recuperado": 694,
+   "integral": true
+  },
+  "E3.2d": {
+   "declarado": 3591,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 3591,
+     "recuperado": 3591
+    }
+   ],
+   "recuperado": 3591,
+   "integral": true
+  },
+  "E3.2e": {
+   "declarado": 3640,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 3640,
+     "recuperado": 3640
+    }
+   ],
+   "recuperado": 3640,
+   "integral": true
+  },
+  "E4.1d": {
+   "declarado": 1778,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 1778,
+     "recuperado": 1778
+    }
+   ],
+   "recuperado": 1778,
+   "integral": true
+  },
+  "E4.3b": {
+   "declarado": 496,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 496,
+     "recuperado": 496
+    }
+   ],
+   "recuperado": 496,
+   "integral": true
+  },
+  "E5.2d": {
+   "declarado": 3966,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 3966,
+     "recuperado": 3966
+    }
+   ],
+   "recuperado": 3966,
+   "integral": true
+  },
+  "E1.7": {
+   "declarado": 2887,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 2887,
+     "recuperado": 2887
+    }
+   ],
+   "recuperado": 2887,
+   "integral": true
+  },
+  "E3.6": {
+   "declarado": 4116,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 4116,
+     "recuperado": 4116
+    }
+   ],
+   "recuperado": 4116,
+   "integral": true
+  },
+  "E3.7": {
+   "declarado": 1766,
+   "fatias": [
+    {
+     "fatia": "integral",
+     "declarado": 1766,
+     "recuperado": 1766
+    }
+   ],
+   "recuperado": 1766,
+   "integral": true
+  }
+ },
+ "totais": {
+  "declarado": 56572,
+  "recuperado": 56572,
+  "expressoes": 39
+ }
+}

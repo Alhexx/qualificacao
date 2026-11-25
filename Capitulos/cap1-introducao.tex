@@ -1,0 +1,94 @@
+\chapter{Introdução}
+\label{cap:introducao}
+
+\section{Contextualização}
+\label{sec:contextualizacao}
+
+A gestão urbana, com a dinamicidade que a modernidade trouxe, não tem mais o luxo de fazer planejamentos baseados em ciclos longos de levantamento, análise e intervenção. A infraestrutura física das cidades hoje depende de camadas digitais de sensoriamento, comunicação e processamento, e é desse acoplamento que vive o paradigma das cidades inteligentes, que desloca o objeto administrado da obra física para o fluxo informacional.
+
+Nesse movimento, os Gêmeos Digitais Urbanos (\textit{Urban Digital Twins}, UDT) passaram ao centro da agenda de pesquisa e da prática municipal. Além de modelos tridimensionais da cidade, os UDT são representações computacionais que sustentam monitoramento contínuo, simulação de cenários e predição de fenômenos urbanos em tempo quase real \cite{ferrebigorra2022adoption,shahat2021city}. O conceito vem do domínio industrial, onde \citeonline{grieves2016digital} o formalizou como o conjunto de construções de informação virtual que descreve um objeto físico ao longo de seu ciclo de vida, e sua transposição para a cidade não é trivial: o gêmeo industrial opera sobre domínio fechado, instrumentado e de proprietário único, ao passo que o urbano enfrenta domínios abertos, atores múltiplos, propriedade fragmentada dos dados e comportamento humano não determinístico \cite{batty2018digital,yeh2024from}.
+
+Quando se olha o que as cidades de fato implantaram, o quadro é mais modesto do que o discurso. As iniciativas municipais costumam parar na representação geométrica e no cadastro \cite{ketzler2020digital}, têm dificuldade em reunir dados que chegam em formatos e ritmos diferentes \cite{lehtola2022digital} e, no uso diário, funcionam como painéis de acompanhamento \cite{ferrebigorra2022adoption}. \citeonline{haraguchi2024assessing} organizam esses sistemas em níveis de maturidade e mostram que poucos alcançam os níveis em que o gêmeo apoia uma decisão ou dispara uma ação.
+
+O amadurecimento dessas plataformas expõe ainda uma limitação de modelagem. O foco quase exclusivo na réplica de ativos físicos, vias, semáforos, redes de energia e edificações, deixa de lado o principal vetor de dinamismo do ecossistema urbano, que é o cidadão. A literatura recente aponta a necessidade de incorporar os Gêmeos Digitais Humanos (\textit{Human Digital Twins}, HDT), o que exige processar perfil, comportamento, restrições de acessibilidade e preferências individuais \cite{asad2023human,fontes2024human}. A inflexão é coerente com a Sociedade 5.0, formulada como superação do modelo tecnocêntrico da Indústria 4.0 em favor de uma convergência entre ciberespaço e espaço físico centrada no bem-estar humano \cite{deguchi2020from}. Trabalhos como os de \citeonline{luo2025perception} e \citeonline{qanazi2025integrating} mostram essa o perfil humano chegando aos gêmeos urbanos, mas predominantemente na camada de percepção e de participação, ainda faltando alcançar a camada arquitetural de \textit{backend}.
+
+O desafio técnico da transição, está em orquestrar informação de domínios que operam isolados, como segurança pública e mobilidade. Cruzar tráfego com monitoramento de emergências exige rigor semântico compartilhado, de modo que o sistema relacione um evento adverso na infraestrutura com a população efetivamente afetada. O ecossistema FIWARE \cite{cirillo2019standard,bauer2022fiware} e as topologias federadas de \textit{Data Spaces}, como o \textit{International Data Spaces} e o Gaia-X \cite{otto2019international,tardieu2022role}, estabeleceram padrões de governança, soberania e compartilhamento seguro dessa informação. No plano da representação, o padrão \textit{Next Generation Service Interfaces -- Linked Data} (NGSI-LD), especificado pelo \textit{European Telecommunications Standards Institute} \cite{etsi2024ngsild}, consolidou a modelagem do contexto urbano como grafo de propriedades navegável.
+
+\section{Caracterização do Problema}
+\label{sec:problema}
+
+Apesar dessa base de padronização, a aplicação prática desses conceitos no desenvolvimento de software urbano evidencia uma lacuna arquitetural persistente: faltam infraestruturas de \textit{backend} pensadas para nativamente ter uma sensibilidade ao contexto e com o raciocínio automatizado sobre esse contexto. A maioria das implementações estaciona na ingestão de dados e na alimentação de painéis, e falha ao adaptar o comportamento da plataforma voltado aos atores e cenários \cite{ketzler2020digital,ferrebigorra2022adoption,haraguchi2024assessing}.
+
+Essa limitação tem três origens: o modelo de dados, o estilo de integração e a exigência legal.
+
+A primeira é o modelo de dados. Plataformas construídas sobre padrões anteriores, como o NGSI-v2, descrevem cada objeto urbano como um registro isolado, de atributos planos e sem ligação declarada com os demais. Um sensor não registra em que edificação está, e uma edificação não registra quem a ocupa; descobrir isso fica a cargo de cada aplicação, que consulta as bases separadamente e junta os resultados por conta própria. O NGSI-LD muda esse ponto ao tratar o relacionamento entre duas entidades como um dado de primeira classe, ou seja, como informação que a própria entidade declara, que a plataforma armazena e que pode ser consultada diretamente, em vez de uma referência que só o código da aplicação sabe interpretar. O princípio vem dos grafos de conhecimento do padrão \textit{Resource Description Framework} (RDF), usado para descrever dados ligados na web, com a diferença de que o NGSI-LD preserva a interface \textit{Representational State Transfer} (REST) e o vocabulário de atributos já correntes entre desenvolvedores de plataformas urbanas; as comparações entre as duas abordagens registram esse ganho de expressividade \cite{abid2022toward,viola2019mapping}.
+
+A segunda é o estilo de integração. Quando cada módulo chama diretamente o módulo seguinte e espera a resposta, o sistema inteiro fica preso ao componente mais lento. Numa cidade instrumentada, em que milhares de dispositivos publicam leituras ao mesmo tempo, esse encadeamento vira gargalo, e a ingestão de dados críticos passa a depender da disponibilidade de consumidores que nada têm de críticos \cite{eugster2003many,francesco2017research}.
+
+A terceira é a exigência legal. Personalizar um serviço significa processar atributos pessoais sensíveis, e fazê-lo sem mecanismos explícitos de governança, consentimento e controle sobre a finalidade do uso inviabiliza a solução antes mesmo da discussão técnica \cite{cuno2019data,firdausy2022towards,brasil2018lgpd}.
+
+A combinação desses três torna a prestação de serviços urbanos hiperpersonalizados inviável na prática. Falta aos sistemas atuais o mecanismo capaz de cruzar contexto relacional em janelas de tempo compatíveis com situações críticas sem comprometer a estabilidade da infraestrutura ou a privacidade do usuário. Diante de um incêndio em zona adensada, a resposta computacional disponível costuma reduzir-se ao disparo de alertas massivos e inespecíficos, indiferentes às vulnerabilidades individuais dos cidadãos no raio de impacto. Essa indiferença tem custo humano mensurável: pessoas com deficiência e mobilidade reduzida apresentam desempenho de evacuação sistematicamente inferior quando os procedimentos e sistemas de alerta não incorporam suas restrições \cite{hashemi2018emergency}.
+
+Formula-se, portanto, o seguinte problema de pesquisa:
+
+\begin{quote}
+\textit{Como tornar o perfil humano uma entidade central do grafo de contexto de um gêmeo digital urbano, de modo que um evento crítico produza resposta diferenciada por pessoa?}
+\end{quote}
+
+A pergunta é deliberadamente estreita. Ela não indaga se a personalização melhora o atendimento à população, questão que exigiria estudo com participantes humanos, nem como otimizar o desempenho da plataforma sob carga. Indaga se o perfil humano pode residir no mesmo grafo semântico das entidades de infraestrutura e de evento, e se essa residência basta para derivar, por travessia de relacionamentos, uma resposta distinta para cada pessoa afetada. Responder a isso exige um artefato arquitetural e uma demonstração de que ele funciona, e este trabalho se propõe a entregar ambos.
+
+\section{Questões de Pesquisa}
+\label{sec:questoes}
+
+O problema desdobra-se nas questões de pesquisa (QP) abaixo, que orientam tanto o mapeamento sistemático do Capítulo \ref{cap:mapeamento} quanto o desenho e a avaliação da arquitetura (Capítulos \ref{cap:arquitetura} e \ref{cap:avaliacao}).
+
+\begin{description}[leftmargin=1.8cm,style=nextline]
+	\item[QP1] Como o ecossistema FIWARE e as topologias de \textit{Data Spaces} têm sido empregados na construção de gêmeos digitais urbanos, e quais componentes arquiteturais são recorrentes nessas soluções?
+	\item[QP2] Quais mecanismos de sensibilidade ao contexto e de raciocínio semântico são reportados em arquiteturas de \textit{backend} para gêmeos digitais urbanos, e em que grau eles suportam adaptação dinâmica de comportamento?
+	\item[QP3] De que forma perfis humanos, incluindo restrições de acessibilidade e vulnerabilidades individuais, são representados e integrados ao modelo de contexto urbano nas soluções existentes?
+	\item[QP4] Quais estratégias de governança, soberania e proteção de dados são adotadas quando atributos pessoais sensíveis participam do processamento em plataformas urbanas federadas?
+	\item[QP5] Quais lacunas arquiteturais permanecem abertas na interseção entre formalismo semântico, processamento assíncrono de eventos e hiperpersonalização centrada no fator humano?
+\end{description}
+
+\section{Objetivos}
+\label{sec:objetivos}
+
+\subsection{Objetivo Geral}
+
+Propor uma arquitetura de \textit{backend} sensível ao contexto e orientada a eventos para gêmeos digitais urbanos, fundamentada no formalismo semântico NGSI-LD, que integre o perfil humano ao grafo de contexto da cidade, e demonstrar seu funcionamento pela implementação do fluxo de ponta a ponta de um cenário de emergência com evacuação assistida.
+
+\subsection{Objetivos Específicos}
+
+\begin{enumerate}[label=OE\arabic*.,leftmargin=1.6cm]
+	\item Caracterizar o estado da arte em arquiteturas de \textit{backend} para gêmeos digitais urbanos por mapeamento sistemático da literatura, e sistematizar as lacunas arquiteturais que dele decorrem.
+	\item Especificar os requisitos da arquitetura, com rastreabilidade explícita entre cada requisito e a lacuna que o origina, e projetá-la em camadas lógicas, registrando as decisões arquiteturais e suas justificativas.
+	\item Modelar em NGSI-LD as entidades do domínio, entre elas a entidade de perfil humano (\textit{UserProfile}) e seus relacionamentos com as entidades de infraestrutura e de evento, apoiando-se nos vocabulários da iniciativa \textit{Smart Data Models}.
+	\item Implementar o fluxo de ponta a ponta do cenário de referência, da detecção do evento à entrega da resposta diferenciada, com os componentes da camada de orquestração necessários a esse fluxo.
+	\item Validar funcionalmente a implementação sobre cenários definidos, verificando que perfis distintos recebem respostas distintas e que a travessia de relacionamentos recupera o conjunto correto de pessoas afetadas, e caracterizar a latência observada no fluxo.
+\end{enumerate}
+
+\section{Justificativa e Relevância}
+\label{sec:justificativa}
+
+No plano científico, a contribuição situa-se em uma interseção pouco explorada. Há literatura consolidada sobre gêmeos digitais urbanos como artefato de modelagem e visualização \cite{ketzler2020digital,shahat2021city,lehtola2022digital}, sobre interoperabilidade semântica em Internet das Coisas \cite{ganzha2017semantic,komninos2016smart,qamar2019smart} e sobre gêmeos digitais humanos \cite{asad2023human,okegbile2022edge,fontes2024human}, mas são escassos os trabalhos que tratam as três dimensões sob a ótica da engenharia de \textit{backend}, isto é, que discutam como estruturar serviços, barramentos e modelos de persistência para sustentar raciocínio contextual sobre perfis humanos em escala urbana. O Capítulo \ref{cap:mapeamento} documenta essa lacuna.
+
+No plano tecnológico, a opção por componentes e padrões abertos, NGSI-LD, FIWARE, conectores de \textit{Data Spaces}, PostGIS e TimescaleDB, evita o aprisionamento tecnológico característico de plataformas urbanas proprietárias e permite que os resultados sejam replicados por outros municípios e grupos. A opção se apoia em resultados já obtidos nessa linha: plataformas de integração de dados heterogêneos para cidade inteligente \cite{pereira2022platform,souza2018geographic}, o levantamento dos desafios de desenvolver esses sistemas \cite{cavalcante2017challenges} e a integração de sistemas de centros de operações urbanas \cite{loss2024integrating}, que trata justamente de fazer conversarem plataformas de segurança pública nascidas separadas.
+
+No plano social, o cenário de validação escolhido, resposta a emergências com evacuação assistida, endereça uma população negligenciada pelos sistemas de alerta vigentes. Os estudos de evacuação evidenciam a lacuna de desempenho enfrentada por pessoas com deficiência \cite{hashemi2018emergency}, e os trabalhos de roteamento acessível mostram que incorporar restrições individuais ao cálculo de rotas é tecnicamente factível \cite{deng2022semantic,allahbakhshi2026zuriact}; a arquitetura proposta oferece o substrato de \textit{backend} que articula as duas frentes em tempo de resposta. A diferenciação, porém, não se limita a quem precisa sair. O mesmo mecanismo distingue quem tem condição de agir: um ocupante registrado como brigadista recebe instrução de atuação em lugar de instrução de saída, e o painel de gestão recebe a visão agregada da ocorrência, com a localização de quem declarou restrição. Equipes externas, como corpo de bombeiros e policiamento, consomem essa mesma visão pela interface de serviço, ainda que a integração com seus sistemas corporativos fique fora desta etapa. A escolha da segurança pública como domínio dialoga também com a agenda local, que já investigou o engajamento cívico em segurança pública inteligente \cite{moreira2017towards} e a iniciativa de cidade inteligente do município \cite{cacho2016smart}.
+
+Ao término da pesquisa, esperam-se quatro contribuições: um mapeamento sistemático reproduzível do estado da arte nessa interseção, com protocolo, expressões de busca e critérios de seleção declarados; uma arquitetura de referência de \textit{backend}, descrita em camadas e acompanhada de registros de decisão, que explicita como acoplar um núcleo semântico NGSI-LD a componentes de orquestração de perfis humanos; modelos semânticos NGSI-LD para perfis humanos e suas relações com entidades urbanas, compatíveis com os vocabulários da iniciativa \textit{Smart Data Models}; e um protótipo conteinerizado do fluxo de ponta a ponta do cenário de referência, validado funcionalmente sobre cenários definidos. As duas primeiras estão materializadas nesta qualificação.
+
+\section{Delimitação do Escopo}
+\label{sec:escopo}
+
+Para tornar a pesquisa exequível no horizonte do mestrado, ficam fora do escopo: a construção de representações geométricas tridimensionais ou de modelos da cidade em \textit{Building Information Modeling} (BIM), já que o interesse recai sobre a camada semântica e de serviços; o desenvolvimento de interfaces gráficas de usuário final, limitando-se o trabalho a clientes de teste que exercitem os contratos da interface de programação de aplicações (\textit{Application Programming Interface}, API); o desenvolvimento de algoritmos originais de aprendizado de máquina para inferência de perfil, adotando-se nesta etapa motores de regras determinísticos e explicáveis; a implantação em ambiente municipal de produção com dados pessoais reais, que demandaria aprovação ética e convênio institucional próprios; e a implementação de um conector certificado de \textit{Data Space}, cujo tratamento se dará no plano da especificação arquitetural. Ficam igualmente de fora a otimização de desempenho sob carga, a federação entre municípios e a avaliação de aceitação social da personalização, retomadas como trabalhos futuros na Seção \ref{sec:trabalhos-futuros}.
+
+\section{Metodologia de Pesquisa}
+\label{sec:metodologia-geral}
+
+A pesquisa classifica-se, quanto à natureza, como tecnológico-aplicada; quanto aos objetivos, como exploratória e descritiva; e quanto ao procedimento, como pesquisa de desenvolvimento de artefato com validação funcional do artefato produzido. O percurso organiza-se em quatro fases iterativas. A primeira é o mapeamento sistemático da literatura acadêmica e da literatura cinzenta normativa, conduzido segundo as diretrizes de \citeonline{petersen2015guidelines} e \citeonline{barn2017conducting}, com protocolo previamente definido (Capítulo \ref{cap:mapeamento}). A segunda é a proposição arquitetural, com especificação de requisitos, definição das camadas, registro das decisões e modelagem semântica das entidades, orientada pelas práticas de descrição de arquitetura de \citeonline{bass2021software} (Capítulo \ref{cap:arquitetura}). A terceira é a implementação incremental em ciclos, partindo da instanciação da pilha tecnológica e da validação do fluxo assíncrono e prosseguindo para os componentes de orquestração (Capítulo \ref{cap:implementacao}). A quarta é a validação funcional sobre cenários definidos de domínios cruzados, com verificação da corretude da resposta derivada e caracterização da latência observada, seguindo as recomendações de \citeonline{wohlin2012experimentation} quanto a ameaças à validade (Capítulo \ref{cap:avaliacao}).
+
+\section{Organização do Documento}
+\label{sec:organizacao}
+
+O Capítulo \ref{cap:fundamentacao} reúne a fundamentação teórica, dos paradigmas de cidade inteligente e Sociedade 5.0 ao padrão NGSI-LD, ao ecossistema FIWARE, aos espaços de dados e aos padrões de arquitetura orientada a eventos e de persistência especializada. O Capítulo \ref{cap:mapeamento} descreve o protocolo, a condução e os resultados do mapeamento sistemático, com a análise comparativa dos trabalhos relacionados e a consolidação das lacunas. O Capítulo \ref{cap:arquitetura} apresenta a arquitetura proposta. Os Capítulos \ref{cap:implementacao} e \ref{cap:avaliacao} tratam, respectivamente, do estado atual da implementação e do plano de validação, e o Capítulo \ref{cap:consideracoes} sintetiza as considerações parciais, os próximos passos e o cronograma até a defesa.

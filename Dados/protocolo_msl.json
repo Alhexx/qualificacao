@@ -1,0 +1,375 @@
+{
+ "titulo": "Protocolo do mapeamento sistematico da literatura",
+ "data_desenho": "2026-10-26",
+ "instrumento": "Mapeamento sistematico conforme Petersen et al. (2015), conducao conforme Barn et al. (2017).",
+ "questoes": {
+  "QP1": "Como FIWARE e Data Spaces vem sendo empregados em gemeos digitais urbanos, e que componentes recorrem nessas arquiteturas?",
+  "QP2": "Que mecanismos de sensibilidade ao contexto e de raciocinio semantico sao adotados em arquiteturas de backend para o dominio urbano?",
+  "QP3": "Como perfis humanos sao representados e integrados ao contexto urbano?",
+  "QP4": "Que estrategias de governanca, soberania e protecao de dados sao adotadas quando atributos pessoais sensiveis participam do processamento?",
+  "QP5": "Que lacunas remanescem na intersecao entre os eixos anteriores?"
+ },
+ "bases": [
+  {
+   "nome": "Scopus",
+   "papel": "primaria",
+   "campo": "TITLE-ABS-KEY",
+   "justificativa": "Indexa com revisao editorial as editoras do campo (IEEE, ACM, Springer, Elsevier, MDPI) e permite busca restrita a campo, ausente no indice de DOI usado anteriormente.",
+   "limites_aferidos": {
+    "registros_por_pagina": 25,
+    "teto_navegacao": 5000,
+    "resumo_no_retorno": false,
+    "cota_semanal": 20000
+   }
+  },
+  {
+   "nome": "OpenAlex",
+   "papel": "complementar",
+   "campo": "busca em titulo, resumo e texto integral",
+   "justificativa": "Cobre obras ausentes do Scopus, nominalmente identificadas na afericao de recobrimento, e fornece o resumo que a chave de acesso ao Scopus nao devolve.",
+   "limites_aferidos": {
+    "teto_por_consulta": 500,
+    "busca_restrita_a_campo": false
+   }
+  }
+ ],
+ "janela": {
+  "inicio": 2014,
+  "criterio": "CI5",
+  "excecao": "obra anterior admitida por carater fundacional reconhecido, mediante inclusao dirigida registrada"
+ },
+ "criterios_inclusao": {
+  "CI1": "Trata de arquitetura, plataforma ou middleware para gemeos digitais, cidades inteligentes ou espacos de dados.",
+  "CI2": "Aborda interoperabilidade semantica, gestao de contexto ou modelagem de dados urbanos.",
+  "CI3": "Reporta mecanismos de personalizacao, perfilamento ou centralidade no fator humano em ambientes urbanos ou industriais.",
+  "CI4": "Constitui especificacao normativa, recomendacao tecnica ou position paper de organismo de padronizacao relevante ao objeto.",
+  "CI5": "Publicado a partir de 2014, ou anterior mediante carater fundacional reconhecido."
+ },
+ "criterios_exclusao": {
+  "CE1": "Nao disponivel em texto completo por meios institucionais.",
+  "CE2": "Redigido em idioma distinto de portugues, ingles ou espanhol.",
+  "CE3": "Emprega o termo digital twin em dominio alheio ao urbano ou ao humano, sem contribuicao arquitetural transponivel.",
+  "CE4": "Constitui resumo expandido, editorial, prefacio ou material promocional.",
+  "CE5": "Duplicata de versao anteriormente incluida, preferida a versao de periodico."
+ },
+ "regra_combinacao": {
+  "enunciado": "Inclui-se o registro que satisfaz CI5 e ao menos um entre CI1 e CI4, e nao incide em nenhum criterio de exclusao.",
+  "revisao": "Mantida a regra do protocolo anterior. A frouxidao aparente de bastar um criterio de inclusao e contida por CE3, que elimina o emprego do termo em dominio alheio, e pela ancoragem das proprias expressoes, que ja carregam a faceta do objeto."
+ },
+ "criterios_matriz": {
+  "S1": "Escala da contribuicao: retem-se arquitetura, plataforma ou sistema completo, especificacao normativa de arquitetura, ou componente isolado que instancie tecnicamente ao menos uma das cinco dimensoes de comparacao. Excluem-se revisoes e estudos puramente empiricos.",
+  "S2": "Ancoragem urbana: retem-se os trabalhos cujo objeto declarado e a cidade, a infraestrutura urbana ou os servicos publicos urbanos."
+ },
+ "dimensoes_comparacao": [
+  "modelo semantico",
+  "comunicacao assincrona",
+  "perfil humano",
+  "governanca de dados",
+  "persistencia especializada"
+ ],
+ "expressoes": [
+  {
+   "codigo": "E1.1",
+   "eixo": "udt-nucleo",
+   "expressao": "TITLE-ABS-KEY(\"urban digital twin\" OR \"city digital twin\" OR \"digital twin city\" OR \"digital twin of the city\")",
+   "total_declarado_scopus": 951,
+   "justificativa_desenho": "Termo exato do objeto, nas quatro grafias correntes. Ancora o nucleo do mapeamento sem qualificador adicional."
+  },
+  {
+   "codigo": "E1.2",
+   "eixo": "udt-arquitetura",
+   "expressao": "TITLE-ABS-KEY(\"digital twin\" AND (urban OR \"smart city\") AND (architecture OR middleware OR platform OR microservice*))",
+   "total_declarado_scopus": 1651,
+   "justificativa_desenho": "Cruza o objeto com a faceta arquitetural ampla. Expressao de maior rendimento esperado para QP1."
+  },
+  {
+   "codigo": "E1.2d",
+   "eixo": "udt-arquitetura",
+   "expressao": "TITLE-ABS-KEY(\"digital twin\" AND (urban OR city OR cities OR municipal OR \"smart city\" OR \"smart cities\") AND (architecture OR middleware OR platform OR microservice*))",
+   "total_declarado_scopus": 1841,
+   "justificativa_desenho": "Correcao de E1.2: o qualificador urbano original (urban OR smart city) nao casava titulos com 'cities', deixando de fora revisoes de referencia do campo.",
+   "origem": "segunda iteracao, apos afericao de recobrimento"
+  },
+  {
+   "codigo": "E1.3",
+   "eixo": "udt-arqref",
+   "expressao": "TITLE-ABS-KEY(\"digital twin\" AND (urban OR city OR \"smart city\") AND (\"reference architecture\" OR \"software architecture\" OR \"system architecture\"))",
+   "total_declarado_scopus": 122,
+   "justificativa_desenho": "Restringe a faceta arquitetural a arquitetura de referencia, onde se concentram as propostas comparaveis pela matriz."
+  },
+  {
+   "codigo": "E1.4",
+   "eixo": "udt-eda",
+   "expressao": "TITLE-ABS-KEY(\"digital twin\" AND (urban OR city) AND (\"event-driven\" OR \"message broker\" OR kafka OR \"publish/subscribe\" OR \"pub/sub\" OR streaming))",
+   "total_declarado_scopus": 71,
+   "justificativa_desenho": "Faceta de comunicacao assincrona, dimensao de comparacao que o corpus anterior mostrou vazia."
+  },
+  {
+   "codigo": "E1.5",
+   "eixo": "udt-mobilidade",
+   "expressao": "TITLE-ABS-KEY(\"digital twin\" AND (mobility OR transport* OR traffic) AND (urban OR city OR \"smart city\"))",
+   "total_declarado_scopus": 1633,
+   "justificativa_desenho": "Mobilidade urbana e um dos dois dominios de aplicacao da proposta e nao era alcancada pelas expressoes de arquitetura."
+  },
+  {
+   "codigo": "E1.5d",
+   "eixo": "udt-mobilidade",
+   "expressao": "TITLE-ABS-KEY(\"digital twin\" AND (mobility OR transport* OR traffic) AND (urban OR city OR cities OR municipal OR \"smart city\" OR \"smart cities\"))",
+   "total_declarado_scopus": 1635,
+   "justificativa_desenho": "Correcao de E1.5 pelo mesmo motivo, no eixo de mobilidade.",
+   "origem": "segunda iteracao, apos afericao de recobrimento"
+  },
+  {
+   "codigo": "E1.6",
+   "eixo": "arq-agregacao",
+   "expressao": "TITLE-ABS-KEY((\"API gateway\" OR \"backend for frontend\" OR \"backend-for-frontend\") AND (architecture OR microservice* OR platform OR service*))",
+   "total_declarado_scopus": 317,
+   "justificativa_desenho": "Camada de agregacao de experiencia (API Gateway e BFF), componente do desenho proposto, sem qualificador urbano por ser padrao transversal."
+  },
+  {
+   "codigo": "E1.7",
+   "eixo": "udt-nucleo",
+   "expressao": "TITLE-ABS-KEY(\"digital twin\" AND (urban OR city OR cities OR municipal OR \"smart city\" OR \"smart cities\") AND (review OR survey OR \"state of the art\" OR taxonomy OR challenges OR perspectives OR overview))",
+   "total_declarado_scopus": 2887,
+   "justificativa_desenho": "Expressao de panorama: revisoes e estudos de estado da arte do objeto, que nao casam nenhuma faceta tecnica e por isso escapavam a todas as demais expressoes.",
+   "origem": "terceira iteracao, apos afericao de recobrimento"
+  },
+  {
+   "codigo": "E2.1",
+   "eixo": "semantica-ngsild",
+   "expressao": "TITLE-ABS-KEY(\"NGSI-LD\")",
+   "total_declarado_scopus": 81,
+   "justificativa_desenho": "Padrao de interoperabilidade adotado pela proposta. Termo exato, sem qualificador."
+  },
+  {
+   "codigo": "E2.2",
+   "eixo": "semantica-broker",
+   "expressao": "TITLE-ABS-KEY(\"context broker\" AND (urban OR city OR \"smart city\" OR IoT OR \"internet of things\"))",
+   "total_declarado_scopus": 41,
+   "justificativa_desenho": "Componente central da arquitetura. Qualificado por dominio urbano ou IoT para afastar homonimia."
+  },
+  {
+   "codigo": "E2.3",
+   "eixo": "semantica-fiware",
+   "expressao": "TITLE-ABS-KEY(FIWARE)",
+   "total_declarado_scopus": 451,
+   "justificativa_desenho": "Ecossistema de referencia da implementacao. Termo exato."
+  },
+  {
+   "codigo": "E2.4",
+   "eixo": "semantica-modelos",
+   "expressao": "TITLE-ABS-KEY(\"smart data model*\" OR (\"smart city\" AND \"data model\" AND (ontology OR \"linked data\")))",
+   "total_declarado_scopus": 79,
+   "justificativa_desenho": "Modelos de dados padronizados, base da representacao de entidades da proposta."
+  },
+  {
+   "codigo": "E2.5",
+   "eixo": "semantica-udt",
+   "expressao": "TITLE-ABS-KEY(\"digital twin\" AND (urban OR \"smart city\") AND (ontology OR \"linked data\" OR \"knowledge graph\" OR \"semantic interoperability\" OR \"property graph\"))",
+   "total_declarado_scopus": 153,
+   "justificativa_desenho": "Cruza o objeto com a faceta de representacao semantica, incluindo grafo de propriedades."
+  },
+  {
+   "codigo": "E2.5d",
+   "eixo": "semantica-udt",
+   "expressao": "TITLE-ABS-KEY(\"digital twin\" AND (urban OR city OR cities OR municipal OR \"smart city\" OR \"smart cities\") AND (ontology OR \"linked data\" OR \"knowledge graph\" OR \"semantic interoperability\" OR \"property graph\"))",
+   "total_declarado_scopus": 172,
+   "justificativa_desenho": "Correcao de E2.5 pelo mesmo motivo, no eixo de representacao semantica.",
+   "origem": "segunda iteracao, apos afericao de recobrimento"
+  },
+  {
+   "codigo": "E2.6",
+   "eixo": "semantica-interop",
+   "expressao": "TITLE-ABS-KEY(\"semantic interoperability\" AND (\"smart city\" OR urban OR \"digital twin\"))",
+   "total_declarado_scopus": 295,
+   "justificativa_desenho": "Interoperabilidade semantica como objeto declarado, qualificada pelo dominio."
+  },
+  {
+   "codigo": "E2.6c",
+   "eixo": "semantica-interop",
+   "expressao": "TITLE-ABS-KEY(\"semantic interoperability\" AND (\"digital twin\" OR (urban OR city OR cities OR municipal OR \"smart city\" OR \"smart cities\") OR \"internet of things\" OR IoT))",
+   "total_declarado_scopus": 694,
+   "justificativa_desenho": "Correcao de E2.6: acrescenta IoT ao qualificador, onde reside a literatura fundacional de interoperabilidade semantica.",
+   "origem": "segunda iteracao, apos afericao de recobrimento"
+  },
+  {
+   "codigo": "E2.7",
+   "eixo": "semantica-normas",
+   "expressao": "TITLE-ABS-KEY((\"digital twin\" OR \"smart city\") AND (ETSI OR \"ITU-T\" OR ISO OR standard*) AND (interoperab* OR \"reference model\" OR specification))",
+   "total_declarado_scopus": 1917,
+   "justificativa_desenho": "Atende CI4, que admite especificacao normativa e recomendacao tecnica de organismo de padronizacao."
+  },
+  {
+   "codigo": "E3.1",
+   "eixo": "humano-hdt",
+   "expressao": "TITLE-ABS-KEY(\"human digital twin\" OR \"digital human twin\" OR \"personal digital twin\")",
+   "total_declarado_scopus": 506,
+   "justificativa_desenho": "Gemeo digital humano nas tres grafias correntes. Nucleo da lacuna L1, sem qualificador urbano por ser literatura majoritariamente industrial e de saude."
+  },
+  {
+   "codigo": "E3.2",
+   "eixo": "humano-centrico",
+   "expressao": "TITLE-ABS-KEY((\"human-centric\" OR \"human-centred\" OR \"human-centered\" OR \"citizen-centric\" OR \"citizen-centred\") AND (\"digital twin\" OR \"smart city\" OR urban))",
+   "total_declarado_scopus": 3797,
+   "justificativa_desenho": "Centralidade humana cruzada com o objeto. Expressao deliberadamente ampla: e o eixo da lacuna principal."
+  },
+  {
+   "codigo": "E3.2d",
+   "eixo": "humano-centrico",
+   "expressao": "TITLE-ABS-KEY(\"human-centric\" AND (\"digital twin\" OR (urban OR city OR cities OR municipal OR \"smart city\" OR \"smart cities\") OR \"artificial intelligence\"))",
+   "total_declarado_scopus": 3591,
+   "justificativa_desenho": "Correcao de E3.2 com qualificador urbano ampliado e admissao do recorte de inteligencia artificial centrada no humano.",
+   "origem": "segunda iteracao, apos afericao de recobrimento"
+  },
+  {
+   "codigo": "E3.2e",
+   "eixo": "humano-centrico",
+   "expressao": "TITLE-ABS-KEY(\"citizen participation\" AND ((urban OR city OR cities OR municipal OR \"smart city\" OR \"smart cities\") OR \"digital twin\" OR digital))",
+   "total_declarado_scopus": 3640,
+   "justificativa_desenho": "Expressao nova: participacao cidadao e agencia digital, faceta da centralidade humana ausente do desenho inicial.",
+   "origem": "segunda iteracao, apos afericao de recobrimento"
+  },
+  {
+   "codigo": "E3.3",
+   "eixo": "humano-personaliza",
+   "expressao": "TITLE-ABS-KEY((\"digital twin\" OR \"smart city\" OR urban) AND (personalization OR personalisation OR \"hyper-personalization\" OR profiling OR \"user profile\"))",
+   "total_declarado_scopus": 3262,
+   "justificativa_desenho": "Personalizacao e perfilamento cruzados com o objeto. Ampla pelo mesmo motivo."
+  },
+  {
+   "codigo": "E3.4",
+   "eixo": "humano-soc50",
+   "expressao": "TITLE-ABS-KEY(\"Society 5.0\" AND (\"digital twin\" OR \"smart city\" OR urban OR service*))",
+   "total_declarado_scopus": 447,
+   "justificativa_desenho": "Sociedade 5.0, quadro conceitual que fundamenta a centralidade humana na proposta."
+  },
+  {
+   "codigo": "E3.5",
+   "eixo": "humano-perfilctx",
+   "expressao": "TITLE-ABS-KEY((\"user profil*\" OR \"user model*\") AND (\"context-aware\" OR \"context awareness\") AND (service* OR architecture OR platform))",
+   "total_declarado_scopus": 285,
+   "justificativa_desenho": "Perfil de usuario cruzado com sensibilidade ao contexto, sem qualificador urbano: a literatura de modelagem de usuario e transversal."
+  },
+  {
+   "codigo": "E3.6",
+   "eixo": "humano-centrico",
+   "expressao": "TITLE-ABS-KEY(\"human-centric\" AND (personaliz* OR \"artificial intelligence\" OR AI OR participation OR agency))",
+   "total_declarado_scopus": 4116,
+   "justificativa_desenho": "Centralidade humana cruzada com inteligencia artificial, personalizacao, participacao e agencia, recorte em que se concentra a literatura recente do eixo.",
+   "origem": "terceira iteracao, apos afericao de recobrimento"
+  },
+  {
+   "codigo": "E3.7",
+   "eixo": "humano-personaliza",
+   "expressao": "TITLE-ABS-KEY(personaliz* AND (mobility OR itinerary OR route OR evacuation) AND (urban OR city OR cities OR municipal OR \"smart city\" OR \"smart cities\" OR accessib* OR disabilit*))",
+   "total_declarado_scopus": 1766,
+   "justificativa_desenho": "Personalizacao em mobilidade e evacuacao com restricao de acessibilidade, interseccao do cenario de referencia com o eixo humano.",
+   "origem": "terceira iteracao, apos afericao de recobrimento"
+  },
+  {
+   "codigo": "E4.1",
+   "eixo": "contexto-arq",
+   "expressao": "TITLE-ABS-KEY((\"context-aware\" OR \"context awareness\") AND (architecture OR middleware OR platform) AND (urban OR \"smart city\" OR \"digital twin\"))",
+   "total_declarado_scopus": 714,
+   "justificativa_desenho": "Sensibilidade ao contexto cruzada com faceta arquitetural e dominio. Atende QP2."
+  },
+  {
+   "codigo": "E4.1d",
+   "eixo": "contexto-arq",
+   "expressao": "TITLE-ABS-KEY(\"context-aware\" AND (middleware OR survey OR architecture OR platform) AND (IoT OR \"internet of things\" OR (urban OR city OR cities OR municipal OR \"smart city\" OR \"smart cities\")))",
+   "total_declarado_scopus": 1778,
+   "justificativa_desenho": "Correcao de E4.1: ancora a sensibilidade ao contexto em middleware, survey, arquitetura ou plataforma, e admite IoT como dominio, recuperando a fundamentacao conceitual do eixo.",
+   "origem": "segunda iteracao, apos afericao de recobrimento"
+  },
+  {
+   "codigo": "E4.2",
+   "eixo": "contexto-gestao",
+   "expressao": "TITLE-ABS-KEY((\"context model*\" OR \"context management\") AND (\"smart city\" OR urban OR \"digital twin\"))",
+   "total_declarado_scopus": 270,
+   "justificativa_desenho": "Modelagem e gestao de contexto como objeto declarado."
+  },
+  {
+   "codigo": "E4.3b",
+   "eixo": "contexto-gestao",
+   "expressao": "TITLE-ABS-KEY(middleware AND (urban OR city OR cities OR municipal OR \"smart city\" OR \"smart cities\") AND (architecture OR interoperab* OR semantic* OR layer* OR data))",
+   "total_declarado_scopus": 496,
+   "justificativa_desenho": "Expressao nova: middleware urbano sem exigir sensibilidade ao contexto, faixa em que se concentram as plataformas municipais.",
+   "origem": "segunda iteracao, apos afericao de recobrimento"
+  },
+  {
+   "codigo": "E5.1",
+   "eixo": "emerg-udt",
+   "expressao": "TITLE-ABS-KEY(\"digital twin\" AND (emergency OR evacuation OR disaster OR \"public safety\" OR \"crisis management\"))",
+   "total_declarado_scopus": 1884,
+   "justificativa_desenho": "Cruza o objeto com o cenario de referencia da proposta. Atende QP1 e QP5."
+  },
+  {
+   "codigo": "E5.2",
+   "eixo": "emerg-person",
+   "expressao": "TITLE-ABS-KEY((evacuation OR \"emergency response\") AND (personaliz* OR accessib* OR \"vulnerable population*\" OR \"special needs\" OR disabilit*))",
+   "total_declarado_scopus": 3016,
+   "justificativa_desenho": "Evacuacao e resposta a emergencia cruzadas com personalizacao e restricao de acessibilidade: a interseccao exata do cenario de incendio assistido."
+  },
+  {
+   "codigo": "E5.2d",
+   "eixo": "emerg-person",
+   "expressao": "TITLE-ABS-KEY(evacuation AND (personaliz* OR accessib* OR vulnerab* OR disabilit* OR inclusi* OR \"special needs\"))",
+   "total_declarado_scopus": 3966,
+   "justificativa_desenho": "Complemento de E5.2: isola evacuacao com restricao de acessibilidade e vulnerabilidade, interseccao exata do cenario de referencia.",
+   "origem": "segunda iteracao, apos afericao de recobrimento"
+  },
+  {
+   "codigo": "E5.3",
+   "eixo": "emerg-urbana",
+   "expressao": "TITLE-ABS-KEY((\"smart city\" OR urban) AND (\"emergency management\" OR \"public safety\" OR \"incident management\") AND (architecture OR platform OR system))",
+   "total_declarado_scopus": 3071,
+   "justificativa_desenho": "Gestao de emergencia urbana na faceta de sistema e plataforma."
+  },
+  {
+   "codigo": "E5.4",
+   "eixo": "emerg-alerta",
+   "expressao": "TITLE-ABS-KEY((\"early warning\" OR alert*) AND (urban OR \"smart city\") AND (semantic* OR interoperab* OR \"digital twin\"))",
+   "total_declarado_scopus": 238,
+   "justificativa_desenho": "Alerta e aviso antecipado cruzados com semantica, correspondendo a entidade Alert do desenho."
+  },
+  {
+   "codigo": "E6.1",
+   "eixo": "gov-dataspace",
+   "expressao": "TITLE-ABS-KEY(\"data space*\" AND (\"Gaia-X\" OR \"international data spaces\" OR sovereignty OR connector))",
+   "total_declarado_scopus": 468,
+   "justificativa_desenho": "Espacos de dados e conectores de soberania. Atende QP4."
+  },
+  {
+   "codigo": "E6.2",
+   "eixo": "gov-soberania",
+   "expressao": "TITLE-ABS-KEY((\"data sovereignty\" OR \"data governance\") AND (\"smart city\" OR urban OR \"digital twin\"))",
+   "total_declarado_scopus": 891,
+   "justificativa_desenho": "Soberania e governanca de dados cruzadas com o objeto."
+  },
+  {
+   "codigo": "E6.3",
+   "eixo": "gov-privacidade",
+   "expressao": "TITLE-ABS-KEY((GDPR OR consent OR privacy) AND (\"smart city\" OR urban OR \"digital twin\") AND (architecture OR platform OR middleware))",
+   "total_declarado_scopus": 3379,
+   "justificativa_desenho": "Protecao de dados pessoais na faceta arquitetural, pertinente por a proposta tratar atributo pessoal sensivel."
+  }
+ ],
+ "decisoes_de_desenho": [
+  "Expressoes formuladas por faceta (objeto x arquitetura x semantica x centralidade humana x emergencia x governanca), e nao por termo isolado.",
+  "Conceito transversal nao recebe qualificador urbano quando a literatura pertinente e majoritariamente de outro dominio (E1.6, E3.1, E3.5): exigir o qualificador foi o que derrubou o recobrimento a 52% na aferiacao anterior.",
+  "As cinco expressoes de maior retorno nao foram estreitadas. O corte de volume fica a cargo de um filtro de exclusao aferido contra conjunto de controle, e nao de filtro lexical de inclusao, reprovado por reter apenas 64% do controle.",
+  "Nenhuma expressao atinge o teto de navegacao de 5000, de modo que todas se recuperam por inteiro, sem fatiamento por ano.",
+  "Segunda iteracao de expressoes apos afericao de recobrimento: o qualificador urbano estreito (urban OR smart city) deixava de fora titulos ancorados em 'cities', e a sensibilidade ao contexto exigia qualificador urbano onde a literatura fundacional e de IoT. Nove expressoes corrigidas ou acrescentadas, todas abaixo do teto de navegacao.",
+  "Terceira iteracao: acrescentada expressao de panorama (E1.7). A afericao mostrou que revisoes de estado da arte do objeto nao casavam nenhuma expressao, porque todas exigiam uma faceta tecnica, e uma revisao panoramica nao a declara."
+ ],
+ "volume_estimado": {
+  "soma_bruta_declarada": 56572,
+  "expressoes": 39
+ },
+ "nota_metodologica_api": {
+  "achado": "Na interface de busca do Scopus, a conjuncao de um identificador com uma expressao de campo (DOI(x) AND TITLE-ABS-KEY(...)) devolve zero resultados sempre que a expressao de campo comeca por um grupo entre parenteses, mesmo para registro comprovadamente recuperado por aquela expressao quando submetida isoladamente.",
+  "verificacao": "Quatro registros extraidos do proprio retorno de E4.1, E5.2, E3.2 e E6.3 foram reconsultados por DOI: o identificador sozinho devolve 1 e a conjuncao devolve 0 nos quatro casos.",
+  "consequencia": "A afericao de recobrimento nao pode ser feita por conjuncao com identificador. Foi conduzida por interseccao entre o conjunto de identificadores do corpus de controle e o conjunto efetivamente recuperado.",
+  "efeito_sobre_a_busca": "Nenhum. As expressoes foram submetidas isoladamente, e a recuperacao integral foi confirmada pela igualdade entre total declarado e total recuperado em cada uma."
+ }
+}

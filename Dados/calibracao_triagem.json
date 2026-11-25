@@ -1,0 +1,336 @@
+{
+ "conjunto_controle": {
+  "positivos": 49,
+  "origem": "obras do corpus atual, com DOI, dentro da janela, alcancadas pela busca",
+  "negativos": 49,
+  "origem_negativos": "registros descartados pelo filtro de dominio alheio"
+ },
+ "versoes": [
+  {
+   "v": "v1",
+   "descricao": "criterios CI/CE do protocolo, com instrucao de generosidade",
+   "sensibilidade": 1.0,
+   "especificidade": 0.531,
+   "passagem": 0.82,
+   "projecao_passe2": 30701
+  },
+  {
+   "v": "v2",
+   "descricao": "exigencia de escopo e artefato, com exclusao de governanca e politica publica",
+   "sensibilidade": 0.735,
+   "especificidade": 0.837,
+   "passagem": 0.3,
+   "projecao_passe2": 11232,
+   "defeito": "a exclusao de governanca contradiz a QP4 do proprio protocolo; reprovou Gaia-X, espacos de dados e revisoes do objeto"
+  },
+  {
+   "v": "v3",
+   "descricao": "decisao restrita a escopo, exclusao por dominio",
+   "sensibilidade": 1.0,
+   "especificidade": 0.612,
+   "passagem": 0.762,
+   "projecao_passe2": 28530
+  },
+  {
+   "v": "v4",
+   "descricao": "v3 mais exclusao de estudos urbanos sem sistema e ressalvas explicitas de escopo",
+   "sensibilidade": 1.0,
+   "especificidade": 0.673,
+   "passagem": 0.656,
+   "projecao_passe2": 24561,
+   "adotada": true,
+   "nota_de_escolha": "Adotada apesar do prompt mais longo: em lote de 250 registros o enunciado se dilui em cerca de 2 tokens por registro, de modo que a especificidade superior (0,673 contra 0,388) nao tem custo pratico."
+  },
+  {
+   "v": "v5",
+   "descricao": "v4 comprimido para reduzir custo por lote",
+   "sensibilidade": 1.0,
+   "especificidade": 0.388,
+   "passagem": 0.722,
+   "adotada": false
+  }
+ ],
+ "custo_aferido": {
+  "formato": "saida estruturada com indice por registro, lote de 250",
+  "tokens_por_registro": 50.6,
+  "alinhamento": "250 de 250",
+  "nota": "sem o indice por registro o modelo erra a contagem (238 de 250, e 460 de 400); o indice e necessario",
+  "formato_texto_compacto_rejeitado": "38% dos lotes devolveram numero de letras diferente do lote"
+ },
+ "contribuicao_por_expressao": [
+  {
+   "codigo": "E3.6",
+   "registros": 4096,
+   "ctl_obras": 4,
+   "exclusivas": 2,
+   "custo_por_obra": 1024.0
+  },
+  {
+   "codigo": "E5.2d",
+   "registros": 3964,
+   "ctl_obras": 2,
+   "exclusivas": 0,
+   "custo_por_obra": 1982.0
+  },
+  {
+   "codigo": "E3.2",
+   "registros": 3786,
+   "ctl_obras": 4,
+   "exclusivas": 0,
+   "custo_por_obra": 946.0
+  },
+  {
+   "codigo": "E3.2e",
+   "registros": 3635,
+   "ctl_obras": 2,
+   "exclusivas": 0,
+   "custo_por_obra": 1818.0
+  },
+  {
+   "codigo": "E3.2d",
+   "registros": 3578,
+   "ctl_obras": 2,
+   "exclusivas": 0,
+   "custo_por_obra": 1789.0
+  },
+  {
+   "codigo": "E6.3",
+   "registros": 3373,
+   "ctl_obras": 2,
+   "exclusivas": 0,
+   "custo_por_obra": 1686.0
+  },
+  {
+   "codigo": "E3.3",
+   "registros": 3260,
+   "ctl_obras": 1,
+   "exclusivas": 0,
+   "custo_por_obra": 3260.0
+  },
+  {
+   "codigo": "E5.3",
+   "registros": 3063,
+   "ctl_obras": 3,
+   "exclusivas": 3,
+   "custo_por_obra": 1021.0
+  },
+  {
+   "codigo": "E5.2",
+   "registros": 3014,
+   "ctl_obras": 2,
+   "exclusivas": 0,
+   "custo_por_obra": 1507.0
+  },
+  {
+   "codigo": "E1.7",
+   "registros": 2880,
+   "ctl_obras": 10,
+   "exclusivas": 2,
+   "custo_por_obra": 288.0
+  },
+  {
+   "codigo": "E2.7",
+   "registros": 1914,
+   "ctl_obras": 6,
+   "exclusivas": 0,
+   "custo_por_obra": 319.0
+  },
+  {
+   "codigo": "E5.1",
+   "registros": 1879,
+   "ctl_obras": 0,
+   "exclusivas": 0,
+   "custo_por_obra": NaN
+  },
+  {
+   "codigo": "E1.2d",
+   "registros": 1836,
+   "ctl_obras": 4,
+   "exclusivas": 0,
+   "custo_por_obra": 459.0
+  },
+  {
+   "codigo": "E4.1d",
+   "registros": 1776,
+   "ctl_obras": 1,
+   "exclusivas": 1,
+   "custo_por_obra": 1776.0
+  },
+  {
+   "codigo": "E3.7",
+   "registros": 1765,
+   "ctl_obras": 3,
+   "exclusivas": 1,
+   "custo_por_obra": 588.0
+  },
+  {
+   "codigo": "E1.2",
+   "registros": 1649,
+   "ctl_obras": 4,
+   "exclusivas": 0,
+   "custo_por_obra": 412.0
+  },
+  {
+   "codigo": "E1.5d",
+   "registros": 1632,
+   "ctl_obras": 2,
+   "exclusivas": 0,
+   "custo_por_obra": 816.0
+  },
+  {
+   "codigo": "E1.5",
+   "registros": 1630,
+   "ctl_obras": 2,
+   "exclusivas": 0,
+   "custo_por_obra": 815.0
+  },
+  {
+   "codigo": "E1.1",
+   "registros": 950,
+   "ctl_obras": 10,
+   "exclusivas": 0,
+   "custo_por_obra": 95.0
+  },
+  {
+   "codigo": "E6.2",
+   "registros": 889,
+   "ctl_obras": 1,
+   "exclusivas": 0,
+   "custo_por_obra": 889.0
+  },
+  {
+   "codigo": "E4.1",
+   "registros": 714,
+   "ctl_obras": 0,
+   "exclusivas": 0,
+   "custo_por_obra": NaN
+  },
+  {
+   "codigo": "E2.6c",
+   "registros": 693,
+   "ctl_obras": 2,
+   "exclusivas": 1,
+   "custo_por_obra": 346.0
+  },
+  {
+   "codigo": "E3.1",
+   "registros": 506,
+   "ctl_obras": 4,
+   "exclusivas": 1,
+   "custo_por_obra": 126.0
+  },
+  {
+   "codigo": "E4.3b",
+   "registros": 496,
+   "ctl_obras": 2,
+   "exclusivas": 1,
+   "custo_por_obra": 248.0
+  },
+  {
+   "codigo": "E6.1",
+   "registros": 467,
+   "ctl_obras": 9,
+   "exclusivas": 6,
+   "custo_por_obra": 52.0
+  },
+  {
+   "codigo": "E2.3",
+   "registros": 451,
+   "ctl_obras": 6,
+   "exclusivas": 2,
+   "custo_por_obra": 75.0
+  },
+  {
+   "codigo": "E3.4",
+   "registros": 447,
+   "ctl_obras": 2,
+   "exclusivas": 1,
+   "custo_por_obra": 224.0
+  },
+  {
+   "codigo": "E1.6",
+   "registros": 317,
+   "ctl_obras": 0,
+   "exclusivas": 0,
+   "custo_por_obra": NaN
+  },
+  {
+   "codigo": "E2.6",
+   "registros": 295,
+   "ctl_obras": 1,
+   "exclusivas": 0,
+   "custo_por_obra": 295.0
+  },
+  {
+   "codigo": "E3.5",
+   "registros": 285,
+   "ctl_obras": 0,
+   "exclusivas": 0,
+   "custo_por_obra": NaN
+  },
+  {
+   "codigo": "E4.2",
+   "registros": 270,
+   "ctl_obras": 1,
+   "exclusivas": 0,
+   "custo_por_obra": 270.0
+  },
+  {
+   "codigo": "E5.4",
+   "registros": 238,
+   "ctl_obras": 0,
+   "exclusivas": 0,
+   "custo_por_obra": NaN
+  },
+  {
+   "codigo": "E2.5d",
+   "registros": 172,
+   "ctl_obras": 0,
+   "exclusivas": 0,
+   "custo_por_obra": NaN
+  },
+  {
+   "codigo": "E2.5",
+   "registros": 153,
+   "ctl_obras": 0,
+   "exclusivas": 0,
+   "custo_por_obra": NaN
+  },
+  {
+   "codigo": "E1.3",
+   "registros": 122,
+   "ctl_obras": 1,
+   "exclusivas": 0,
+   "custo_por_obra": 122.0
+  },
+  {
+   "codigo": "E2.1",
+   "registros": 81,
+   "ctl_obras": 6,
+   "exclusivas": 2,
+   "custo_por_obra": 14.0
+  },
+  {
+   "codigo": "E2.4",
+   "registros": 79,
+   "ctl_obras": 3,
+   "exclusivas": 0,
+   "custo_por_obra": 26.0
+  },
+  {
+   "codigo": "E1.4",
+   "registros": 71,
+   "ctl_obras": 0,
+   "exclusivas": 0,
+   "custo_por_obra": NaN
+  },
+  {
+   "codigo": "E2.2",
+   "registros": 41,
+   "ctl_obras": 0,
+   "exclusivas": 0,
+   "custo_por_obra": NaN
+  }
+ ],
+ "versao_adotada": "v4"
+}

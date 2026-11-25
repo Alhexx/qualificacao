@@ -1,0 +1,79 @@
+chave,categoria,ano,veiculo,titulo,achada,entra_afericao
+cacho2016smart,1. producao correlata (colegas),2016,2016 IEEE International Smart Cities Conference (ISC2),A smart city initiative: The case of Natal,True,sim
+cavalcante2017challenges,1. producao correlata (colegas),2017,Proceedings of the XXXI Brazilian Symposium on Software Engineering,Challenges to the Development of Smart City Systems,False,sim
+moreira2017towards,1. producao correlata (colegas),2017,2017 International Smart Cities Conference (ISC2),Towards civic engagement in smart public security,True,sim
+macedo2017comparative,1. producao correlata (colegas),2017,2017 IEEE First Summer School on Smart Cities (S3C),A Comparative Study of Tools for Smart Cities Open Data Publication and Management,False,sim
+souza2018geographic,1. producao correlata (colegas),2018,Proceedings of the 24th Brazilian Symposium on Multimedia and the Web,A Geographic-Layered Data Middleware for Smart Cities,True,sim
+pereira2022platform,1. producao correlata (colegas),2022,Future Generation Computer Systems,A platform for integrating heterogeneous data and developing smart city applications,True,sim
+loss2024integrating,1. producao correlata (colegas),2024,2024 IEEE International Smart Cities Conference (ISC2),Integrating Urban Operation Center Systems for Enhanced Smart City Management and Emergency Response,True,sim
+grieves2016digital,2. canonica do objeto,2016,Transdisciplinary Perspectives on Complex Systems,"Digital Twin: Mitigating Unpredictable, Undesirable Emergent Behavior in Complex Systems",False,sim
+batty2018digital,2. canonica do objeto,2018,Environment and Planning B: Urban Analytics and City Science,Digital twins,True,sim
+barricelli2019survey,2. canonica do objeto,2019,IEEE Access,"A Survey on Digital Twin: Definitions, Characteristics, Applications, and Design Implications",False,sim
+cirillo2019standard,2. canonica do objeto,2019,IEEE Internet of Things Magazine,A Standard-Based Open Source IoT Platform: FIWARE,False,sim
+fuller2020digital,2. canonica do objeto,2020,IEEE Access,"Digital Twin: Enabling Technologies, Challenges and Open Research",True,sim
+rasheed2020digital,2. canonica do objeto,2020,IEEE Access,"Digital Twin: Values, Challenges and Enablers From a Modeling Perspective",False,sim
+ketzler2020digital,2. canonica do objeto,2020,Built Environment,Digital Twins for Cities: A State of the Art Review,True,sim
+deguchi2020from,2. canonica do objeto,2020,Society 5.0,From Smart City to Society 5.0,True,sim
+vanderhorn2021digital,2. canonica do objeto,2021,Decision Support Systems,"Digital Twin: Generalization, characterization and implementation",False,sim
+shahat2021city,2. canonica do objeto,2021,Sustainability,City Digital Twin Potentials: A Review and Research Agenda,True,sim
+ferrebigorra2022adoption,2. canonica do objeto,2022,Cities,The adoption of urban digital twins,True,sim
+lehtola2022digital,2. canonica do objeto,2022,International Journal of Applied Earth Observation and Geoinformation,Digital twin of a city: Review of technology serving city needs,True,sim
+haraguchi2024assessing,2. canonica do objeto,2024,Technological Forecasting and Social Change,Assessing governance implications of city digital twin technology: A maturity model approach,True,sim
+yeh2024from,2. canonica do objeto,2024,Environment and Planning B: Urban Analytics and City Science,"From urban modelling, GIS, the digital, intelligent, and the smart city to the digital twin city with AI",False,sim
+shahparvari2017possibilistic,3. objeto: fator humano e emergencia,2017,Omega,Possibilistic scheduling routing for short-notice bushfire emergency evacuation under uncertainties: An Australian case study,False,sim
+hashemi2018emergency,3. objeto: fator humano e emergencia,2018,Cogent Engineering,"Emergency evacuation of people with disabilities: A survey of drills, simulations, and accessibility",True,sim
+okegbile2022edge,3. objeto: fator humano e emergencia,2022,2022 IEEE 95th Vehicular Technology Conference: (VTC2022-Spring),Edge-assisted human-to-virtual twin connectivity scheme for human digital twin frameworks,True,sim
+deng2022semantic,3. objeto: fator humano e emergencia,2022,Automation in Construction,A semantic framework for on-site evacuation routing based on awareness of obstacle accessibility,True,sim
+desai2022hyper,3. objeto: fator humano e emergencia,2022,"Advances in Marketing, Customer Relationship Management, and E-Services",Hyper-Personalization,False,sim
+asad2023human,3. objeto: fator humano e emergencia,2023,Sensors,Human-Centric Digital Twins in Industry: A Comprehensive Review of Enabling Technologies and Implementation Strategies,True,sim
+taylor2023human,3. objeto: fator humano e emergencia,2023,AI \& SOCIETY,Human-centric AI: philosophical and community-centric considerations,True,sim
+liu2023urban,3. objeto: fator humano e emergencia,2023,ACM Transactions on Knowledge Discovery from Data,Urban Knowledge Graph Aided Mobile User Profiling,True,sim
+tappert2024citizen,3. objeto: fator humano e emergencia,2024,Urban Planning,"Citizen Participation, Digital Agency, and Urban Development",False,sim
+wins2024enhancing,3. objeto: fator humano e emergencia,2024,Proceedings of the 10th International Conference on Vehicle Technology and Intelligent Transport Systems,Enhancing Individual Mobility: A Multistage Personalization Approach for Itinerary Planning in Multimodal Networks,True,sim
+fontes2024human,3. objeto: fator humano e emergencia,2024,Ethics and Information Technology,"Human digital twins unlocking Society 5.0? Approaches, emerging risks and disruptions",True,sim
+luo2025perception,3. objeto: fator humano e emergencia,2025,Cities,A perception-powered urban digital twin to support human-centered urban planning and sustainable city development,True,sim
+lex2025hybrid,3. objeto: fator humano e emergencia,2025,"Adjunct Proceedings of the 33rd ACM Conference on User Modeling, Adaptation and Personalization",Hybrid AI for Human-Centric Personalization (HyPer),True,sim
+dejaeger2026right,3. objeto: fator humano e emergencia,2026,Cities,Right to the digital Twin City? citizen participation and limits-by-design in Rotterdam's urban digital twin,True,sim
+allahbakhshi2026zuriact,3. objeto: fator humano e emergencia,2026,Journal of Urban Mobility,ZuriACT: Zurich Accessible CiTy – Promoting inclusive urban mobility in Zurich through digitalization and participatory research,False,sim
+liang2015social,4. objeto: semantica e contexto,2015,Pervasive and Mobile Computing,Social context-aware middleware: A survey,False,sim
+komninos2016smart,4. objeto: semantica e contexto,2016,Journal of Smart Cities,Smart City Ontologies: Improving the effectiveness of smart city applications,False,sim
+ganzha2017semantic,4. objeto: semantica e contexto,2017,Journal of Network and Computer Applications,Semantic interoperability in the Internet of Things: An overview from the INTER-IoT perspective,True,sim
+sezer2018context,4. objeto: semantica e contexto,2018,IEEE Internet of Things Journal,"Context-Aware Computing, Learning, and Big Data in Internet of Things: A Survey",True,sim
+viola2019mapping,4. objeto: semantica e contexto,2019,2019 24th Conference of Open Innovations Association (FRUCT),Mapping the NGSI-LD Context Model on Top of a SPARQL Event Processing Architecture: Implementation Guidelines,True,sim
+qamar2019smart,4. objeto: semantica e contexto,2019,2019 Seventh International Conference on Digital Information Processing and Communications (ICDIPC),Smart City Services Ontology (SCSO): Semantic Modeling of Smart City Applications,True,sim
+abid2022toward,4. objeto: semantica e contexto,2022,Sensors,Toward Mapping an NGSI-LD Context Model on RDF Graph Approaches: A Comparison Study,True,sim
+gonzalez2024reshaping,4. objeto: semantica e contexto,2024,Sensors,Reshaping Smart Cities through NGSI-LD Enrichment,True,sim
+drobnic2026automatic,4. objeto: semantica e contexto,2026,Applied Sciences,Automatic Generation of NGSI-LD Data Models from RDF Ontologies: Developmental Studies of Children and Adolescents Use Case,True,sim
+otto2019international,5. objeto: espacos de dados e governanca,2019,Digital Transformation,International Data Spaces,False,sim
+cuno2019data,5. objeto: espacos de dados e governanca,2019,Data,Data Governance and Sovereignty in Urban Data Spaces Based on Standardized ICT Reference Architectures,True,sim
+tardieu2022role,5. objeto: espacos de dados e governanca,2022,Designing Data Spaces,Role of Gaia-X in the European Data Space Ecosystem,True,sim
+firdausy2022towards,5. objeto: espacos de dados e governanca,2022,2022 IEEE 24th Conference on Business Informatics (CBI),Towards a Reference Enterprise Architecture to enforce Digital Sovereignty in International Data Spaces,True,sim
+springerinternationalpublishing2022designing,5. objeto: espacos de dados e governanca,2022,Springer International Publishing,Designing Data Spaces,True,sim
+somma2023digital,5. objeto: espacos de dados e governanca,2023,2023 IEEE International Conference on Big Data (BigData),Digital Twin Space: The Integration of Digital Twins and Data Spaces,True,sim
+galij2025evaluating,5. objeto: espacos de dados e governanca,2025,Applied Sciences,Evaluating the Performance Impact of Data Sovereignty Features on Data Spaces,True,sim
+coppolino2025simulation,5. objeto: espacos de dados e governanca,2025,Data Science and Engineering,Simulation as a Service in Data Spaces: A Digital Twin-based Approach,True,sim
+sanchezserna2026data,5. objeto: espacos de dados e governanca,2026,Data in Brief,Data spaces and self-sovereign identity: Ecosystem landscape and a systematic literature review on Gaia-X-aligned data spaces,True,sim
+salhofer2019building,6. objeto: gemeo digital urbano,2019,Proceedings of the Annual Hawaii International Conference on System Sciences,Building a FIWARE Smart City Platform,True,sim
+bauer2021urban,6. objeto: gemeo digital urbano,2021,at - Automatisierungstechnik,Urban Digital Twins – A FIWARE-based model,True,sim
+bauer2022fiware,6. objeto: gemeo digital urbano,2022,2022 IEEE 8th World Forum on Internet of Things (WF-IoT),FIWARE: Standard-based Open Source Components for Cross-Domain IoT Platforms,True,sim
+uslander2022symbiotic,6. objeto: gemeo digital urbano,2022,Automation,Symbiotic Evolution of Digital Twin Systems and Dataspaces,True,sim
+perata2023security,6. objeto: gemeo digital urbano,2023,2023 XLIX Latin American Computer Conference (CLEI),A Security Analysis of a Referential Architecture of the FIWARE Platform,True,sim
+vogt2024towards,6. objeto: gemeo digital urbano,2024,2024 IEEE 22nd International Conference on Industrial Informatics (INDIN),Towards Digital Twin-Based Dataspaces for Industrial Computer Vision Services,True,sim
+qanazi2025integrating,6. objeto: gemeo digital urbano,2025,Smart Cities,Integrating Social Dimensions into Urban Digital Twins: A Review and Proposed Framework for Social Digital Twins,True,sim
+ditorrepadula2025smart,6. objeto: gemeo digital urbano,2025,IEEE Software,Smart Ecosystems and Digital Twins: An Architectural Perspective and a FIWARE-Based Solution,True,sim
+dong2025digital,6. objeto: gemeo digital urbano,2025,Urban Science,"Digital Twin-Assisted Urban Resilience: A Data-Driven Framework for Sustainable Regeneration in Paranoá, Brasilia",True,sim
+dieulinh2026fiware,6. objeto: gemeo digital urbano,2026,Computer Communications,FIWARE IoT agent for Matter: Toward the integration of smart home devices into the FIWARE smart city platform,True,sim
+petersen2015guidelines,8. guia de metodo (nao afere),2015,Information and Software Technology,Guidelines for conducting systematic mapping studies in software engineering: An update,False,nao
+barn2017conducting,8. guia de metodo (nao afere),2017,Proceedings of the 10th Innovations in Software Engineering Conference,Conducting Systematic Literature Reviews and Systematic Mapping Studies,False,nao
+pahl2016microservices,9. fundamentacao transversal (nao afere),2016,Proceedings of the 6th International Conference on Cloud Computing and Services Science,Microservices: A Systematic Mapping Study,False,nao
+francesco2017research,9. fundamentacao transversal (nao afere),2017,2017 IEEE International Conference on Software Architecture (ICSA),"Research on Architecting Microservices: Trends, Focus, and Potential for Industrial Adoption",False,nao
+hiraman2018study,9. fundamentacao transversal (nao afere),2018,"2018 International Conference on Information , Communication, Engineering and Technology (ICICET)",A Study of Apache Kafka in Big Data Stream Processing,False,nao
+ahmed2018docker,9. fundamentacao transversal (nao afere),2018,2018 IEEE International Conference on Edge Computing (EDGE),Docker Container Deployment in Fog Computing Infrastructures,False,nao
+waseem2020systematic,9. fundamentacao transversal (nao afere),2020,Journal of Systems and Software,A Systematic Mapping Study on Microservices Architecture in DevOps,False,nao
+wu2020reactive,9. fundamentacao transversal (nao afere),2020,2020 IEEE 31st International Symposium on Software Reliability Engineering (ISSRE),A Reactive Batching Strategy of Apache Kafka for Reliable Stream Processing in Real-time,False,nao
+martinho2020urbanwater,9. fundamentacao transversal (nao afere),2020,ISPRS International Journal of Geo-Information,UrbanWater: Integrating EPANET 2 in a PostgreSQL/PostGIS-Based Geospatial Database Management System,False,nao
+moravcik2020overview,9. fundamentacao transversal (nao afere),2020,2020 18th International Conference on Emerging eLearning Technologies and Applications (ICETA),Overview of Docker container orchestration tools,False,nao
+simanjuntak2022multiple,9. fundamentacao transversal (nao afere),2022,Journal of Big Data,Multiple time series database on microservice architecture for IoT-based sleep monitoring system,False,nao
+john2023application,9. fundamentacao transversal (nao afere),2023,2023 Smart City Symposium Prague (SCSP),Application of Time Series Database for IoT Smart City Platform,False,nao
+rudakov2023comparison,9. fundamentacao transversal (nao afere),2023,2023 17th International Conference on Electronics Computer and Computation (ICECCO),Comparison of Time Series Databases,False,nao
+storek2024filip,9. fundamentacao transversal (nao afere),2024,Journal of Open Source Software,FiLiP: A python software development kit (SDK) for accelerating the development of services based on FIWARE IoT platform,False,nao

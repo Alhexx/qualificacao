@@ -1,0 +1,43 @@
+# LaTeX auxiliary / compiled files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.loab
+*.out
+*.synctex.gz
+*.toc
+*.xml
+*.run.xml
+*.nav
+*.snm
+*.vrb
+*.ist
+*.glo
+*.gls
+*.glg
+*.acn
+*.acr
+*.alg
+*.idx
+*.ilg
+*.ind
+
+# Compiled output
+*.dvi
+*.ps
+*.pdf
+!main.pdf
+
+# Editor / OS
+*.swp
+.DS_Store
+Thumbs.db
+
+# Project-specific
+qual_src.zip

@@ -1,0 +1,23 @@
+% Resumo em lingua estrangeira (ingles)
+\begin{center}
+	{\Large{\textbf{Hyper-personalisation in Urban Digital Twins: a Context-Aware Orchestration Layer for Emergency Notification and Response}}}
+\end{center}
+
+\vspace{1cm}
+
+\begin{flushright}
+	Author: Alexandre Cesar de Oliveira Guimarães\\
+	Supervisor: Prof.\ Dr.\ Frederico Araujo da Silva Lopes
+\end{flushright}
+
+\vspace{1cm}
+
+\begin{center}
+	\Large{\textsc{\textbf{Abstract}}}
+\end{center}
+
+\noindent Urban digital twins have moved beyond three-dimensional models and
+now operate as data platforms in cities. These platforms increasingly render urban infrastructure with fidelity, covering streets, buildings and data at large, yet they treat people as a statistical aggregate rather than as entities subject to context definition. The limitation surfaces when the system must act upon individuals rather than on their average. In an emergency, information could be directed to those whose profile qualifies them to act, while each affected person would receive guidance pertinent to their own condition; without a profile in the context model, however, the platform can only issue the same message to everyone. The systematic mapping study conducted in this work shows that the limitation belongs to the field, and not to isolated implementations: among the works compared in a matrix, none addresses more than two of the five examined dimensions as a central treatment, and in none of them does the human profile appear integrated with the others. The required capabilities do exist, validated separately in profiling over urban graphs, in consent ontologies and in semantic message buses; what is missing is the architectural artefact that brings them together. This qualification proposes such an artefact: a backend architecture representing the human profile as a first-class entity in the NGSI-LD context graph, alongside infrastructure and event entities, so that relationship traversal derives, from a single critical event, a distinct response for each person involved. The design adopts the Stellio Context Broker as its semantic core, declarative subscription to context changes as the integration mechanism between components, and persistence segregated between PostGIS and TimescaleDB according to the data access profile. An orchestration layer runs on this core, aggregating experience per use case, maintaining the human digital twin and separating emergency classification from response dispatch. Every architectural decision is recorded with its rationale and traced back to the gap that originates it. The document specifies the proof-of-concept environment and the functional validation plan for the fire response scenario with assisted evacuation, a stage planned for the following six months, at the end of which the residence of the human profile in the semantic graph is expected to prove sufficient to produce a response differentiated per person.
+
+\noindent\textit{Keywords}: urban digital twin; human digital twin; NGSI-LD;
+FIWARE; event-driven architecture; context awareness; semantic interoperability.

@@ -1,0 +1,260 @@
+% Pre-ambulo
+\documentclass[a4paper, 12pt]{abnt}
+
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+
+\usepackage[
+    bookmarksdepth=4,
+    bookmarksopen=true,
+    bookmarksnumbered=true,
+    colorlinks=true,
+    allcolors=black,
+    linktoc=all,
+    pdfborder={0 0 0},
+    breaklinks=true
+]{hyperref}
+\usepackage{bookmark}
+
+\hypersetup{
+    pdftitle={Hiperpersonalização em Gêmeos Digitais Urbanos: uma Camada de Orquestração Sensível ao Contexto para Notificação e Resposta a Emergências},
+    pdfauthor={Alexandre Cesar de Oliveira Guimarães},
+    pdfsubject={Qualificação de Mestrado -- PPgTI/IMD/UFRN},
+    pdfkeywords={Gêmeos Digitais Urbanos; NGSI-LD; FIWARE; Data Spaces; Hiperpersonalização; Sensibilidade ao Contexto}
+}
+
+\usepackage{dsfont}
+\usepackage{amssymb,amsmath}
+\usepackage{multirow}
+\usepackage[alf]{abntcite}
+
+\makeatletter
+\renewcommand{\citeoption}[1]{}
+\makeatother
+\usepackage[pdftex]{color, graphicx}
+\usepackage{colortbl}
+\usepackage{url}
+\usepackage{abnt-alf}
+\usepackage{abntcite}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+%\usepackage{alg}
+
+
+% Redefinicao de instrucoes
+\floatname{algorithm}{Algoritmo}
+\renewcommand{\algorithmicrequire}{\textbf{Entrada:}}
+\renewcommand{\algorithmicensure}{\textbf{Saída:}}
+\renewcommand{\algorithmicend}{\textbf{fim}}
+\renewcommand{\algorithmicif}{\textbf{se}}
+\renewcommand{\algorithmicthen}{\textbf{então}}
+\renewcommand{\algorithmicelse}{\textbf{senão}}
+\renewcommand{\algorithmicfor}{\textbf{para}}
+\renewcommand{\algorithmicforall}{\textbf{para todo}}
+\renewcommand{\algorithmicdo}{\textbf{faça}}
+\renewcommand{\algorithmicwhile}{\textbf{enquanto}}
+\renewcommand{\algorithmicloop}{\textbf{loop}}
+\renewcommand{\algorithmicrepeat}{\textbf{repetir}}
+\renewcommand{\algorithmicuntil}{\textbf{até que}}
+\renewcommand{\algorithmiccomment}[1]{\% #1}
+
+
+% Definicao da lista de simbolos
+% \simb[entrada na lista de simbolos]{simbolo}:
+% Escreve o simbolo no texto e uma entrada na lista de simbolos.
+% Se o parametro opcional e omitido, usa-se o parametro obrigatorio.
+\newcommand{\simb}[2][]
+{%
+	\ifthenelse{\equal{#1}{}}
+	{\addcontentsline{los}{simbolo}{#2}}
+	{\addcontentsline{los}{simbolo}{#1}}#2
+}
+% Para aceitar comandos com @ (at) no nome
+\makeatletter 
+% \listadesimbolos: comando que imprime a lista de simbolos
+\newcommand{\listadesimbolos}
+{
+	\pretextualchapter{Lista de símbolos}
+	{\setlength{\parindent}{0cm}
+	\@starttoc{los}}
+}
+% Como a entrada sera impressa
+\newcommand\l@simbolo[2]{\par #1}
+\makeatother
+
+
+% Definicao da lista de abreviaturas e siglas
+% \abrv[entrada na lista de simbolos]{abreviatura}:
+% Escreve a sigla/abreviatura no texto e uma entrada na lista de abreviaturas e siglas.
+% Se o parametro opcional e omitido, usa-se o parametro obrigatorio.
+\newcommand{\abrv}[2][]
+{%
+	\ifthenelse{\equal{#1}{}}
+	{\addcontentsline{loab}{abreviatura}{#2}}
+	{\addcontentsline{loab}{abreviatura}{#1}}#2
+}
+% Para aceitar comandos com @ (at) no nome
+\makeatletter 
+% \listadeabreviaturas: comando que imprime a lista de abreviaturas e siglas
+\newcommand{\listadeabreviaturas}
+{
+	\pretextualchapter{Lista de abreviaturas e siglas}
+	{\setlength{\parindent}{0cm}
+	\@starttoc{loab}}
+}
+% Como a entrada sera impressa
+\newcommand\l@abreviatura[2]{\par #1}
+\makeatother
+
+
+% \listofalgorithms: comando que imprime a lista de algoritmos
+\renewcommand{\listalgorithmname}{Lista de algoritmos}
+
+
+% Hifenização de palavras feita de forma incorreta pelo LaTeX
+\hyphenation{PYTHON ou-tros}
+
+
+\usepackage{tabularx}
+\usepackage{float} % [H] fixa a tabela junto da citacao
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{listings}
+\usepackage{enumitem}
+
+% Cores para os trechos de codigo (definidas via 'color', ja carregado)
+\definecolor{codebg}{rgb}{0.97,0.97,0.97}
+\definecolor{codegray}{rgb}{0.45,0.45,0.45}
+\definecolor{codekey}{rgb}{0.0,0.0,0.55}
+\definecolor{codestr}{rgb}{0.0,0.35,0.0}
+
+\lstdefinestyle{jsonld}{
+	backgroundcolor=\color{codebg},
+	basicstyle=\ttfamily\footnotesize,
+	commentstyle=\color{codegray}\itshape,
+	keywordstyle=\color{codekey}\bfseries,
+	stringstyle=\color{codestr},
+	breaklines=true,
+	breakatwhitespace=false,
+	breakindent=1.4em,
+	postbreak=\mbox{\textcolor{codegray}{$\hookrightarrow$}\space},
+	frame=single,
+	numbers=left,
+	numberstyle=\tiny\color{codegray},
+	tabsize=2,
+	showstringspaces=false,
+	captionpos=b
+}
+\lstset{style=jsonld}
+\renewcommand{\lstlistingname}{Listagem}
+\renewcommand{\lstlistlistingname}{Lista de listagens}
+
+% Legenda de fonte para figuras/tabelas ("Fonte: ...")
+\newcommand{\legend}[1]{{\footnotesize #1\par}}
+% Cabecalho girado 90 graus para colunas estreitas (texto por extenso, em ate duas linhas)
+\newcommand{\hdrv}[1]{\rotatebox[origin=lB]{90}{\begin{tabular}[b]{@{}l@{}}\bfseries #1\end{tabular}}}
+
+% Marca visivel de pendencia de verificacao; \pendenciasfalse oculta todas as marcas
+\newif\ifpendencias\pendenciasfalse
+\newcommand{\pend}[1]{\ifpendencias\textbf{[#1]}\fi}
+
+
+
+% Inicio do documento
+\begin{document}
+
+% Parametros de posicionamento de float: evitam que tabelas grandes sejam
+% adiadas varias paginas, o que deixava paginas pela metade no Capitulo 4.
+\renewcommand{\topfraction}{0.88}
+\renewcommand{\bottomfraction}{0.70}
+\renewcommand{\textfraction}{0.10}
+\renewcommand{\floatpagefraction}{0.75}
+\setcounter{topnumber}{3}
+\setcounter{bottomnumber}{2}
+\setcounter{totalnumber}{4}
+
+
+	\frenchspacing
+
+	% Capa (arquivo Includes/Capa.tex)
+	\include{Includes/Capa}
+
+	% Folha de rosto (arquivo Includes/FolhaRosto.tex)
+	\include{Includes/FolhaRosto}
+
+	% Folha de aprovacao (arquivo Includes/FolhaAprovacao.tex)
+	\include{Includes/FolhaAprovacao}
+
+	% % Dedicatoria (arquivo Includes/Dedicatoria.tex)
+	% \include{Includes/Dedicatoria}
+
+	% % Agradecimentos (arquivo Includes/Agradecimentos.tex)
+	% \include{Includes/Agradecimentos}
+
+	% % Epigrafe (arquivo Includes/Epigrafe.tex)
+	% \include{Includes/Epigrafe}
+
+	% Resumo em lingua vernacula (arquivo Includes/Resumo.tex)
+	\include{Includes/Resumo}
+
+	% Abstract, resumo em lingua estrangeira (arquivo Includes/Abstract.tex)
+	\include{Includes/Abstract}
+
+	% Lista de figuras
+	\listoffigures
+
+	% Lista de tabelas
+	\listoftables
+
+% Lista de abreviaturas e siglas (registro concentrado das entradas;
+% mecanismo do modelo espera \abrv{} no primeiro uso em cada capitulo,
+% mas o registro abaixo produz a mesma lista impressa sem exigir a
+% edicao pontual de cada ocorrencia nos capitulos ja escritos).
+\addcontentsline{loab}{abreviatura}{API\ --- \textit{Application Programming Interface}}
+\addcontentsline{loab}{abreviatura}{BIM\ --- \textit{Building Information Modeling}}
+\addcontentsline{loab}{abreviatura}{CE\ --- Critério de Exclusão}
+\addcontentsline{loab}{abreviatura}{CI\ --- Critério de Inclusão}
+\addcontentsline{loab}{abreviatura}{DA\ --- Decisão Arquitetural}
+\addcontentsline{loab}{abreviatura}{DOI\ --- \textit{Digital Object Identifier}}
+\addcontentsline{loab}{abreviatura}{ETSI\ --- \textit{European Telecommunications Standards Institute}}
+\addcontentsline{loab}{abreviatura}{GDPR\ --- \textit{General Data Protection Regulation}}
+\addcontentsline{loab}{abreviatura}{HDT\ --- \textit{Human Digital Twin}}
+\addcontentsline{loab}{abreviatura}{IoT\ --- \textit{Internet of Things}}
+\addcontentsline{loab}{abreviatura}{JSON\ --- \textit{JavaScript Object Notation}}
+\addcontentsline{loab}{abreviatura}{JSON-LD\ --- \textit{JavaScript Object Notation for Linked Data}}
+\addcontentsline{loab}{abreviatura}{NGSI-LD\ --- \textit{Next Generation Service Interfaces -- Linked Data}}
+\addcontentsline{loab}{abreviatura}{QP\ --- Questão de Pesquisa}
+\addcontentsline{loab}{abreviatura}{RDF\ --- \textit{Resource Description Framework}}
+\addcontentsline{loab}{abreviatura}{REST\ --- \textit{Representational State Transfer}}
+\addcontentsline{loab}{abreviatura}{RF\ --- Requisito Funcional}
+\addcontentsline{loab}{abreviatura}{RNF\ --- Requisito Não Funcional}
+\addcontentsline{loab}{abreviatura}{SPARQL\ --- \textit{SPARQL Protocol and RDF Query Language}}
+\addcontentsline{loab}{abreviatura}{UDT\ --- \textit{Urban Digital Twin}}
+\addcontentsline{loab}{abreviatura}{URI\ --- \textit{Uniform Resource Identifier}}
+
+	% Lista de abreviaturas e siglas
+	\listadeabreviaturas
+
+	% Sumario
+	\sumario
+
+	% Parte central do trabalho
+	\include{Capitulos/cap1-introducao}
+	\include{Capitulos/cap2-fundamentacao}
+	\include{Capitulos/cap3-mapeamento}
+	\include{Capitulos/cap4-arquitetura}
+	% \include{Capitulos/cap5-implementacao}
+	% \include{Capitulos/cap6-avaliacao}
+	% \include{Capitulos/cap7-consideracoes}
+
+	% Bibliografia
+	\bibliography{Capitulos/Referencias}
+	\bibliographystyle{abnt-alf}
+
+	% Pagina em branco
+	\newpage
+
+\end{document}

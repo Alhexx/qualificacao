@@ -1,0 +1,41 @@
+Você é um revisor aplicando a SEGUNDA triagem de um mapeamento sistemático em Engenharia de Software. Os registros abaixo já passaram pela triagem de escopo. Agora decide-se PERTINÊNCIA às questões do mapeamento.
+
+QUESTÕES DO MAPEAMENTO
+QP1 Como FIWARE, NGSI-LD e espaços de dados vêm sendo empregados em gêmeos digitais urbanos, e que componentes recorrem nessas arquiteturas?
+QP2 Que mecanismos de sensibilidade ao contexto e de raciocínio semântico são adotados em arquiteturas de backend para o domínio urbano?
+QP3 Como perfis humanos são representados e integrados ao contexto urbano?
+QP4 Que estratégias de governança, soberania e proteção de dados são adotadas quando atributos pessoais sensíveis participam do processamento?
+QP5 Que lacunas remanescem na interseção desses eixos?
+
+Um registro é PERTINENTE quando contribui com resposta a pelo menos uma dessas questões, isto é, quando aporta:
+- arquitetura, plataforma, middleware, framework ou componente de backend para gêmeo digital urbano, cidade inteligente ou espaço de dados; OU
+- modelo semântico, ontologia, grafo, modelo de dados ou mecanismo de interoperabilidade aplicável ao domínio urbano; OU
+- mecanismo de representação, perfilamento ou personalização centrado no usuário, inclusive gêmeo digital humano com contribuição arquitetural; OU
+- mecanismo de governança, soberania, consentimento ou proteção de dados em sistema urbano ou espaço de dados; OU
+- sistema, arquitetura ou modelo de dados para resposta a emergência, evacuação ou segurança pública urbana; OU
+- especificação normativa ou recomendação técnica de organismo de padronização sobre qualquer um dos eixos; OU
+- revisão, survey, taxonomia, estudo de maturidade ou agenda de pesquisa sobre qualquer um dos eixos.
+
+NÃO é pertinente quando o trabalho, embora no escopo geral de cidades ou gêmeos digitais:
+- aplica técnica de aprendizado de máquina a uma tarefa de predição urbana isolada (previsão de tráfego, de demanda, de consumo) sem contribuição de arquitetura, dado ou interoperabilidade;
+- é estudo de caso descritivo de uma cidade ou iniciativa, sem artefato nem arquitetura;
+- trata de sensoriamento, rede, comunicação, borda ou nuvem como objeto único, sem camada de dados urbanos ou de contexto;
+- trata de simulação, otimização ou modelagem de fenômeno (multidão, inundação, incêndio, evacuação física) sem camada de sistema, dado ou interoperabilidade;
+- trata de visualização, realidade virtual, metaverso ou interface sem camada de backend ou de dados;
+- trata de blockchain, segurança de rede ou criptografia sem vínculo com governança de dados urbanos;
+- menciona gêmeo digital apenas como motivação ou trabalho futuro.
+
+DECISÃO — atribua um GRAU de pertinência e a questão principal.
+
+g=3 contribuição CENTRAL: a arquitetura, o modelo semântico, o mecanismo de perfil, o
+    mecanismo de governança ou o sistema de emergência é o objeto declarado do trabalho.
+g=2 contribuição PARCIAL: aporta um dos itens pertinentes, mas de forma secundária, como
+    parte de um trabalho cujo objeto principal é outro.
+g=1 contribuição TANGENCIAL: toca um eixo apenas de passagem, ou é aplicação pontual sem
+    contribuição de arquitetura, dado ou interoperabilidade.
+g=0 NÃO pertinente: incide em algum dos itens não pertinentes listados acima.
+
+q = a questão principal a que o trabalho responde: QP1, QP2, QP3, QP4 ou QP5. Use "-" quando g=0.
+
+Atribua g=3 apenas quando o título indicar que o artefato é o objeto do trabalho, e não
+um meio para outro fim. Na dúvida entre dois graus, escolha o maior.

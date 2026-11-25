@@ -1,0 +1,109 @@
+{
+ "passe1": {
+  "objetivo": "triagem de escopo por titulo",
+  "enunciado": "enunciado_triagem_passe1.txt (versao v4 de calibracao_triagem.json)",
+  "registros": 24314,
+  "lote": 250,
+  "max_tokens": 6000,
+  "raciocinio": "desligado",
+  "mensagem_do_lote": "Triar os registros abaixo pelo título. Devolva exatamente uma decisão por registro, na ordem, usando a ferramenta.\n\n1. TITULO\n2. TITULO\n...",
+  "ferramenta": {
+   "name": "triar",
+   "description": "Registra a decisão de triagem de cada registro do lote.",
+   "input_schema": {
+    "type": "object",
+    "properties": {
+     "d": {
+      "type": "array",
+      "description": "uma entrada por registro, na ordem do lote",
+      "items": {
+       "type": "object",
+       "properties": {
+        "n": {
+         "type": "integer"
+        },
+        "v": {
+         "type": "string",
+         "enum": [
+          "i",
+          "e",
+          "d"
+         ],
+         "description": "i=incluir, e=excluir, d=duvida"
+        }
+       },
+       "required": [
+        "n",
+        "v"
+       ]
+      }
+     }
+    },
+    "required": [
+     "d"
+    ]
+   }
+  },
+  "uso_da_ferramenta": "forcado (tool_choice = triar)"
+ },
+ "passe2": {
+  "objetivo": "grau de pertinencia as questoes QP1 a QP5",
+  "enunciado": "enunciado_triagem_passe2.txt",
+  "registros": 17985,
+  "repartido_em": "12 fatias processadas em paralelo, todas com o mesmo enunciado integral",
+  "lote": 25,
+  "max_tokens": 4000,
+  "raciocinio": "desligado",
+  "mensagem_do_lote": "registros numerados a partir de 1, um por linha, no formato 'N. TITULO (ANO, VEICULO)'",
+  "ferramenta": {
+   "name": "triar",
+   "description": "Grau de pertinência de cada registro do lote.",
+   "input_schema": {
+    "type": "object",
+    "properties": {
+     "d": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "n": {
+         "type": "integer"
+        },
+        "g": {
+         "type": "integer",
+         "enum": [
+          0,
+          1,
+          2,
+          3
+         ]
+        },
+        "q": {
+         "type": "string",
+         "enum": [
+          "QP1",
+          "QP2",
+          "QP3",
+          "QP4",
+          "QP5",
+          "-"
+         ]
+        }
+       },
+       "required": [
+        "n",
+        "g",
+        "q"
+       ]
+      }
+     }
+    },
+    "required": [
+     "d"
+    ]
+   }
+  },
+  "uso_da_ferramenta": "forcado (tool_choice = triar)",
+  "validacao_por_lote": "lote reprocessado se o numero de decisoes diferir do numero de registros, se algum n sair da faixa ou se a chamada voltar com erro"
+ }
+}

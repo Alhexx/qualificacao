@@ -1,0 +1,823 @@
+id,titulo,ano,veiculo,q,citacoes,s1,s2,dim,n_dim
+406,DUET: A Framework for Building Interoperable and Trusted Digital Twins of Smart Cities,2022,IEEE Internet Computing,QP1,108,1,1,sem;gov,2
+432,Artificial Intelligence-Based Semantic Internet of Things in a User-Centric Smart City,2018,Sensors,QP2,104,1,1,sem;perf,2
+1006,City data hub: Implementation of standard-based smart city data platform for interoperability,2020,Sensors Switzerland,QP1,56,1,1,sem;pers,2
+2352,Automated discovery and integration of semantic urban data streams: The ACEIS middleware,2017,Future Generation Computer Systems,QP2,24,1,1,sem;asn,2
+2982,Urban Knowledge Graph Aided Mobile User Profiling,2022,ACM Transactions on Knowledge Discovery from Data,QP3,18,1,1,sem;perf,2
+3761,The smashHitCore Ontology for GDPR-Compliant Sensor Data Sharing in Smart Cities,2023,Sensors,QP4,13,1,1,sem;gov,2
+4244,CONFLUENCE: An Integration Model for Human-in-the-Loop IoT Privacy-Preserving Solutions Toward Sustainability in a Smart City,2024,IEEE Internet of Things Journal,QP4,11,1,1,perf;gov,2
+5047,Mapping the NGSI-LD context model on top of a SPARQL event processing architecture: Implementation guideliness,2019,Conference of Open Innovation Association Fruct,QP1,8,1,1,sem;asn,2
+5653,Enabling IoT-enhanced Transportation Systems using the NGSI Protocol,2023,ACM International Conference Proceeding Series,QP1,7,1,1,sem;asn,2
+5656,A Knowledge Graph-Enhanced Hidden Markov Model for Personalized Travel Routing: Integrating Spatial and Semantic Data in Urban Environments,2025,Smart Cities,QP2,7,1,1,sem;perf,2
+6303,3D Privacy Framework: The Citizen Value Driven Privacy Framework,2021,2021 IEEE International Smart Cities Conference Isc2 2021,QP4,5,1,1,perf;gov,2
+7459,OntoPolis©: A semantic participatory platform for performance assessment and augmentation of urban environments,2014,Proceedings 2014 International Conference on Intelligent Environments Ie 2014,QP2,4,1,1,sem;perf,2
+7674,Semantic and Technically Interoperable Data Exchange in the Flanders Smart Data Space,2025,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,QP2,3,1,1,sem;gov,2
+8211,Formalizing-modelling-utilizing ontology: A semantic framework for adaptive stakeholder-specific urban digital twins in urban planning processes,2026,Environment and Planning B Urban Analytics and City Science,QP2,3,1,1,sem;perf,2
+10537,Data Space-Aligned Smart City Data Sharing with Context Brokers,2025,Proceedings of the 11th IEEE International Smart Cities Conference Resilient and Sustainable Smart Communities Isc2 2025,QP1,1,1,1,sem;gov,2
+10621,An Event-Driven Serverless Architecture for AI-Enabled Citizen E-Participation Platforms with Data Sovereignty Support,2026,Procedia Computer Science,QP4,1,1,1,asn;gov,2
+12913,Semantic urban elements: A Design+Science paradigm to augment human-centric cities?,2026,Environment and Planning B Urban Analytics and City Science,QP2,0,1,1,sem;perf,2
+15068,Knowledge Graph-Driven Policy Enforcement in Urban Dataspace,2026,Lecture Notes in Computer Science,QP2,0,1,1,sem;gov,2
+15161,FORE-Twin: Neuro-Symbolic Middleware for Latency-Aware Data Staging in Federated Digital Twin Systems,2026,Proceedings 2026 IEEE 26th International Symposium on Cluster Cloud and Internet Computing Workshops Ccgridw 2026,QP1,0,1,1,asn;pers,2
+16446,CitySense RAG: Personalized Urban Mobility Recommendations Via Streetscape Perception and Multi-Source Semantics,2025,IEEE Conference on Intelligent Transportation Systems Proceedings ITSC,QP2,0,1,1,sem;perf,2
+17232,"A Data Model for Geometric, Semantic and Spatial Topology Validation of CityGML Datasets",2026,International Archives of the Photogrammetry Remote Sensing and Spatial Information Sciences ISPRS Archives,QP2,0,1,1,sem;pers,2
+17281,EVENT-DRIVEN SERVERLESS ARCHITECTURE FOR SMART CITY E-PARTICIPATION PLATFORMS UNDER DIGITAL SOVEREIGNTY CONSTRAINTS,2026,Scientific Journal of Astana IT University,QP4,0,1,1,asn;gov,2
+39,A digital twin smart city for citizen feedback,2021,Cities,QP3,546,1,1,perf,1
+82,Internet of Things for Smart Cities: Interoperability and Open Data,2016,IEEE Internet Computing,QP1,306,1,1,sem,1
+98,Developing and validating a citizen-centric typology for smart city services,2014,Government Information Quarterly,QP3,271,1,1,perf,1
+150,FogFlow: Easy Programming of IoT Services Over Cloud and Edges for Smart Cities,2018,IEEE Internet of Things Journal,QP1,204,1,1,asn,1
+155,Building a Big Data Platform for Smart Cities: Experience and Lessons from Santander,2015,Proceedings 2015 IEEE International Congress on Big Data Bigdata Congress 2015,QP1,198,1,1,pers,1
+162,Architecting Smart City Digital Twins: Combined Semantic Model and Machine Learning Approach,2020,Journal of Management in Engineering,QP2,193,1,1,sem,1
+252,"An ontology-based methodology to establish city information model of digital twin city by merging BIM, GIS and IoT",2023,Advanced Engineering Informatics,QP1,149,1,1,sem,1
+342,Citizen-centric data services for smarter cities,2017,Future Generation Computer Systems,QP4,120,1,1,perf,1
+359,Toward global IoT-enabled smart cities interworking using adaptive semantic adapter,2019,IEEE Internet of Things Journal,QP2,116,1,1,sem,1
+381,Analysis and assessment of a knowledge based smart city architecture providing service APIs,2017,Future Generation Computer Systems,QP2,113,1,1,sem,1
+402,Data governance in the sustainable smart city,2017,Informatics,QP4,109,1,1,gov,1
+425,Towards Human-centric Digital Twins: Leveraging Computer Vision and Graph Models to Predict Outdoor Comfort,2023,Sustainable Cities and Society,QP3,105,1,1,perf,1
+428,Cognition Digital Twins for Personalized Information Systems of Smart Cities: Proof of Concept,2020,Journal of Management in Engineering,QP3,105,1,1,perf,1
+447,Integrating building and urban semantics to empower smart water solutions,2017,Automation in Construction,QP2,101,1,1,sem,1
+461,Citizen-centered big data analysis-driven governance intelligence framework for smart cities,2018,Telecommunications Policy,QP4,100,1,1,gov,1
+495,BlendMAS: A Blockchain-Enabled Decentralized Microservices Architecture for Smart Public Safety,2019,IEEE International Conference on Blockchain (Blockchain),QP4,94,1,1,asn,1
+534,Assessing governance implications of city digital twin technology: A maturity model approach,2024,Technological Forecasting and Social Change,QP4,89,1,1,gov,1
+573,Building IoT-Based Applications for Smart Cities: How Can Ontology Catalogs Help?,2018,IEEE Internet of Things Journal,QP2,85,1,1,sem,1
+579,The Social Digital Twin:The Social Turn in the Field of Smart Cities,2023,Environment and Planning B Urban Analytics and City Science,QP1,84,1,1,perf,1
+588,Citizen-centered data governance in the smart city: From ethics to accountability,2021,Sustainable Cities and Society,QP4,84,1,1,gov,1
+666,Modeling Digital Twin Data and Architecture: A Building Guide With FIWARE as Enabling Technology,2022,IEEE Internet Computing,QP1,75,1,1,sem,1
+703,A perception-powered urban digital twin to support human-centered urban planning and sustainable city development,2025,Cities,QP3,72,1,1,perf,1
+742,A Geospatial Platform to Manage Large-Scale Individual Mobility for an Urban Digital Twin Platform,2022,Remote Sensing,QP1,70,1,1,pers,1
+757,Developing real-time IoT-based public safety alert and emergency response systems,2025,Scientific Reports,QP5,69,1,1,asn,1
+760,Smart City Digital Twin Framework for Real-Time Multi-Data Integration and Wide Public Distribution,2024,IEEE Access,QP1,69,1,1,asn,1
+874,Citizen-centric digital twin development with machine learning and interfaces for maintaining urban infrastructure,2023,Telematics and Informatics,QP1,62,1,1,perf,1
+884,"A Master Data Management Solution to Unlock the Value of Big Infrastructure Data for Smart, Sustainable and Resilient City Planning",2017,Procedia Engineering,QP1,62,1,1,pers,1
+893,Semantic Framework of Internet of Things for Smart Cities: Case Studies,2016,Sensors,QP2,62,1,1,sem,1
+907,RIOMS: An intelligent system for operation and maintenance of urban roads using spatio-temporal data in smart cities,2021,Future Generation Computer Systems,QP1,61,1,1,pers,1
+924,Connected smart cities: Interoperability with SEG 3.0 for the internet of things,2016,Proceedings IEEE 30th International Conference on Advanced Information Networking and Applications Workshops Waina 2016,QP1,60,1,1,sem,1
+929,Data co-operatives through data sovereignty,2021,Smart Cities,QP4,60,1,1,gov,1
+936,Ontological Representation of Smart City Data: From Devices to Cities,2018,Applied Sciences,QP2,60,1,1,sem,1
+945,Cross-domain flood risk assessment for smart cities using dynamic knowledge graphs,2024,Sustainable Cities and Society,QP2,59,1,1,sem,1
+964,Semantic Modelling of Smart City Data,2014,Journal of Bioresource Management,QP2,58,1,1,sem,1
+984,Internet of Smart City Objects: A Distributed Framework for Service Discovery and Composition,2019,IEEE Access,QP1,58,1,1,asn,1
+1029,Integrating Personalized and Accessible Itineraries in MaaS Ecosystems Through Microservices,2018,Mobile Networks and Applications,QP3,55,1,1,perf,1
+1044,Healthy Routes in the Smart City: A Context-Aware Mobile Recommender,2017,IEEE Software,QP2,54,1,1,perf,1
+1098,An Edge Computing-enhanced Internet of Things Framework for Privacy-preserving in Smart City,2020,Computers and Electrical Engineering,QP4,52,1,1,gov,1
+1100,Open IoT ecosystem for enhanced interoperability in smart cities-example of métropole de lyon,2017,Sensors Switzerland,QP1,52,1,1,sem,1
+1155,SmartAirQ: A Big Data Governance Framework for Urban Air Quality Management in Smart Cities,2022,Frontiers in Environmental Science,QP4,50,1,1,gov,1
+1169,Towards establishing cross-platform interoperability for sensors in smart cities,2019,Sensors Switzerland,QP1,49,1,1,sem,1
+1180,Breaking vendors and city locks through a semantic-enabled global interoperable internet-of-things system: A smart parking case,2019,Sensors Switzerland,QP1,49,1,1,sem,1
+1196,Decentralized trust framework for smart cities: a blockchain-enabled cybersecurity and data integrity model,2025,Scientific Reports,QP4,48,1,1,gov,1
+1231,Data governance and sovereignty in urban data spaces based on standardized ICT reference architectures,2019,Data,QP4,47,1,1,gov,1
+1252,DTwin-TEC: An AI-based TEC district digital twin and emulating security events by leveraging knowledge graph,2024,Journal of Open Innovation Technology Market and Complexity,QP1,46,1,1,sem,1
+1262,Virtual Reality and Internet of Things Based Digital Twin for Smart City Cross-Domain Interoperability,2024,Applied Sciences,QP1,46,1,1,sem,1
+1281,Interoperable open specifications framework for the implementation of standardized urban platforms,2020,Sensors Switzerland,QP1,45,1,1,sem,1
+1306,Open Geospatial Data Integration in Game Engine for Urban Digital Twin Applications,2023,ISPRS International Journal of Geo Information,QP1,44,1,1,pers,1
+1335,The UDSA ontology: An ontology to support real time urban sustainability assessment,2020,Advances in Engineering Software,QP2,43,1,1,sem,1
+1369,Overcoming the heterogeneity in the internet of things for smart cities,2017,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,QP2,42,1,1,sem,1
+1455,MOBDA: Microservice-Oriented Big Data Architecture for Smart City Transport Systems,2020,Big Data and Cognitive Computing,QP1,40,1,1,asn,1
+1487,Producing Linked Data for Smart Cities: The Case of Catania,2017,Big Data Research,QP1,40,1,1,sem,1
+1553,INTEGRATING DYNAMIC DATA AND SENSORS WITH SEMANTIC 3D CITY MODELS IN THE CONTEXT OF SMART CITIES,2016,"ISPRS annals of the photogrammetry, remote sensing and spatial information sciences",QP2,38,1,1,sem,1
+1555,Urban Digital Twins-A FIWARE-based model,2021,At Automatisierungstechnik,QP1,38,1,1,sem,1
+1564,Enabling Industrial Data Space Architecture for Seaport Scenario,2019,IEEE 5th World Forum on Internet of Things Wf Iot 2019 Conference Proceedings,QP1,38,1,1,gov,1
+1566,A methodology for structured ontology construction applied to intelligent transportation systems,2016,Computer Standards and Interfaces,QP2,38,1,1,sem,1
+1572,Toward an Architecture and Data Model to Enable Interoperability between Federated Mission Networks and IoT-Enabled Smart City Environments,2018,IEEE Communications Magazine,QP1,38,1,1,sem,1
+1579,Interworking Models of Smart City with Heterogeneous Internet of Things Standards,2019,IEEE Communications Magazine,QP1,38,1,1,sem,1
+1608,Real-time context-aware microservice architecture for predictive analytics and smart decision-making,2019,IEEE Access,QP2,37,1,1,asn,1
+1612,A smart city data model based on semantics best practice and principles,2015,Www 2015 Companion Proceedings of the 24th International Conference on World Wide Web,QP2,37,1,1,sem,1
+1695,SIGNED: Smart cIty diGital twiN vErifiable Data Framework,2023,IEEE Access,QP4,35,1,1,gov,1
+1719,Managing Large Amounts of Data Generated by a Smart City Internet of Things Deployment,2016,International Journal on Semantic Web and Information Systems,QP1,34,1,1,pers,1
+1831,Developing an assessment governance framework for urban digital twins: Insights from smart cities,2025,Cities,QP4,31,1,1,gov,1
+1924,An Ontology Integrating the Open Standards of City Models and Internet of Things for Smart-City Applications,2022,IEEE Internet of Things Journal,QP1,30,1,1,sem,1
+2051,Design and Implementation of an Interoperable Architecture for Integrating Building Legacy Systems into Scalable Energy Management Systems,2022,Smart Cities,QP1,28,1,1,pers,1
+2141,Semantic agent framework for automated flood assessment using dynamic knowledge graphs,2024,Data Centric Engineering,QP2,27,1,1,sem,1
+2177,Breaking Down Data Sharing Barrier of Smart City: A Digital Twin Approach,2024,IEEE Network,QP1,26,1,1,gov,1
+2201,Semantic Interoperable Traffic Management Framework for IoT Smart City Applications,2018,EAI Endorsed Transactions on Internet of Things,QP2,26,1,1,sem,1
+2300,Definition of an Ontology Matching Algorithm for Context Integration in Smart Cities,2014,Sensors,QP2,25,1,1,sem,1
+2509,Smart governance of heterogeneous internet of things for smart cities,2018,Proceedings of the International Conference on Sensing Technology Icst,QP4,23,1,1,gov,1
+2513,Implementing Cyber Physical social Systems for smart cities: A semantic web perspective,2016,IEEE Consumer Communications and Networking Conference,QP2,23,1,1,sem,1
+2519,Interoperability requirements for a smart city,2021,Proceedings of the ACM Symposium on Applied Computing,QP2,23,1,1,sem,1
+2546,More intelligent knowledge graph: A large language model-driven method for knowledge representation in geospatial digital twins,2025,International Journal of Applied Earth Observation and Geoinformation,QP2,22,1,1,sem,1
+2580,IoT-A and FIWARE: Bridging the barriers between the cloud and IoT systems design and implementation,2016,Closer 2016 Proceedings of the 6th International Conference on Cloud Computing and Services Science,QP1,22,1,1,sem,1
+2615,Empowering Citizens with Digital Twins: A Blueprint,2022,IEEE Internet Computing,QP1,22,1,1,perf,1
+2641,The Spatial Data Infrastructure of An Urban Digital Twin in the Building Energy Domain Using Ogc Standards,2022,ISPRS Annals of the Photogrammetry Remote Sensing and Spatial Information Sciences,QP1,22,1,1,pers,1
+2693,A citizen-centric approach towards global-scale smart city platform,2015,2015 International Conference on Recent Advances in Internet of Things Riot 2015,QP1,21,1,1,perf,1
+2813,Collaboration of Digital Twins Through Linked Open Data: Architecture With FIWARE as Enabling Technology,2022,IT Professional,QP1,20,1,1,sem,1
+2816,Development and evaluation of an urban data governance reference model based on design science research,2025,Government Information Quarterly,QP4,20,1,1,gov,1
+2869,Semantic discovery and integration of urban data streams,2014,Ceur Workshop Proceedings,QP2,19,1,1,sem,1
+2924,An ontology-driven context aware framework for smart traffic monitoring,2017,Tensymp 2017 IEEE International Symposium on Technologies for Smart Cities,QP2,19,1,1,sem,1
+2929,Semantic-enhanced living labs for better interoperability of smart cities solutions,2016,IEEE 2nd International Smart Cities Conference Improving the Citizens Quality of Life Isc2 2016 Proceedings,QP2,19,1,1,sem,1
+2936,InterSensor Service: Establishing Interoperability over Heterogeneous Sensor Observations and Platforms for Smart Cities,2018,2018 IEEE International Smart Cities Conference Isc2 2018,QP1,19,1,1,sem,1
+2981,"MODELLING CHANGES, STAKEHOLDERS and THEIR RELATIONS in SEMANTIC 3D CITY MODELS",2021,ISPRS Annals of the Photogrammetry Remote Sensing and Spatial Information Sciences,QP2,18,1,1,sem,1
+3047,Efficient Execution of Complex Context Queries to Enable Near Real-Time Smart IoT Applications,2019,Sensors,QP2,18,1,1,asn,1
+3115,Interoperability for intelligent traffic management systems in smart cities,2024,International Journal of Electrical and Computer Engineering,QP1,17,1,1,sem,1
+3164,Mobility knowledge graph: review and its application in public transport,2025,Transportation,QP2,17,1,1,sem,1
+3284,Smart city interoperability framework based on city infrastructure model and service prioritization,2016,International Conference on Ubiquitous and Future Networks Icufn,QP2,16,1,1,sem,1
+3314,An Event-Driven Architectural Model for Integrating Heterogeneous Data and Developing Smart City Applications,2023,Journal of Sensor and Actuator Networks,QP2,16,1,1,asn,1
+3360,MANAGING URBAN DIGITAL TWINS WITH AN EXTENDED CATALOG SERVICE,2022,ISPRS Annals of the Photogrammetry Remote Sensing and Spatial Information Sciences,QP1,16,1,1,pers,1
+3378,Common data environment for digital twins from building to city levels,2025,Automation in Construction,QP1,16,1,1,pers,1
+3400,City Data Plan: The Conceptualisation of a Policy Instrument for Data Governance in Smart Cities,2019,Urban Science,QP4,15,1,1,gov,1
+3493,Distributed and scalable platform architecture for smart cities complex events data collection: Covid19 pandemic use case,2021,Journal of Ambient Intelligence and Humanized Computing,QP1,15,1,1,asn,1
+3513,Ontology-based data integration from heterogeneous urban systems: A knowledge representation framework for smart cities,2015,Data Archiving and Networked Services (DANS),QP2,15,1,1,sem,1
+3537,SEDIA: A Platform for Semantically Enriched IoT Data Integration and Development of Smart City Applications,2023,Future Internet,QP2,15,1,1,sem,1
+3592,BigDaM: Efficient Big Data Management and Interoperability Middleware for Seaports as Critical Infrastructures,2023,Computers,QP1,14,1,1,pers,1
+3628,"VoxCity: A seamless framework for open geospatial data integration, grid-based semantic 3D city model generation, and urban environment simulation",2026,Computers Environment and Urban Systems,QP1,14,1,1,sem,1
+3678,The New 3D City Database 5.0-Advancing 3D City Data Management based on CityGML 3.0,2025,ISPRS Annals of the Photogrammetry Remote Sensing and Spatial Information Sciences,QP1,14,1,1,pers,1
+3686,Enhancing Core Public Service Vocabulary to Enable Public Service Personalization,2022,Information Switzerland,QP3,14,1,1,perf,1
+3698,A WebGIS-based digital twin platform for intelligent operation and maintenance of rail transit infrastructure,2026,Expert Systems with Applications,QP1,14,1,1,pers,1
+3700,Oliot-OpenCity: Open Standard Interoperable Smart City Platform,2018,2018 IEEE International Smart Cities Conference Isc2 2018,QP1,14,1,1,sem,1
+3717,3D-Monitoring Big Geo Data on a seaport infrastructure based on FIWARE,2018,Journal of Geographical Systems,QP1,13,1,1,pers,1
+3760,Smart City Services Ontology (SCSO): Semantic Modeling of Smart City Applications,2019,International Conference on Digital Information Processing and Communications,QP2,13,1,1,sem,1
+3911,Storing and indexing IoT context for smart city applications,2016,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,QP2,12,1,1,pers,1
+3915,DEVELOPMENT OF A DATA GOVERNANCE FRAMEWORK FOR SMART CITIES,2022,International Archives of the Photogrammetry Remote Sensing and Spatial Information Sciences ISPRS Archives,QP4,12,1,1,gov,1
+3933,Semantic Smart City: Context Aware Application Architecture,2018,Proceedings of the 2nd International Conference on Electronics Communication and Aerospace Technology Iceca 2018,QP2,12,1,1,sem,1
+4041,Towards achieving semantic interoperability in an IoT-enabled smart campus,2019,5th IEEE International Smart Cities Conference Isc2 2019,QP2,12,1,1,sem,1
+4057,Identifying key factors in designing data spaces for Urban Digital Twin Platforms: a data driven approach,2023,Proceedings 2023 IEEE International Conference on Big Data Bigdata 2023,QP5,12,1,1,gov,1
+4134,Modeling and management of usage-aware distributed datasets for global smart city application ecosystems,2017,Peerj Computer Science,QP1,11,1,1,gov,1
+4178,Towards a multi-database CityGML environment adapted to big geodata issues of urban digital twins,2024,International Archives of the Photogrammetry Remote Sensing and Spatial Information Sciences ISPRS Archives,QP1,11,1,1,pers,1
+4188,Digital Twin Collaborative Platforms: Applications to Humans-in-the-Loop Crafting of Urban Areas,2023,IEEE Consumer Electronics Magazine,QP3,11,1,1,perf,1
+4190,3D Citygml building models development with cross-scale query database,2022,International Archives of the Photogrammetry Remote Sensing and Spatial Information Sciences ISPRS Archives,QP1,11,1,1,pers,1
+4342,Smart cities semantics and data models,2018,Advances in Intelligent Systems and Computing,QP2,11,1,1,sem,1
+4427,Digital Twin-Based and Knowledge Graph-Enhanced Emergency Response in Urban Infrastructure Construction,2025,Applied Sciences Switzerland,QP2,10,1,1,sem,1
+4451,Reshaping Smart Cities through NGSI-LD Enrichment,2024,Sensors,QP2,10,1,1,sem,1
+4459,Modern approach to design a distributed and scalable platform architecture for smart cities complex events data collection,2020,Procedia Computer Science,QP1,10,1,1,asn,1
+4534,Designing the Ontology of a Smart City Application for Measuring Multidimensional Urban Poverty,2019,Journal of the Knowledge Economy,QP2,10,1,1,sem,1
+4569,Enhancing data sovereignty to improve intelligent mobility services in smart cities,2025,Urban Governance,QP4,10,1,1,gov,1
+4599,A systematic framework for the complex system engineering of city data governance,2022,Urban Informatics,QP4,10,1,1,gov,1
+4619,An analysis of context-aware data models for smart cities: Towards fiware and etsi cim emerging data model,2017,International Archives of the Photogrammetry Remote Sensing and Spatial Information Sciences ISPRS Archives,QP1,9,1,1,sem,1
+4636,Data Sharing Governance in Digital Twins and Smart Cities: The European Data Strategy,2024,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,QP4,9,1,1,gov,1
+4657,Emergency Management in Smart Cities: Infrastructure-Less Communication Systems,2022,Construction Research Congress 2022 Computer Applications Automation and Data Analytics Selected Papers from Construction Research Congress 2022,QP1,9,1,1,asn,1
+4717,Integrating Citizens’ Avatars in Urban Digital Twins,2023,Journal of Web Engineering,QP3,9,1,1,perf,1
+4751,A geographic-layered data middleware for smart cities,2018,Webmedia 2018 Proceedings of the 24th Brazilian Symposium on Multimedia and the Web,QP1,9,1,1,pers,1
+4769,"The Metaverse Is Geospatial: A System Model Architecture Integrating Spatial Computing, Digital Twins, and Virtual Worlds",2025,ISPRS International Journal of Geo Information,QP1,9,1,1,sem,1
+4785,Semantic Interoperability through a Novel Cross-Context Tabular Document Representation Approach for Smart Cities,2020,IEEE Access,QP2,9,1,1,sem,1
+4812,A Linked Data-Based Semantic Information Model for Smart Cities,2019,Brazilian Symposium on Computing System Engineering Sbesc,QP2,9,1,1,sem,1
+4829,Towards National Connected Digital Twins - A Geospatial Perspective,2024,ISPRS Annals of the Photogrammetry Remote Sensing and Spatial Information Sciences,QP1,9,1,1,sem,1
+4866,A Unified Knowledge Model for Managing Smart City/IoT Platform Entities for Multitenant Scenarios,2024,Smart Cities,QP2,9,1,1,sem,1
+4975,Holistic Decision-Making for Optimal Siting of Urban Earthquake Emergency Shelters: An Integrated Ontology and Fuzzy-AHP Approach,2025,International Journal of Fuzzy Systems,QP2,8,1,1,sem,1
+4978,An Ontology-based Information Model for Multi-Domain Semantic Modeling and Analysis of Smart City Data,2020,ACM International Conference Proceeding Series,QP2,8,1,1,sem,1
+4986,A BIM-Based Digital Twin Framework for Urban Roads: Integrating MMS and Municipal Geospatial Data for AI-Ready Urban Infrastructure Management,2026,Sensors,QP1,8,1,1,pers,1
+5002,Heterogeneous intensity-based DBSCAN (iDBSCAN) model for urban attention distribution in digital twin cities,2024,Digital Engineering,QP1,8,1,1,pers,1
+5003,"A Geodatabase Design for the Development of a Digital Twin for Urban Environments: A Case Study from Turin, Italy",2024,International Archives of the Photogrammetry Remote Sensing and Spatial Information Sciences ISPRS Archives,QP1,8,1,1,pers,1
+5018,Gaia-X & Fiware: Implementation of a Federated Data Platform in Smart Cities,2024,Procedia Computer Science,QP1,8,1,1,gov,1
+5039,Integration of Digital Twin and Blockchain for Smart Cities,2025,Digital Twin and Blockchain for Smart Cities,QP1,8,1,1,gov,1
+5071,A lateral thinking framework for semantic modelling of emergencies in smart cities,2014,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,QP2,8,1,1,sem,1
+5079,ENABLING INTEROPERABILITY OF URBAN BUILDING ENERGY DATA BASED ON OGC API STANDARDS AND CITYGML 3D CITY MODELS,2023,ISPRS Annals of the Photogrammetry Remote Sensing and Spatial Information Sciences,QP1,8,1,1,sem,1
+5090,BOTTOM-UP APPROACH FOR CREATING AN URBAN DIGITAL TWIN PLATFORM AND USE CASES: A City Energy System Dataset Visualisation And Query,2023,Proceedings of the International Conference on Computer Aided Architectural Design Research in Asia,QP1,8,1,1,pers,1
+5139,Decide better: Open and interoperable local digital twins,2025,Decide Better Open and Interoperable Local Digital Twins,QP1,8,1,1,gov,1
+5170,A user-driven design approach towards developing a citizen-centric digital twin for maintaining urban infrastructure,2025,Smart and Sustainable Built Environment,QP3,8,1,1,perf,1
+5255,"CityGML 3.0 as a Hub: Integrating BIM, GIS, and point cloud data for 3D streetspace modeling comprising roads, bridges and tunnels",2025,ISPRS Annals of the Photogrammetry Remote Sensing and Spatial Information Sciences,QP2,8,1,1,sem,1
+5262,An Effective Approach to Geometric and Semantic BIM/GIS Data Integration for Urban Digital Twin,2025,ISPRS International Journal of Geo Information,QP2,8,1,1,sem,1
+5288,A Digital Twin City Model for Capturing Walkability Distress of Elderly Adults,2022,2022 IEEE 2nd International Conference on Digital Twins and Parallel Intelligence Dtpi 2022,QP1,8,1,1,perf,1
+5372,An Interoperable Data Framework to Manipulate the Smart City Data using Semantic Technologies,2017,International Journal of Advanced Computer Science and Applications,QP2,7,1,1,sem,1
+5399,The Experience of Using the IES Cities Citizen-Centric IoT Platform,2017,IEEE Communications Magazine,QP1,7,1,1,perf,1
+5471,A more inclusive Europe through personal data sovereignty in cross-border digital public services,2023,International Conference on Theory and Practice of Electronic Governance,QP4,7,1,1,gov,1
+5483,Towards an Extensible Context Model for Mobile User in Smart Cities,2018,IFIP Advances in Information and Communication Technology,QP3,7,1,1,perf,1
+5506,Implementing Digital Sovereignty to Accelerate Smarter Mobility Solutions in Local Communities,2025,Smart Cities,QP1,7,1,1,gov,1
+5545,Geographic knowledge graph-guided twin modeling method for complex city scene,2025,International Journal of Applied Earth Observation and Geoinformation,QP2,7,1,1,sem,1
+5600,Intelligent Urban Traffic Management via Semantic Interoperability Across Multiple Heterogeneous Mobility Data Sources,2025,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,QP2,7,1,1,sem,1
+5601,Smart City Ontology Framework for Urban Data Integration and Application,2025,Smart Cities,QP2,7,1,1,sem,1
+5635,Extending CityGML with public input – social ADE,2024,Built Environment Project and Asset Management,QP3,7,1,1,sem,1
+5660,A data management middleware for ITS services in smart cities,2016,Journal of Universal Computer Science,QP1,7,1,1,pers,1
+5707,LLMasMMKG: LLM Assisted Synthetic Multi-Modal Knowledge Graph Creation For Smart City Cognitive Digital Twins,2024,Proceedings of the AAAI Symposium Series,QP2,7,1,1,sem,1
+5743,Open interoperability model for Society 5.0’s infrastructure and services,2023,Mathematical Biosciences and Engineering,QP2,6,1,1,sem,1
+5791,An Ontological Approach to Analysing Social Service Provisioning,2022,Isc2 2022 8th IEEE International Smart Cities Conference,QP2,6,1,1,sem,1
+5793,IKaaS data modeling: A data model for community services and environment monitoring in smart city,2015,Proceedings IEEE International Conference on Autonomic Computing Icac 2015,QP1,6,1,1,sem,1
+5794,A semantic web and linked data based framework for Smart City data management,2016,2016 13th International Conference on Electrical Engineering Electronics Computer Telecommunications and Information Technology Ecti Con 2016,QP2,6,1,1,sem,1
+5847,ComDeX: A Context-aware Federated Platform for IoT-enhanced Communities,2023,Debs 2023 Proceedings of the 17th ACM International Conference on Distributed and Event Based Systems,QP1,6,1,1,asn,1
+5862,A Proposed Framework for Enhanced Interoperability in Smart Cities Through Unified City Information Modeling (UCIM),2025,Lecture Notes in Civil Engineering,QP2,6,1,1,sem,1
+5895,Supporting the Natural Disaster Management Distributing Federated Intelligence over the Cloud-Edge Continuum: the TEMA Architecture,2023,"IEEE/ACM International Conference on Big Data Computing, Applications and Technologies (BDCAT)",QP1,6,1,1,asn,1
+5938,Research on Digital Twin Information System Based on Big Data Smart City Information Model,2023,2023 IEEE 6th International Conference on Information Systems and Computer Aided Education Iciscae 2023,QP1,6,1,1,sem,1
+6021,An OGC API-Based Framework for Scalable and Interoperable Urban Digital Twin Ecosystems: Insights from the OGC Urban Digital Twins Interoperability Pilot,2025,International Archives of the Photogrammetry Remote Sensing and Spatial Information Sciences ISPRS Archives,QP1,6,1,1,sem,1
+6028,CITYGML APPLICATION DOMAIN EXTENSION for 3D STRATA REPRESENTATIONS in the SMARTKADASTER SYSTEM: Towards beyond CADASTRE PURPOSE in MALAYSIA,2021,ISPRS Annals of the Photogrammetry Remote Sensing and Spatial Information Sciences,QP1,6,1,1,sem,1
+6033,M2M middleware based on OpenMTC platform for enabling smart cities solution,2016,Lecture Notes of the Institute for Computer Sciences Social Informatics and Telecommunications Engineering Lnicst,QP1,6,1,1,asn,1
+6060,Towards Semantic Smart Cities: A Study on the Conceptualization and Implementation of Semantic Context Inference Systems,2023,Sensors,QP2,6,1,1,sem,1
+6070,A Scalable Multilayer Middleware for Distributed Monitoring and Complex Event Processing for Smart Cities,2018,2018 IEEE International Smart Cities Conference Isc2 2018,QP1,6,1,1,asn,1
+6255,Incorum: A Citizen-Centric Sensor Data Marketplace for Urban Participation,2021,Advances in Intelligent Systems and Computing,QP4,5,1,1,gov,1
+6285,A linked data-based service for integrating heterogeneous data sources in smart cities,2020,Iceis 2020 Proceedings of the 22nd International Conference on Enterprise Information Systems,QP2,5,1,1,sem,1
+6369,Toward Data Lake Technologies for Intelligent Societies and Cities,2023,Eai Springer Innovations in Communication and Computing,QP1,5,1,1,pers,1
+6482,"OntoSmartDCU: A Multi-Agent Microservice Based Automated, Dynamic Ontology and Knowledge Graph Creation Framework From Real-Time Sensor Data for the Smart DCU Digital Twin",2024,2024 IEEE 10th World Forum on Internet of Things Wf Iot 2024,QP2,5,1,1,sem,1
+6545,UrbanPulse: Adaptable Middleware to offer City and User Centric Smart City Solution,2019,Middleware Demos and Posters 2019 Proceedings of the 2019 20th International Middleware Conference Demos and Posters Part of Middleware 2019,QP1,5,1,1,perf,1
+6593,Automated Generation Of Urban Digital Shadows Using Open Data,2024,Annsim 2024 Proceedings of the 2024 Annual Modeling and Simulation Conference,QP1,5,1,1,sem,1
+6656,Interacting with IoT Data Spaces Using LLMs and the Model Context Protocol,2026,Sensors,QP1,5,1,1,sem,1
+6662,A Connector for Integrating NGSI-LD Data into Open Data Portals,2024,Sensors,QP1,5,1,1,sem,1
+6749,An ontology based context-aware architecture for smart campus applications,2018,Proceedings 16th IEEE International Symposium on Parallel and Distributed Processing with Applications 17th IEEE International Conference on Ubiquitous Computing and Communications 8th IEEE International Conference on Big Data and Cloud Computing 11th IEEE International Conference on Social Computing and Networking and 8th IEEE International Conference on Sustainable Computing and Communications Ispa Iucc Bdcloud Socialcom Sustaincom 2018,QP2,5,1,1,sem,1
+6774,Creating a universal semantic material bank: Integrating digital twins and semantic web technologies for circular urban mining,2025,Digital Twins for Smart Metabolic Circular Cities Innovations in Planning and Climate Resilience,QP1,5,1,1,sem,1
+6780,Robust SmartCityAI Lakehouse: IKN (New Capital City of Indonesia) Case Study,2024,11th International Conference on ICT for Smart Society Integrating Data and Artificial Intelligence for A Resilient and Sustainable Future Living Iciss 2024 Proceeding,QP1,5,1,1,pers,1
+6985,Integrating Dynamic Data with 3D City Models via CityJSON Extension,2024,Lecture Notes in Geoinformation and Cartography,QP2,4,1,1,sem,1
+7056,Proposal for the Implementation of Spatial Common Ground and Spatial AI using the SSCP (Spatial Simulation-based Cyber-Physical) Model,2023,Proceedings of 2023 IEEE International Smart Cities Conference Isc2 2023,QP1,4,1,1,sem,1
+7084,Requirements and framework for Gaia-x-based building permit processes,2023,Computing in construction,QP4,4,1,1,gov,1
+7100,Architecture Building Blocks for Data Governance in Data Spaces,2025,Information,QP4,4,1,1,gov,1
+7183,An interdisciplinary framework for citizen-centered smart cities and smart living,2020,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,QP3,4,1,1,perf,1
+7209,Investigating the synergistic effects of temporal knowledge graphs and digital twin technologies to enhance situational awareness decision-making in smart cities,2025,Journal of Computational Methods in Sciences and Engineering,QP2,4,1,1,sem,1
+7231,An ontology-based emergency response system for interoperability in a crisis situation in smart cities,2018,Enterprise Interoperability Smart Services and Business Impact of Enterprise Interoperability,QP2,4,1,1,sem,1
+7253,European data spaces for urban digital twins: User-and implementation-driven recommendations,2024,Proceedings 2024 IEEE International Conference on Big Data Bigdata 2024,QP1,4,1,1,gov,1
+7345,Efficient and Scalable Semantic Data Ingestion for Smart City Digital Twin Platforms,2025,Proceedings of the IEEE International Conference on Big Data Computing Service and Applications Bigdataservice,QP2,4,1,1,sem,1
+7351,"Anticipatory AI Governance in Practice:Data Sovereignty, Urban AI, and Trustworthy GenAI in the Basque Country",2025,Proceedings 2025 IEEE International Conference on Agentic AI Ica 2025,QP4,4,1,1,gov,1
+7424,Publish/Subscribe-Middleware-Based Intelligent Transportation Systems: Applications and Challenges,2025,Applied Sciences Switzerland,QP1,4,1,1,asn,1
+7490,The Integration of OGC SensorThings API and OGC CityGML via Semantic Web Technology,2020,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,QP2,4,1,1,sem,1
+7586,From Digital Public Warning Systems to Emergency Warning Ecosystems,2023,Public Administration and Information Technology,QP5,3,1,1,asn,1
+7602,"Leveraging data spaces in digital twins for smart cities deployment: How digital twins powered by data spaces can help us build inclusive, sustainable smart cities",2023,Impact of Digital Twins in Smart Cities Development,QP1,3,1,1,gov,1
+7613,Enabling secure and trusted digital twin federations with data spaces,2025,Mobihoc 2025 Proceedings of the 2025 International Symposium on Theory Algorithmic Foundations and Protocol Design for Mobile Networks and Mobile Computing,QP4,3,1,1,gov,1
+7640,An IFC-based framework for semantic integration of BIM and mobile crowd sensing in real-time evacuation routing,2026,Advanced Engineering Informatics,QP2,3,1,1,sem,1
+7700,KCitychatBot: A knowledge graph based chatbot system for large-scale CityGML dataset,2025,International Archives of the Photogrammetry Remote Sensing and Spatial Information Sciences ISPRS Archives,QP2,3,1,1,sem,1
+7863,Geospatial sensor web resource management system for Smart City: Design and implementation,2014,Proceedings 14th IEEE ACM International Symposium on Cluster Cloud and Grid Computing Ccgrid 2014,QP1,3,1,1,pers,1
+7923,A model-driven middleware approach to reduce the semantic gap between application domains and the generic infrastructure of smart cities,2021,Companion Proceedings 24th International Conference on Model Driven Engineering Languages and Systems Models C 2021,QP2,3,1,1,sem,1
+7933,Cloud-based parametrized publish/subscribe system for public safety applications in smarter cities,2016,Proceedings 9th IEEE ACM International Conference on Utility and Cloud Computing Ucc 2016,QP2,3,1,1,asn,1
+7941,An Ontology and Geospatial Knowledge Graph for Reasoning About Cascading Failures,2024,Leibniz International Proceedings in Informatics Lipics,QP2,3,1,1,sem,1
+7991,Semantic registration and discovery system of subsystems and services within an interoperable coordination platform in smart cities,2016,Sensors Switzerland,QP1,3,1,1,sem,1
+8129,Interoperable Internet of Things for Smart Transportation Systems in Circular Cities,2022,Computer,QP1,3,1,1,sem,1
+8160,"Digital twin federation for urban mobility assessment: Definition, pillars, and a human-in-the-loop functional architecture",2026,Transportation Research Part A Policy and Practice,QP1,3,1,1,perf,1
+8251,A Reference Model for Urban Data Governance and its Design Principles,2024,Proceedings of the Annual Hawaii International Conference on System Sciences,QP4,3,1,1,gov,1
+8316,Privacy-preserving measures in smart city video surveillance systems,2020,Icissp 2020 Proceedings of the 6th International Conference on Information Systems Security and Privacy,QP4,3,1,1,gov,1
+8322,"Urban emergency detection system using hierarchical, collaborative and configurable wireless sensor networks",2023,Brazilian Symposium on Computing System Engineering Sbesc,QP5,3,1,1,asn,1
+8339,AI-Assisted Urban Flood Prevention Services Decision-Making Framework With Multi-Dimensional Data Fusion via Govern-Intranet,2025,International Journal of Web Services Research,QP1,3,1,1,gov,1
+8434,An evacuation management framework based on urban data and personalized mobility information,2018,Proceedings IEEE 4th International Conference on Big Data Computing Service and Applications Bigdataservice 2018,QP2,3,1,1,perf,1
+8518,From georeferenced data to socio-spatial knowledge. Ontology design patterns to discover domain-specific knowledge from crowdsourced data,2018,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,QP2,2,1,1,sem,1
+8520,Local Digital Twin Ecosystems: A Human-Centric Approach,2024,Lecture Notes in Information Systems and Organisation,QP3,2,1,1,perf,1
+8521,Privacy-Preserving Data Collection and Analysis for Smart Cities,2024,Human Centered Services Computing for Smart Cities IEICE Monograph,QP4,2,1,1,gov,1
+8555,Privacy-Preserving Edge Processing in Decentralized Citizen-Centric Sensor Networks,2024,Studies in Computational Intelligence,QP4,2,1,1,gov,1
+8578,Data Spaces as Enablers of Digital Twin Ecosystems: Challenges and Requirements,2026,IFIP Advances in Information and Communication Technology,QP1,2,1,1,gov,1
+8582,Construction of the CIM hierarchical classification semantic network based on multi-source heterogeneous data,2025,Qinghua Daxue Xuebao Journal of Tsinghua University,QP2,2,1,1,sem,1
+8617,Smart Urban Data Space for Citizen Science,2021,Electronic Communications of the Easst,QP1,2,1,1,gov,1
+8622,Integration and Exploitation of Sensor Data in Smart Cities through Event-Driven Applications,2019,Sensors Basel Switzerland,QP1,2,1,1,asn,1
+8650,"Urban Data Governance: an Interoperability-Based Approach for Monitoring Natural Threats at Different Geographic Scales, Through Smart City Platforms",2025,Lecture Notes in Computer Science,QP1,2,1,1,gov,1
+8667,An Updated Model of Trust and Trustworthiness for the use of Digital Technologies and Artificial Intelligence in City Making,2023,ACM International Conference Proceeding Series,QP4,2,1,1,gov,1
+8825,A parameter centric service discovery framework for social digital twins in smart City,2025,Scientific Reports,QP1,2,1,1,perf,1
+8893,Information Modeling for Data-Driven Digital Twin Simulation: Insights from Case Studies of Port Logistics and Urban Traffic Systems,2024,IFIP Advances in Information and Communication Technology,QP2,2,1,1,sem,1
+8932,Smart City Logistics Enabled by Digital Twins and Semantic Technologies,2024,Studies in Computational Intelligence,QP2,2,1,1,sem,1
+8982,Helix Multi-layered: a context broker federation for an efficient cloud-to-things continuum,2022,Annales Des Telecommunications Annals of Telecommunications,QP1,2,1,1,asn,1
+9042,Semantic Digital Twin Modeling of Urban Elements: Methods and Applications in Smart Cities,2025,Transactions in GIS,QP2,2,1,1,sem,1
+9068,Re-(De)fined Level of Detail for Urban Elements: Integrating Geometric and Attribute Data,2025,Architecture,QP2,2,1,1,sem,1
+9099,"Agentic AI-enhanced digital twins for Smart City civil infrastructure: A secure, autonomous and auditable management framework",2026,Plos One,QP4,2,1,1,gov,1
+9113,Construction Data Space for Building Permit Management,2024,Computing in construction,QP1,2,1,1,gov,1
+9156,Towards a Generic Metamodel for Urban Resilience Assessment,2023,Proceedings of the International Iscram Conference,QP5,2,1,1,sem,1
+9181,NEXUS (Networked Exchange of Unified Systems) for Data Exchange in a Federated Smart City Digital Twin: A Case Study on Twin Cities,2025,Proceedings 2025 27th IEEE International Conference on High Performance Computing and Communications 11th IEEE International Conference on Data Science and Systems 23rd IEEE International Conference on Smart City 11th IEEE International Conference on Dependability in Sensor Cloud and Big Data Systems and Applications and 21st IEEE International Conference on Embedded Software and Systems Hpcc Dss Smartcity Dependsys Icess 2025,QP1,2,1,1,asn,1
+9206,A Multi-faceted Interoperability Model for Reliable and Trustworthy Urban Digital Twins,2024,Goodit 2024 Proceedings of the 2024 International Conference on Information Technology for Social Good,QP5,2,1,1,gov,1
+9208,Technical & Data Protection Aspects of a Smart Digital Control Center for Smart Cities,2021,Lecture Notes in Informatics Lni Proceedings Series of the Gesellschaft Fur Informatik Gi,QP4,2,1,1,gov,1
+9399,Construction of Big Database in the Field of Public Security: A Case Study in Shenzhen,2021,Advances in Transdisciplinary Engineering,QP2,2,1,1,pers,1
+9454,Construction and Application of a Knowledge Graph for Flood Control and Emergency Response Plans,2023,Proceedings of SPIE the International Society for Optical Engineering,QP2,2,1,1,sem,1
+9466,Performance Verification of the Digital Archive Subsystem for Digital Twin-based Disaster Management Platform,2023,International Conference on Ubiquitous and Future Networks Icufn,QP1,2,1,1,pers,1
+9544,The AURORAL Privacy Approach for Smart Communities Based on ODRL,2025,Communications in Computer and Information Science,QP4,2,1,1,gov,1
+9548,WSNs in fiware – Towards the development of people-centric applications,2017,Communications in Computer and Information Science,QP1,2,1,1,perf,1
+9573,re-ISSUES—Renewable Energy-Linked Interoperable Smart and Sustainable Urban Environmental Systems,2024,Processes,QP1,2,1,1,sem,1
+9586,RES-Q: Toward Semantic Interoperability for Risk and Disaster Management in Smart Cities,2022,Internet of Things,QP1,2,1,1,sem,1
+9590,The traffic status and pollutant status ontologies for the smart city domain,2018,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,QP2,2,1,1,sem,1
+9594,Semantic interoperability and open IoT APIs for smart cities applications,2018,IFIP Advances in Information and Communication Technology,QP1,2,1,1,sem,1
+9621,Towards a message broker based platform for real-time streaming of urban IoT data,2019,Advances in Intelligent Systems and Computing,QP1,2,1,1,asn,1
+9743,A Glimpse of the CityGML Scenario Application Domain Extension,2026,International Archives of the Photogrammetry Remote Sensing and Spatial Information Sciences ISPRS Archives,QP2,1,1,1,sem,1
+9744,Semantic medical care in smart cities,2016,REAL CORP Repository (University of Southampton),QP1,1,1,1,sem,1
+9760,"An OGC standards-based Urban Digital Twin platform supporting co-creation of Positive Energy Districts: Case study of the Nordbahnhof district in Stuttgart, Germany",2026,ISPRS Annals of the Photogrammetry Remote Sensing and Spatial Information Sciences,QP1,1,1,1,sem,1
+9767,"Development of an Urban Digital Twin Based on Geospatial Data: A Case Study of Busan, South Korea",2026,ISPRS International Journal of Geo Information,QP1,1,1,1,pers,1
+9778,Trustworthy Urban Digital Twin: A RAG-based Architecture for Integrating Verifiable Knowledge,2026,Iet Conference Proceedings,QP2,1,1,1,sem,1
+9786,Open and Extendable Urban Digital Twins: Real-Time Data Pipelines and Conversational Interfaces for Sustainable Cities,2026,Procedia Computer Science,QP1,1,1,1,asn,1
+9803,Urban Digital Twin Data Requirements and Reference Architecture for Green Spaces and Ecosystems,2026,Lecture Notes in Civil Engineering,QP1,1,1,1,sem,1
+9854,"An Urban Data Management Platform for Bridging Trusted Ecosystems, Dataspaces, and Digital Twins",2025,16th International Conference on Information Intelligence Systems and Applications Iisa 2025,QP1,1,1,1,gov,1
+9869,Making Urban Energy Use More Intelligible Using Semantic Digital Twins,2023,Ceur Workshop Proceedings,QP2,1,1,1,sem,1
+9911,Towards the Integration of Digital Avatars in Urban Digital Twins on the Cloud-to-Thing Continuum,2024,Communications in Computer and Information Science,QP1,1,1,1,perf,1
+9917,Conceptual model of a web-based traffic flow management system in an urban environment based on microservice architecture,2026,Technologies and Engineering,QP1,1,1,1,asn,1
+9920,Research on Key Technologies of Real Scene 3D Cloud Service Platform for Digital Twin Cities,2022,ACM International Conference Proceeding Series,QP1,1,1,1,pers,1
+9928,Modeling and using intelligent multi-agent system in smart city: ontological approach,2023,Collection of scientific works of the State University of Infrastructure and Technologies series Transport Systems and Technologies,QP2,1,1,1,sem,1
+9938,TraffScOnto: Ontology for Traffic Management in the Context of Smart City Domain,2025,Lecture notes in networks and systems,QP2,1,1,1,sem,1
+9963,Enhancing safety in urban mobility with female digital twins,2026,AI and Society,QP3,1,1,1,perf,1
+9971,Developing a BIM–GIS-Based Digital Twin for the Operation and Maintenance of an Urban Ring Road: The M-30 Case Study,2026,Applied Sciences Switzerland,QP1,1,1,1,pers,1
+10020,Personalized intelligent mobility platform: An enrichment approach using social media,2016,Smart Innovation Systems and Technologies,QP3,1,1,1,perf,1
+10051,Research on the construction of a county-level city real scene 3D digital twin foundation platform,2025,Proceedings of SPIE the International Society for Optical Engineering,QP1,1,1,1,pers,1
+10062,Ensuring Data Quality in FIWARE-Based Air Quality Monitoring Systems: A Step-by-Step Approach,2025,IEEE International Conference on Emerging Technologies and Factory Automation ETFA,QP1,1,1,1,sem,1
+10094,An architecture for data management in Digital Twins for Smart Cities,2025,Digital Twin and Blockchain for Sensor Networks in Smart Cities,QP1,1,1,1,gov,1
+10101,System Architectures for Data Exchange in a Regional Federated Digital Twin: A Case Study on Birmingham Smart City,2025,2025 9th International Conference on Intelligent Computing and Virtual and Augmented Reality Simulations Icvars 2025,QP1,1,1,1,asn,1
+10170,Rapid Development of A Spatial Digital Twins Using Open-source Solutions,2024,International Archives of the Photogrammetry Remote Sensing and Spatial Information Sciences ISPRS Archives,QP1,1,1,1,pers,1
+10258,User-Centric Routing Based on Residents’ Needs and Preferences,2027,Lecture Notes in Computer Science,QP3,1,1,1,perf,1
+10271,The Montreal Model for Integrating Ethics and Legal Compliance to Data Governance Frameworks for Smart City Projects,2024,10th IEEE International Smart Cities Conference Smart Cities Revolution for Mankind Isc2 2024 Proceedings,QP4,1,1,1,gov,1
+10276,Knowledge Graph Application for Emergency Plan–Accident Case Integration: a Framework of Intelligent Urban Rail Transit Emergency Management,2026,International Journal of Intelligent Transportation Systems Research,QP5,1,1,1,sem,1
+10293,Development of the Standard Data Product Specification for 3D City Models Using CityGML,2025,ISPRS Annals of the Photogrammetry Remote Sensing and Spatial Information Sciences,QP1,1,1,1,sem,1
+10354,Smart City Data Commons under the Data Governance Act-Lowering the Threshold Toward Introducing Smart City Data Commons,2024,International and Comparative Law Review,QP4,1,1,1,gov,1
+10434,Towards Automatic Generation of Digital Twins: Graph-Based Integration of Smart City Datasets,2023,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,QP1,1,1,1,sem,1
+10448,Research and application of urban renewal big data platform,2025,Qinghua Daxue Xuebao Journal of Tsinghua University,QP1,1,1,1,pers,1
+10483,Real-Time Utility Assessment of Privacy-Anonymized Data: A Cross-Domain Framework for Smart Cities,2026,IEEE Access,QP4,1,1,1,gov,1
+10542,A Study on Test Framework of Data Model Conformance Test for Data Hub System Based on NGSI-LD in Smart City,2021,Journal of Korean Institute of Communications and Information Sciences,QP1,1,1,1,sem,1
+10565,CARGO: Compliant Analytics for Resilient Governance and Orchestration of Maritime Emissions in an Explainable Serverless Framework,2026,IEEE Access,QP4,1,1,1,gov,1
+10566,SEDS: Designing a Smart Energy Data Space for Secure and Trustworthy Real-Time Sharing of Household Energy Data,2025,Proceedings of the 11th IEEE International Smart Cities Conference Resilient and Sustainable Smart Communities Isc2 2025,QP4,1,1,1,gov,1
+10588,NET4SAFE: Network for Emergency and Safety Management. A Platform for Emergency Management and Accessibility,2026,Lecture Notes in Computer Science,QP2,1,1,1,perf,1
+10653,Multi-scale urban energy data integration for energy poverty assessment: A semantic approach with evidence from the Netherlands,2026,Sustainable Cities and Society,QP2,1,1,1,sem,1
+10655,Observation-Metadata-Centric Digital Twin Ontology for Heterogeneous MultiSensor Data in Smart Cities,2026,IEEE Internet of Things Journal,QP1,1,1,1,sem,1
+10688,Visual development environment for semantically interoperable smart cities applications,2016,Lecture Notes of the Institute for Computer Sciences Social Informatics and Telecommunications Engineering Lnicst,QP2,1,1,1,sem,1
+10781,On the challenge of service recommendation to mobile users in smart cities: Context and architecture,2020,International Archives of the Photogrammetry Remote Sensing and Spatial Information Sciences ISPRS Archives,QP3,1,1,1,perf,1
+10793,MicroMaps: Ontology-Driven Semantic Geospatial Data Fusion Approach for IoT Integration and Decision Making in Smart,2025,Proceedings 9th International Conference on Cloud Big Data and Communication Systems Iccbdcs 2025,QP2,1,1,1,sem,1
+10801,EXTENDING IFC DATA STRUCTURE FOR CARBON DIGITAL TWIN: AN IFC ROAD EXAMPLE,2025,Proceedings of the European Conference on Computing in Construction,QP2,1,1,1,sem,1
+10824,Integrated Information Framework based on Facilities and Urban Services for Ensuring Data Interoperability of Smart City,2025,Korean Journal of Construction Engineering and Management,QP2,1,1,1,sem,1
+10876,A Standards-based Approach for Cross-Domain Modelling of Smart City System Architectures,2023,2023 8th International Conference on Smart and Sustainable Technologies Splitech 2023,QP1,1,1,1,sem,1
+10910,CoSMiC-Common SMart iot Connectiv oneM2M Common Service Platform for Intelligent Transportation System,2021,Proceedings of the 2021 2nd International Conference on Communication Computing and Industry 4 0 C2i4 2021,QP1,1,1,1,asn,1
+10961,DATAVAULTS APP: personal data platform in the smart cities domain and its potential integration into IDS architectures (international data space),2023,Dyna Spain,QP4,1,1,1,gov,1
+11090,Federated Data Spaces as an Enabler for Smart City Services - Logistics Use-Case Example,2025,IEEE European Technology and Engineering Management Summit E Tems,QP1,1,1,1,gov,1
+11236,GraphRAG-Enhanced Dialogue Engine for Domain-Specific Question Answering: A Case Study on the Civil IoT Taiwan Platform,2025,Future Internet,QP2,1,1,1,sem,1
+11672,Environment Monitoring System for Smart Cities Using Ontology,2019,Lecture Notes in Intelligent Transportation and Infrastructure,QP2,1,1,1,sem,1
+11749,A novel WebGIS-based situational awareness platform for trustworthy big data integration and analytics in mobility context,2017,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,QP1,1,1,1,gov,1
+11823,The Urban Model Platform: a public backbone for modeling and simulation in urban digital twins,2027,Computers Environment and Urban Systems,QP1,0,1,1,pers,1
+11884,The SmartResponse Framework: A Semantic Digital Twin Approach to Remote Emergency Command,2026,Applied Human Factors and Ergonomics International,QP1,0,1,1,sem,1
+11910,A Semantic Ontology Model Construction Approach for the Station–City Integration Cyberspace,2026,Applied Ontology,QP2,0,1,1,sem,1
+12021,StayIn: An Intelligent Accommodation and Safety Recommendation Platform for Urban Mobility,2026,Computing Communication and Sustainable Energy Technologies Sustainable Electronics and Emerging Energy Technologies Volume 2,QP3,0,1,1,perf,1
+12336,Data Spaces - Public Sector Implementation of Sovereign Data Collaboration,2026,Digital Government Research and Practice,QP4,0,1,1,gov,1
+12434,Towards a minimum viable dataspace for the CEDS public sector: An initial implementation,2026,Data in Brief,QP1,0,1,1,gov,1
+12570,Design and Implementation of Multi-Dimensional Convergence Information Platform Based on Spatial and Disaster Safety Information,2024,Journal of Korean Institute of Communications and Information Sciences,QP1,0,1,1,pers,1
+12743,Event-based digital-twin model for emergency management,2023,Management and Engineering of Critical Infrastructures,QP4,0,1,1,asn,1
+12819,"Participatory Urban Governance: A Human-Centered Framework Integrating AI, Digital Twin, and FabLab for Community Empowerment",2026,Lecture Notes in Computer Science,QP1,0,1,1,perf,1
+12907,Smart Platforms for Social Cohesion and Experience Economy: SANA as a Model for Human-Centric Smart Cities,2026,Urban Sustainability,QP3,0,1,1,perf,1
+13036,Digitalizing Governance: Implementing a SMART City Framework for Enhanced Public Services and Citizen Engagement in Malabon,2026,2026 17th International Conference on E Education E Business E Management and E Learning Ic4e 2026,QP1,0,1,1,perf,1
+13641,Design of the Platform Architecture Providing Information for Barrier-Free Tourism,2018,Proceedings 2018 1st IEEE International Conference on Artificial Intelligence and Knowledge Engineering Aike 2018,QP1,0,1,1,perf,1
+13660,Data Space-Empowered Product Lifecycle Management for Smart Cities: A Decentralized Data Ecosystem Paradigm,2025,Proceedings 2025 International Conference on Computer Internet of Things and Smart City Ciotsc 2025,QP1,0,1,1,gov,1
+13695,"Towards Citizen-Centric Smart Cities: A Unified Participatory Platform Informed by the Perspectives of Local Elected Officials in the Western Sector of Athens, Greece",2026,Sustainability Switzerland,QP3,0,1,1,perf,1
+13821,Misci middleware for smart cities extended with linked data,2020,Dyna Colombia,QP1,0,1,1,sem,1
+14065,A Standardizable Network Architecture Supporting Interoperability in the Smart City Internet of Things,2018,Lecture Notes of the Institute for Computer Sciences Social Informatics and Telecommunications Engineering Lnicst,QP1,0,1,1,sem,1
+14215,Development of Urban-Level Infrastructure Information Delivery Manuals Using Knowledge Modularization for Enhanced Smart City Data Exchanges,2024,Construction Research Congress 2024 CRC 2024,QP2,0,1,1,sem,1
+14303,A Multi-Domain Geospatial Framework for the Assessment of Urban Preparedness to Emergencies,2025,Proceedings of the 11th IEEE International Smart Cities Conference Resilient and Sustainable Smart Communities Isc2 2025,QP2,0,1,1,pers,1
+14333,The MARVEL Data Corpus: A Secure and Privacy-Aware Multimodal Big Data Repository for Smart Cities Research,2025,Balkancom 2025 8th International Balkan Conference on Communications and Networking Empowering Connections Enabling Innovation,QP4,0,1,1,gov,1
+14344,Architecting the Future: Harmonizing SOA and Microservices in IoT-Driven Smart Cities,2025,2025 33rd International Conference on Software Telecommunications and Computer Networks Softcom 2025,QP1,0,1,1,asn,1
+14366,Blockchain-Enabled Consent-Based Data Governance for Smart Territories,2027,Lecture Notes in Networks and Systems,QP4,0,1,1,gov,1
+14381,"A distributed data governance architecture for smart cities based on data unified registration, dynamic catalog, and local LLM data coordination",2026,Urban Informatics,QP1,0,1,1,gov,1
+14397,Software requirements for semantic-based antifragile urban mobility decision-support systems under disruption,2026,Progress in Disaster Science,QP2,0,1,1,sem,1
+14482,CIM Wizard: A Flexible Framework for Automated CityJSON Generation from Sparse Urban Data,2026,Proceedings 2026 IEEE 50th Annual Computers Software and Applications Conference Compsac 2026,QP2,0,1,1,sem,1
+14528,Ontology-Driven Integration of Multimodal Data for Smart City Analytics,2026,Integrated Systems AI Augmented Engineering,QP2,0,1,1,sem,1
+14550,"Towards an ontology for the governance of secure, resilient and interoperable digital twins",2026,2026 IEEE International Conference on Communications Workshops Icc Workshops 2026 Proceedings,QP4,0,1,1,gov,1
+14745,Conceptual Analysis and Design of Semantic Interoperability of Smart City Services,2023,Lecture Notes in Networks and Systems,QP2,0,1,1,sem,1
+14760,Enabling Interoperability Within the Digital Twin Architecture for Emergency Management,2025,IEEE European Technology and Engineering Management Summit E Tems,QP1,0,1,1,sem,1
+14778,Towards Semantic Interoperability in Digital Twins: An Ontology Based Approach,2026,Proceedings 2026 IEEE 23rd International Conference on Software Architecture Companion Icsa C 2026,QP2,0,1,1,sem,1
+14793,Sensing Envelopes: Urban Envelopes in the Smart City Ontology Framework,2026,ISPRS International Journal of Geo Information,QP2,0,1,1,sem,1
+14804,Building an Inclusive and Sustainable Smart City: A Pilot Project on Decentralized Digital Identity and Data Governance in Santa Rosa,2026,29th Ibero American Conference on Software Engineering Cibse 2026,QP4,0,1,1,gov,1
+14825,Zonology: An Ontology-Based Framework for Harmonizing Zoning Semantics Across Multi-Jurisdictional Greater Toronto Area (GTA) Planning Systems,2026,International Archives of the Photogrammetry Remote Sensing and Spatial Information Sciences ISPRS Archives,QP2,0,1,1,sem,1
+14888,Key Technologies for Cross-Domain Trusted Collaborative Governance of Urban Data,2026,2026 7th International Seminar on Artificial Intelligence Networking and Information Technology Ainit 2026,QP4,0,1,1,gov,1
+14915,"Semantic Interoperability in Smart Cities: A Distributed Architecture Based on Ontologies, Plug-and-Play AI, and BlockDAG",2026,12th 2026 International Conference on Control Decision and Information Technologies Codit 2026,QP2,0,1,1,sem,1
+14925,"Traceability, Veracity, and Auditing of AI Models in Smart Cities: A High-Performance Computing Framework for Responsible Urban AI Governance",2026,AI Based Computational Mathematical Models for Smart Cities Generation Simulation and Decision Systems,QP4,0,1,1,gov,1
+14926,Life-Line Navigator: Smart Emergency Routing and Alert System,2026,Proceedings of 2nd International Conference on Visual Analytics and Data Visualization Icvadv 2026,QP2,0,1,1,asn,1
+15021,Adaptive Multi-Layer Federated Digital Twin Communication Framework for Intelligent and Sustainable Smart Urban Planning Systems,2026,2026 5th International Conference on Distributed Computing and Electrical Circuits and Electronics Icdcece 2026,QP1,0,1,1,asn,1
+15100,Fiware-enabled tool for real-time control of the raw-water conveyance system of Athens,2022,Proceedings of the IAHR World Congress,QP1,0,1,1,asn,1
+15191,Golden-Time Policy-Grounded Natural-Language Control for Public Safety Cyber-Physical Systems,2026,IEEE Access,QP2,0,1,1,asn,1
+15270,SEMIWARE: A Smart City Middleware Empowering Semantic Interoperability via Social IoT Integration,2026,Iot,QP2,0,1,1,sem,1
+15289,Bridging IoT Sensors and Context Brokers: A Software Stack for NGSI-LD Interoperability,2025,Proceedings of the 11th IEEE International Smart Cities Conference Resilient and Sustainable Smart Communities Isc2 2025,QP1,0,1,1,sem,1
+15294,Normalized City Analytics Based on a Semantic Interoperability Process,2024,Proceedings of the I ESA Conferences,QP2,0,1,1,sem,1
+15377,GeoPrivd: Geospatial Privacy-Preserving Urban Traffic Video Analytics Queries With Trajectory-Level Sensitivity Control,2026,IEEE Transactions on Information Forensics and Security,QP4,0,1,1,gov,1
+15524,Approaches to the Data Governance in Transportation Domain – Data Quality Rules Design and an Example of Traffic Data Inspection,2025,Transactions on Transport Sciences,QP4,0,1,1,gov,1
+15632,Multi-Layered Cross-Domain Data Governance Framework to Ensure Privacy Compliance and Ethical Management in Highly Interconnected Smart City Systems,2025,2025 IEEE 1st International Conference on Recent Trends in Computing and Smart Mobility Rcsm 2025,QP4,0,1,1,gov,1
+15635,Research on Privacy-Preserving Computing-Based Trusted Data Space for Urban IoT Perception,2025,Proceedings 2025 2nd International Symposium on Iot and Intelligent Robotics Iotir 2025,QP4,0,1,1,gov,1
+15710,European Data Regulation and Digital Innovation: A Case of a Smart City Digital Platform,2025,Journal of Innovation Management,QP4,0,1,1,gov,1
+15711,Research on key technologies for block data governance in smart cities,2025,Proceedings of SPIE the International Society for Optical Engineering,QP2,0,1,1,gov,1
+15911,Sustainable Smart City Transformation: A Call for Data Governance Using a Data Mesh Approach,2024,Green Computing for Sustainable Smart Cities A Data Analytics Applications Perspective,QP4,0,1,1,gov,1
+15919,Ontology-based annotation and fuzzy recommendation for community formation in smart city knowledge platforms,2026,Frontiers in Artificial Intelligence,QP2,0,1,1,sem,1
+15944,Resource-Aware Dual-Granularity Synchronization Strategy for Transportation Digital Twin,2025,International Conference on Communication Technology Proceedings ICCT,QP1,0,1,1,asn,1
+15947,Design of Data Management System for Sustainable Development of Urban Agglomerations’ Ecological Environment Based on Data Lake Architecture,2024,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,QP1,0,1,1,pers,1
+16189,WizRD: A Personalized Wayfinding Platform for Enhanced Urban Navigation,2026,Lecture Notes in Computer Science,QP1,0,1,1,perf,1
+16204,A multi-agent approach for context-aware tourism and urban mobility guidance,2026,Results in Engineering,QP2,0,1,1,perf,1
+16235,Human-Centric Digital Twins for Road Safety and Future Autonomous Mobility,2026,Digital Twin Approaches in Autonomous Vehicles,QP3,0,1,1,perf,1
+16262,Urban AI OS: An LLM-Driven Semantic Orchestration Layer for Distributed Edge Intelligence,2026,Electronics Switzerland,QP1,0,1,1,sem,1
+16279,Urban Knowledge Graph-Enhanced Explainable Recommendation Approach for Destination Choice,2025,33rd ACM Sigspatial International Conference on Advances in Geographic Information Systems ACM Sigspatial 2025,QP2,0,1,1,sem,1
+16294,A Privacy-Preserving Digital Twin Framework for Smart Car Parking in Smart Buildings,2026,Proceedings 2026 22nd International Conference on Distributed Computing in Smart Systems and the Internet of Things Dcoss Iot 2026,QP4,0,1,1,gov,1
+16409,An IoT-Semantic Web Services Integration Framework for Context-Aware Smart City Applications,2026,7th International Conference on Inventive Research in Computing Applications Icirca 2026 Proceedings,QP1,0,1,1,sem,1
+16430,Knowledge Graphs for Integrated Urban Data Management in Smart Cities: A Framework for Semantic Interoperability Across Urban Domains,2026,Urban Science,QP2,0,1,1,sem,1
+16468,RouteKG: A Knowledge Graph-Based Framework for Route Prediction on Road Networks,2025,IEEE Transactions on Intelligent Transportation Systems,QP2,0,1,1,sem,1
+16552,The Challenge for Cities of Governing Spatial Data Privacy,2023,Governing Smart Cities as Knowledge Commons,QP4,0,1,1,gov,1
+16737,"PRISM-IWMS: A Privacy-Preserving, Resource-Aware, Incentive-Aligned Digital-Twin Framework for Waste Management System",2025,2025 IEEE 7th International Conference on Computing Communication and Automation Iccca 2025,QP4,0,1,1,gov,1
+16760,Driving model of big data governance in urban community safety service,2019,Multi Conference on Computer Science and Information Systems Mccsis 2019 Proceedings of the International Conferences on Big Data Analytics Data Mining and Computational Intelligence 2019 and Theory and Practice in Modern Computing 2019,QP4,0,1,1,gov,1
+16907,Toward AI-Ready Urban Digital Twins: A Unified Geospatial Middleware Architecture for the City of Vienna,2026,ePLUS,QP2,0,1,1,sem,1
+16919,AI-Driven Cognitive Digital Twins for Human-Centric Decision Making in Smart Cities,2026,International Research Journal on Advanced Engineering and Management (IRJAEM),QP3,0,1,1,perf,1
+16948,Twinning living heritage: human-centered digital twins coupling CADA and HUL for arid cities,2026,Frontiers in Built Environment,QP3,0,1,1,perf,1
+17052,Edge-Resident GraphRAG Architecture for Conversational Smart-City Traffic Digital Twins,2026,Proceedings of the Iccspa 2026 7th International Conference on Communications Signal Processing and their Applications,QP2,0,1,1,sem,1
+17099,Data space layer for wastewater digital twins,2026,Digital Water,QP1,0,1,1,gov,1
+17105,Semantic Core for Sensor Telemetry Ingestion for Digital Twins,2026,Smart Cities,QP2,0,1,1,sem,1
+17170,Adopt: A Context-Aware Domain Ontology-Based Framework For Public Transportation,2021,,QP2,0,1,1,sem,1
+17247,Interrelationship-based model view definition development of a smart city using an urban-level ontology,2023,Computing in construction,QP2,0,1,1,sem,1
+17248,Facilitating Model View Definition Development for Data Interoperability in Urban Infrastructure Systems Using Design Structure Matrices and Ontology,2024,Civil War Book Review,QP2,0,1,1,sem,1
+17271,Bridging Structural Legacy and Dynamic Pulse: Towards Achieving Interoperability for European Local Digital Twins,2027,Lecture Notes on Data Engineering and Communications Technologies,QP1,0,1,1,sem,1
+17294,A Domain Model for Urban Digital Twins,2024,Proceedings 2024 IEEE Conference on Pervasive and Intelligent Computing Picom 2024,QP1,0,1,1,sem,1
+17314,Privacy in Smart City Digital Twin,2026,Ensuring Privacy in Digital Twin Ecosystems,QP4,0,1,1,gov,1
+17430,Integration of 3D city model and sensor observations based on international open standards,2018,Proceedings 39th Asian Conference on Remote Sensing Remote Sensing Enabling Prosperity Acrs 2018,QP2,0,1,1,sem,1
+17431,An open internet of thing architecture integrating OnEM2M and OGC sensorthings API standards,2018,Proceedings 39th Asian Conference on Remote Sensing Remote Sensing Enabling Prosperity Acrs 2018,QP1,0,1,1,asn,1
+17656,Spatial ID-Driven Edge-Cloud Architecture for Real-Time Urban Digital Twins,2026,Proceedings IEEE Consumer Communications and Networking Conference Ccnc,QP1,0,1,1,asn,1
+17667,A Declarative Geographic Knowledge Graph Framework for District-Scale Urban Infrastructure Analysis,2026,IEEE Access,QP2,0,1,1,sem,1
+17692,"A Reference Use Case, Data Space Architecture, and Prototype for Smart Truck Parking",2022,Ceur Workshop Proceedings,QP1,0,1,1,gov,1
+17720,Greentwin: A Cloud-Native Digital Twin Architecture for Citizen-Centric Green Interventions in Smart Cities,2026,2026 7th International Conference on Big Data Analytics and Practices Ibdap 2026,QP1,0,1,1,perf,1
+17786,Engineering a 2.5D Urban Twin: Semantic GeoAI Discovery and Blockchain-Provenanced Updates,2026,2026 International Conference on Frontiers of Engineering and Emerging Technologies Fet 2026,QP1,0,1,1,sem,1
+17805,From Expert-Centric to Regenerative Urbanism: A Social Digital Twin Framework for Bridging Urban Intelligence and Citizen Engagement,2026,Urban Sustainability,QP3,0,1,1,perf,1
+17825,Human-Centric Urban Planning Using Behavioral Digital Twins and Predictive Analytics,2026,International Journal of Artificial Intelligence and Machine Learning,QP3,0,1,1,perf,1
+17830,City Information Modelling and Urban Digital Twins: Global Implementation and Governance,2026,ISPRS International Journal of Geo Information,QP4,0,1,1,gov,1
+17873,A Framework for Integrating and Managing Heterogeneous 3D Geospatial Data in Urban Digital Twins,2026,International Archives of the Photogrammetry Remote Sensing and Spatial Information Sciences ISPRS Archives,QP1,0,1,1,pers,1
+17919,Enhancing Knowledge Transfer and Reuse of Information Resources through a Specialised Metadata Catalog for Urban Digital Twins,2026,ISPRS Annals of the Photogrammetry Remote Sensing and Spatial Information Sciences,QP2,0,1,1,sem,1
+17925,A Distributed Storage and Indexing Framework Based on Hierarchical Space-Time Grid Encoding for Digital Cities,2026,ISPRS International Journal of Geo Information,QP1,0,1,1,pers,1
+17930,From Planning Question to Spatial Database: A Geospatial Data Scheme-Aware Importer for Urban Digital Twins,2026,ISPRS Annals of the Photogrammetry Remote Sensing and Spatial Information Sciences,QP1,0,1,1,pers,1
+17939,Towards Formalizing Scenario Modeling in Semantic 3D City Models,2026,ISPRS Annals of the Photogrammetry Remote Sensing and Spatial Information Sciences,QP2,0,1,1,sem,1
+17972,Smart City Digital Twin Framework for Semantic Indexing and Dynamic Modelling of 3D Buildings,2027,Lecture Notes in Computer Science,QP1,0,1,1,sem,1
+17974,Extending 3DCityDB with Oracle AI Database Support and LLM-Based Natural Language Interfaces,2026,International Archives of the Photogrammetry Remote Sensing and Spatial Information Sciences ISPRS Archives,QP1,0,1,1,pers,1
+30,"Urban digital twins for smart cities and citizens: The case study of herrenberg, germany",2020,Sustainability Switzerland,QP1,619,1,1,,0
+34,Developing a Digital Twin at Building and City Levels: Case Study of West Cambridge Campus,2020,Journal of Management in Engineering,QP1,578,1,1,,0
+41,The Digital Twin of the City of Zurich for Urban Planning,2020,Pfg Journal of Photogrammetry Remote Sensing and Geoinformation Science,QP1,507,1,1,,0
+49,Sii-Mobility: An IoT/IoE Architecture to Enhance Smart City Mobility and Transportation Services,2018,Sensors,QP1,472,1,1,,0
+63,Smart city architecture and its applications based on IoT,2015,Procedia Computer Science,QP1,374,1,1,,0
+73,"Mobility Digital Twin: Concept, Architecture, Case Study, and Future Challenges",2022,IEEE Internet of Things Journal,QP1,334,1,1,,0
+76,Smart city based on digital twins,2021,Computational Urban Science,QP1,318,1,1,,0
+89,Information centric services in Smart Cities,2014,Journal of Systems and Software,QP1,291,1,1,,0
+93,Smart city digital twins,2017,2017 IEEE Symposium Series on Computational Intelligence Ssci 2017 Proceedings,QP1,288,1,1,,0
+123,Smart City Platform Enabling Digital Twin,2018,9th International Conference on Intelligent Systems 2018 Theory Research and Innovation in Applications is 2018 Proceedings,QP1,232,1,1,,0
+168,Participatory Sensing and Digital Twin City: Updating Virtual City Models for Enhanced Risk-Informed Decision-Making,2020,Journal of Management in Engineering,QP1,190,1,1,,0
+186,Collaborative city digital twin for the COVID-19 pandemic: A federated learning solution,2021,Tsinghua Science and Technology,QP1,181,1,1,,0
+213,An ISO/IEEE 11073 Standardized Digital Twin Framework for Health and Well-Being in Smart Cities,2020,IEEE Access,QP1,165,1,1,,0
+230,IoT software infrastructure for energy management and simulation in smart cities,2017,IEEE Transactions on Industrial Informatics,QP1,158,1,1,,0
+247,Smart city IoT services creation through large-scale collaboration,2020,IEEE Internet of Things Journal,QP1,151,1,1,,0
+253,Urban development with dynamic digital twins in Helsinki city,2021,Iet Smart Cities,QP1,148,1,1,,0
+279,Social Sensing in Disaster City Digital Twin: Integrated Textual-Visual-Geo Framework for Situational Awareness during Built Environment Disruptions,2020,Journal of Management in Engineering,QP2,138,1,1,,0
+290,Digital twin of city: Concept overview,2020,Proceedings 2020 Global Smart Industry Conference Glosic 2020,QP1,133,1,1,,0
+569,ALMANAC: Internet of things for smart cities,2015,Proceedings 2015 International Conference on Future Internet of Things and Cloud Ficloud 2015 and 2015 International Conference on Open and Big Data Obd 2015,QP1,85,1,1,,0
+589,Design and evaluation of a scalable smart city software platform with large-scale simulations,2019,Future Generation Computer Systems,QP1,83,1,1,,0
+624,Agent-based middleware framework using distributed CPS for improving resource utilization in smart city,2020,Future Generation Computer Systems,QP1,80,1,1,,0
+643,An Ingestion and Analytics Architecture for IoT Applied to Smart City Use Cases,2018,IEEE Internet of Things Journal,QP2,77,1,1,,0
+649,A digital twin uses classification system for urban planning & city infrastructure management,2021,Journal of Information Technology in Construction,QP1,77,1,1,,0
+662,ECA: An edge computing architecture for privacy-preserving in IoT-Based smart city,2019,IEEE Access,QP4,76,1,1,,0
+683,A cloud-based architecture for emergency management and first responders localization in smart city environments,2016,Computers and Electrical Engineering,QP1,74,1,1,,0
+710,Developing a city-level digital twin - Propositions and a case study,2019,International Conference on Smart Infrastructure and Construction 2019 Icsic 2019 Driving Data Informed Decision Making,QP1,72,1,1,,0
+730,A digital twin decision support system for the urban facility management process,2021,Sensors,QP1,71,1,1,,0
+749,Development of a Smart City Platform Based on Digital Twin Technology for Monitoring and Supporting Decision-Making,2023,Sustainability Switzerland,QP1,70,1,1,,0
+765,Towards a digital twin for supporting multi-agency incident management in a smart city,2022,Scientific Reports,QP1,69,1,1,,0
+811,Multi-Agent Systems and Digital Twins for Smarter Cities,2021,Sigsim PADS 2021 Proceedings of the 2021 ACM Sigsim Conference on Principles of Advanced Discrete Simulation,QP1,65,1,1,,0
+915,Combining Green Metrics and Digital Twins for Sustainability Planning and Governance of Smart Buildings and Cities,2022,Sustainability Switzerland,QP1,61,1,1,,0
+973,"Urban Intelligence: A Modular, Fully Integrated, and Evolving Model for Cities Digital Twinning",2019,Honet ICT 2019 IEEE 16th International Conference on Smart Cities Improving Quality of Life Using ICT Iot and AI,QP1,58,1,1,,0
+1034,Design of traffic emergency response system based on internet of things and data mining in emergencies,2019,IEEE Access,QP1,55,1,1,,0
+1064,A novel emergency management platform for smart public safety,2015,International Journal of Communication Systems,QP1,53,1,1,,0
+1109,Monitoring noise pollution using the urban civics middleware,2015,Proceedings 2015 IEEE 1st International Conference on Big Data Computing Service and Applications Bigdataservice 2015,QP1,52,1,1,,0
+1110,A trustworthy siot aware mechanism as an enabler for citizen services in smart cities,2020,Electronics Switzerland,QP4,52,1,1,,0
+1137,A platform for integrating heterogeneous data and developing smart city applications,2022,Future Generation Computer Systems,QP1,51,1,1,,0
+1138,A conceptual digital twin framework for city logistics,2023,Computers Environment and Urban Systems,QP1,51,1,1,,0
+1178,Knowledge Discovery in Smart City Digital Twins,2020,Hawaii International Conference on System Sciences (HICSS),QP2,49,1,1,,0
+1240,MicroServices Suite for Smart City Applications,2019,Sensors,QP1,47,1,1,,0
+1276,InterSCity: A scalable microservice-based open source platform for smart cities,2017,Smartgreens 2017 Proceedings of the 6th International Conference on Smart Cities and Green ICT Systems,QP1,45,1,1,,0
+1290,A Generic Internet of Things (IoT) Middleware for Smart City Applications,2023,Sustainability Switzerland,QP1,45,1,1,,0
+1316,Digital twin modeling of smart cities,2021,Advances in Intelligent Systems and Computing,QP1,44,1,1,,0
+1338,Km4City Smart City API: An Integrated Support for Mobility Services,2016,2016 IEEE International Conference on Smart Computing Smartcomp 2016,QP1,43,1,1,,0
+1374,"DTUMOS, digital twin for large-scale urban mobility operating system",2023,Scientific Reports,QP1,42,1,1,,0
+1493,Urban flooding digital twin system framework,2025,Systems Science and Control Engineering,QP1,40,1,1,,0
+1540,Context Design and Tracking for IoT-Based Energy Management in Smart Cities,2018,IEEE Internet of Things Journal,QP2,38,1,1,,0
+1552,Distributed Architectures for Intensive Urban Computing: A Case Study on Smart Lighting for Sustainable Cities,2019,IEEE Access,QP1,38,1,1,,0
+1758,Enabling Customizable Services for Multimodal Smart Mobility with City-Platforms,2021,IEEE Access,QP1,33,1,1,,0
+1772,Implementing integrated digital twin modelling and representation into the Snap4City platform for smart city solutions,2024,Multimedia Tools and Applications,QP1,33,1,1,,0
+1803,Framework for an autonomic transport system in smart cities,2015,Cybernetics and Information Technologies,QP2,32,1,1,,0
+1816,Digital Twins of Urban Air Quality: Opportunities and Challenges,2021,Frontiers in Sustainable Cities,QP1,32,1,1,,0
+1850,Building digital twins of cities using the Inter Model Broker framework,2023,Future Generation Computer Systems,QP1,31,1,1,,0
+1869,"Liveable City Digital Twin: A Pilot Project for the City of Liverpool (NSW, AUSTRALIA)",2022,ISPRS Annals of the Photogrammetry Remote Sensing and Spatial Information Sciences,QP1,31,1,1,,0
+1903,Urban digital twin applications as a virtual platform of smart city,2021,International Journal of Sustainable Building Technology and Urban Development,QP1,30,1,1,,0
+2015,BIoTope: Building an IoT Open Innovation Ecosystem for Smart Cities,2020,IEEE Access,QP1,29,1,1,,0
+2023,"A Federated Platform Enabling a Systematic Collaboration Among Devices, Data and Functions for Smart Mobility",2023,IEEE Transactions on Intelligent Transportation Systems,QP1,28,1,1,,0
+2043,A Digital Twin Framework to Improve Urban Sustainability and Resiliency: The Case Study of Venice,2025,Land,QP1,28,1,1,,0
+2049,An Urban Digital Twin Framework for Reference and Planning,2024,IEEE Access,QP1,28,1,1,,0
+2136,Mapping Local Vulnerabilities into a 3D City Model through Social Sensing and the CAVE System toward Digital Twin City,2019,Computing in Civil Engineering 2019 Smart Cities Sustainability and Resilience Selected Papers from the ASCE International Conference on Computing in Civil Engineering 2019,QP1,27,1,1,,0
+2179,A holistic and interoperable approach towards the implementation of services for the digital transformation of smart cities: The case of Vitoria-Gasteiz (Spain),2021,Sensors,QP1,26,1,1,,0
+2219,A Framework for Standardization of Distributed Ledger Technologies for Interoperable Data Integration and Alignment in Sustainable Smart Cities,2024,Journal of the Knowledge Economy,QP4,26,1,1,,0
+2251,"An Urban Intelligence Architecture for Heterogeneous Data and Application Integration, Deployment and Orchestration",2024,Sensors,QP1,25,1,1,,0
+2284,Smart twin cities via urban operating system,2017,ACM International Conference Proceeding Series,QP1,25,1,1,,0
+2285,A FIWARE-based IoT Framework for Smart Water Distribution Management,2021,Iisa 2021 12th International Conference on Information Intelligence Systems and Applications,QP1,25,1,1,,0
+2296,A service-oriented middleware for cloud of things and fog computing supporting smart city applications,2018,2017 IEEE Smartworld Ubiquitous Intelligence and Computing Advanced and Trusted Computed Scalable Computing and Communications Cloud and Big Data Computing Internet of People and Smart City Innovation Smartworld Scalcom Uic Atc Cbdcom Iop SCI 2017 Conference Proceedings,QP1,25,1,1,,0
+2323,"AI Agent-Based Intelligent Urban Digital Twin (I-UDT): Concept, Methodology, and Case Studies",2025,Smart Cities,QP1,25,1,1,,0
+2386,Enabling civil–military collaboration for disaster relief operations in smart city environments,2023,Future Generation Computer Systems,QP4,24,1,1,,0
+2612,Improving public safety at fingertips: A smart city experience,2016,IEEE 2nd International Smart Cities Conference Improving the Citizens Quality of Life Isc2 2016 Proceedings,QP2,22,1,1,,0
+2623,Integration of Heterogeneous Sensor Systems for Disaster Responses in Smart Cities: Flooding as an Example,2023,ISPRS International Journal of Geo-Information,QP1,22,1,1,,0
+2677,The Intersection of the Green and the Smart City: A Data Platform for Health and Well-Being through Nature-Based Solutions,2024,Smart Cities,QP1,21,1,1,,0
+2678,Mobility and Transport Data for City Digital Twin Modeling and Exploitation,2023,Proceedings of 2023 IEEE International Smart Cities Conference Isc2 2023,QP1,21,1,1,,0
+2704,Smart city services over a global interoperable internet-of-things system: The smart parking case,2018,2018 Global Internet of Things Summit Giots 2018,QP1,21,1,1,,0
+2759,An IoT based framework for smart city services,2018,Proceedings of the 2018 International Conference on Communication Computing and Internet of Things Ic3iot 2018,QP1,21,1,1,,0
+2766,Toward the Creation of a Digital Twin Authoring Tool: A Smart Mobility Perspective in Smart Cities,2024,IEEE Access,QP1,21,1,1,,0
+2892,Big Data and Development of Smart City: System Architecture and Practical Public Safety Example,2020,Serbian Journal of Electrical Engineering,QP1,19,1,1,,0
+2941,ACTIONABLE FRAMEWORK for CITY DIGITAL TWIN-ENABLED PREDICTIVE MAINTENANCE and SECURITY MANAGEMENT SYSTEMS,2021,Wit Transactions on the Built Environment,QP1,19,1,1,,0
+3007,C2IoT: A framework for Cloud-based Context-aware Internet of Things services for smart cities,2017,Procedia Computer Science,QP2,18,1,1,,0
+3060,The GAMBAS middleware and SDK for smart city applications,2014,2014 IEEE International Conference on Pervasive Computing and Communication Workshops Percom Workshops 2014,QP1,18,1,1,,0
+3099,A Reference Architecture for Data-Driven Intelligent Public Transportation Systems,2024,IEEE Open Journal of Intelligent Transportation Systems,QP1,17,1,1,,0
+3140,IoT middleware for smart city: (An integrated and centrally managed IoT middleware for smart city),2017,Tensymp 2017 IEEE International Symposium on Technologies for Smart Cities,QP1,17,1,1,,0
+3148,SoS-centric Middleware Services for Interoperability in Smart Cities Systems,2016,Proceedings of the 2nd International Workshop on Smart Smartcities 2016,QP1,17,1,1,,0
+3159,Urban Open Platform for Borderless Smart Cities,2022,Applied Sciences Switzerland,QP1,17,1,1,,0
+3209,Community Twin Ecosystem for Disaster Resilient Communities,2024,Smart Cities,QP1,17,1,1,,0
+3236,VGEs as a New Platform for Urban Modeling and Simulation,2022,Sustainability Switzerland,QP1,16,1,1,,0
+3238,Designing a Spatially-explicit Urban Digital Twin Framework for Smart Water Infrastructure and Flood Management,2023,2023 IEEE 3rd International Conference on Digital Twins and Parallel Intelligence Dtpi 2023,QP1,16,1,1,,0
+3251,URBAN-NET: A network-based infrastructure monitoring and analysis system for emergency management and public safety,2016,Proceedings 2016 IEEE International Conference on Big Data Big Data 2016,QP5,16,1,1,,0
+3252,Exploring digital twin adaptation to the urban environment: Comparison with cim to avoid silo-based approaches,2022,ISPRS Annals of the Photogrammetry Remote Sensing and Spatial Information Sciences,QP1,16,1,1,,0
+3274,The Digital Twin City in Enhancing Flood Evacuation Systems: Future Opportunities and Challenges,2025,IEEE Access,QP1,16,1,1,,0
+3286,A data integration approach for smart cities: The case of natal,2017,2017 International Smart Cities Conference Isc2 2017,QP1,16,1,1,,0
+3289,Digital twins for intelligent cities: the case study of Matera,2025,Journal of Reliable Intelligent Environments,QP1,16,1,1,,0
+3305,Smart City Digital Twin Platform Architecture for Mobility and Transport Decision Support Systems,2024,Proceedings 2024 IEEE International Conference on Big Data Bigdata 2024,QP1,16,1,1,,0
+3334,DGeye: Probabilistic Risk Perception and Prediction for Urban Dangerous Goods Management,2021,ACM Transactions on Information Systems,QP2,16,1,1,,0
+3335,Performance analysis of the ubiquitous and emergent properties of an autonomic reflective middleware for smart cities,2020,Computing,QP1,16,1,1,,0
+3356,Digital Twin Framework for Smart City Solutions,2022,Dmsviva 2022 Proceedings of the 28th International Dms Conference on Visualization and Visual Languages,QP1,16,1,1,,0
+3488,Constructing a digital city on a web-3D platform: Simultaneous and consistent generation of metadata and tile data from a multi-source raw dataset,2020,Proceedings of the 3rd ACM Sigspatial International Workshop on Advances in Resilient and Intelligent Cities Aric 2020,QP1,15,1,1,,0
+3510,A Spatiotemporal Intelligent Framework and Experimental Platform for Urban Digital Twins,2023,Virtual Reality and Intelligent Hardware,QP1,15,1,1,,0
+3588,Artificial intelligence-based public safety data resource management in smart cities,2023,Open Computer Science,QP4,14,1,1,,0
+3645,Smart City Digital Twins: A Modular and Adaptive Architecture for Real-Time Data-Driven Urban Management,2024,Proceedings of the 2024 20th International Conference on Network and Service Management AI Powered Network and Service Management for Tomorrow S Digital World Cnsm 2024,QP1,14,1,1,,0
+3650,ROTA: A smart city platform to improve public safety,2016,Advances in Intelligent Systems and Computing,QP5,14,1,1,,0
+3670,Next Generation Computing and Communication Hub for First Responders in Smart Cities,2024,Sensors,QP2,14,1,1,,0
+3680,Smart city platform architecture for citizens' mobility support,2019,Procedia Computer Science,QP1,14,1,1,,0
+3706,Digital Twin Computing for Urban Intelligence,2024,Urban sustainability,QP1,14,1,1,,0
+3715,How to conceive future mobility services in smart cities according to the Fiware frontiercities experience,2018,IEEE Cloud Computing,QP1,13,1,1,,0
+3718,Decision-support system for safety and security assessment and management in smart cities,2024,Multimedia Tools and Applications,QP2,13,1,1,,0
+3740,Centralized and Reliable Digital Twin Models for Smart City's Buildings Protection during Disaster,2022,Proceedings 2022 International Conference on Computational Modelling Simulation and Optimization Iccmso 2022,QP1,13,1,1,,0
+3752,Using FIWARE and blockchain in smart cities solutions,2023,Cluster Computing,QP1,13,1,1,,0
+3778,Logical and Innovative Construction of Digital Twin City,2021,Journal of Geodesy and Geoinformation Science,QP1,13,1,1,,0
+3800,Service-oriented architecture for big data analytics in smart cities,2018,Proceedings 18th IEEE ACM International Symposium on Cluster Cloud and Grid Computing Ccgrid 2018,QP1,13,1,1,,0
+3834,City-scale digital twin framework for flood impact analysis: Integrating urban infrastructure and real-time data analytics,2025,Urban Climate,QP1,13,1,1,,0
+3847,Building a common smart city platform utilizing FIWARE (case study of Takamatsu City),2018,NEC Technical Journal,QP1,13,1,1,,0
+3912,A Context-Aware Smart Parking System,2017,Proceedings 12th International Conference on Signal Image Technology and Internet Based Systems Sitis 2016,QP2,12,1,1,,0
+3941,Federated digital twins platform for smart city logistics: A knowledge-driven approach,2025,International Journal of Production Economics,QP1,12,1,1,,0
+4019,City2Twin: an open urban digital twin from data integration to visualization and analysis,2024,International Archives of the Photogrammetry Remote Sensing and Spatial Information Sciences ISPRS Archives,QP1,12,1,1,,0
+4026,A processing architecture for real-time predictive smart city digital twins,2021,Proceedings 2021 IEEE International Conference on Big Data Big Data 2021,QP1,12,1,1,,0
+4040,Devising digital twins DNA paradigm for modeling ISO-based city services,2021,Sensors Switzerland,QP2,12,1,1,,0
+4076,Community Public Safety Evaluation System Based on Location Information Service Architecture,2021,Mobile Information Systems,QP4,12,1,1,,0
+4077,IPPODAMO: A digital twin support for smart cities facility management,2021,Goodit 2021 Proceedings of the 2021 Conference on Information Technology for Social Good,QP1,12,1,1,,0
+4094,Implementation of GIS-based Smart Community Information System and concepts of Digital Twin in the field of urban planning in Uzbekistan,2023,E3s Web of Conferences,QP1,12,1,1,,0
+4098,Semantic Agent-Based service middleware and simulation for smart cities,2016,Sensors Switzerland,QP2,12,1,1,,0
+4102,Urban Civics: An IoT middleware for democratizing crowdsensed data in smart societies,2015,2015 IEEE 1st International Forum on Research and Technologies for Society and Industry Rtsi 2015 Proceedings,QP1,12,1,1,,0
+4107,"From the smart city to the smart community, model and architecture of a real project: SensorNet",2014,Journal of Communications Software and Systems,QP1,12,1,1,,0
+4112,Designing a FIWARE-Based Smart Campus with IoT Edge-Enabled Intelligence,2021,Advances in Intelligent Systems and Computing,QP1,12,1,1,,0
+4161,"Sapparchi: An architecture for smart city applications from edge, fog and cloud computing",2019,5th IEEE International Smart Cities Conference Isc2 2019,QP1,11,1,1,,0
+4171,A digital twin framework for urban parking management and mobility forecasting,2025,Nature Communications,QP1,11,1,1,,0
+4354,Urban data platforms-an overview,2016,Companion to the Proceedings of the 12th International Symposium on Open Collaboration Opensym 2016,QP1,10,1,1,,0
+4361,"Enabling the structuring, enhancement and creation of urban ICT through the extension of a standardized smart city reference model",2018,Proceedings 11th IEEE ACM International Conference on Utility and Cloud Computing Companion Ucc Companion 2018,QP2,10,1,1,,0
+4377,Smart city service platform associated with smart home,2017,International Conference on Information Networking,QP1,10,1,1,,0
+4386,An interoperable open specifications framework for smart city urban platforms,2019,Global Iot Summit Giots 2019 Proceedings,QP1,10,1,1,,0
+4410,A Federated Platform to Support IoT Discovery in Smart Cities and HADR Scenarios,2020,Proceedings of the 2020 Federated Conference on Computer Science and Information Systems Fedcsis 2020,QP1,10,1,1,,0
+4415,A multidomain standards-based fog computing architecture for smart cities,2018,Wireless Communications and Mobile Computing,QP1,10,1,1,,0
+4465,SMART CITIES - SYSTEMS OF SYSTEMS INTEROPERABILITY AND OGC ENABLERS,2022,ISPRS Annals of the Photogrammetry Remote Sensing and Spatial Information Sciences,QP1,10,1,1,,0
+4566,Towards a Lightweight Model-driven Smart-city Digital Twin,2022,International Conference on Model Driven Engineering and Software Development,QP2,10,1,1,,0
+4594,"An AI-Driven, Scalable, and Modular Digital Twin Framework for Traffic Management",2025,IEEE Wireless Communications and Networking Conference Wcnc,QP1,10,1,1,,0
+4604,Federated Trustworthy AI Architecture for Smart Cities,2022,Isc2 2022 8th IEEE International Smart Cities Conference,QP2,10,1,1,,0
+4623,An extension of the misci middleware for smart cities based on fog computing,2017,Journal of Information Technology Research,QP2,9,1,1,,0
+4625,MiSCi: Autonomic reflective middleware for smart cities,2016,Communications in Computer and Information Science,QP2,9,1,1,,0
+4644,Smart City IoT Data Management with Proactive Middleware,2023,International Journal on Recent and Innovation Trends in Computing and Communication,QP2,9,1,1,,0
+4704,Developing an Urban Digital Twin for Environmental and Risk Assessment: A Case Study on Public Lighting and Hydrogeological Risk,2025,Future Internet,QP1,9,1,1,,0
+4708,Architecting Digital Twins for Intelligent Transportation Systems,2025,Proceedings 2025 IEEE 22nd International Conference on Software Architecture Icsa C 2025,QP1,9,1,1,,0
+4775,Harnessing hybrid digital twinning for decision-support in smart infrastructures,2025,Data-Centric Engineering,QP1,9,1,1,,0
+4805,A Multi Layer Data Platform Architecture for Smart Cities using oneM2M and IUDX,2022,2022 IEEE 8th World Forum on Internet of Things Wf Iot 2022,QP1,9,1,1,,0
+4862,Fostering IoT Service Replicability in Interoperable Urban Ecosystems,2020,IEEE Access,QP1,9,1,1,,0
+4864,Smart Ecosystems and Digital Twins: An Architectural Perspective and a FIWARE-Based Solution,2025,IEEE Software,QP1,9,1,1,,0
+4886,A Digital Twin Architecture for Intelligent Public Transportation Systems: A FIWARE-Based Solution,2024,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,QP1,9,1,1,,0
+4901,The ESPRESSO-project-A European approach for smart city standards,2016,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,QP1,9,1,1,,0
+4906,Mobile context-based framework for threat monitoring in urban environment with social threat monitor,2016,Multimedia Tools and Applications,QP2,9,1,1,,0
+4908,Architecting Digital Twin for Smart City Systems: A Case Study,2024,Proceedings IEEE 21st International Conference on Software Architecture Companion Icsa C 2024,QP1,9,1,1,,0
+4915,Designing a FIWARE cloud solution for making your travel smoother: The FLIWARE experience,2018,Proceedings 4th IEEE International Conference on Collaboration and Internet Computing Cic 2018,QP1,8,1,1,,0
+4920,From Data to Service Intelligence: Exploring Public Safety as a Service,2018,Lecture Notes in Business Information Processing,QP2,8,1,1,,0
+4927,CityMii - An integration and interoperable middleware to manage a Smart City,2018,Procedia Computer Science,QP1,8,1,1,,0
+5085,"Towards a platform for urban data management, integration and processing",2018,Iotbds 2018 Proceedings of the 3rd International Conference on Internet of Things Big Data and Security,QP1,8,1,1,,0
+5217,Digital Twin-Enabled Solution for Smart City Applications,2024,Transforming Industry Using Digital Twin Technology,QP1,8,1,1,,0
+5256,A Data-Driven Urban Digital Twin Approach for Evaluating Positive Energy District Potential Using OGC Standards in Stuttgart,2025,International Archives of the Photogrammetry Remote Sensing and Spatial Information Sciences ISPRS Archives,QP1,8,1,1,,0
+5278,Architecture of smart parking lot based on digital twin technology,2023,Beijing Hangkong Hangtian Daxue Xuebao Journal of Beijing University of Aeronautics and Astronautics,QP1,8,1,1,,0
+5285,A reference architecture for context-aware intelligent traffic management platforms,2018,International Journal of Electronic Government Research,QP2,8,1,1,,0
+5338,Recommendation service for big data applications in smart cities,2017,Proceedings 2017 International Conference on High Performance Computing and Simulation Hpcs 2017,QP2,7,1,1,,0
+5347,Digital Twin Mobility Profiling: A Spatio-Temporal Graph Learning Approach,2022,2021 IEEE 23rd International Conference on High Performance Computing and Communications 7th International Conference on Data Science and Systems 19th International Conference on Smart City and 7th International Conference on Dependability in Sensor Cloud and Big Data Systems and Applications Hpcc Dss Smartcity Dependsys 2021,QP1,7,1,1,,0
+5385,GEMAR: web-based GIS for emergency management and ambulance routing,2022,Informatics for Health and Social Care,QP2,7,1,1,,0
+5405,The Framework and Practices of Digital Twin City,2022,Iceiec 2022 Proceedings of 2022 IEEE 12th International Conference on Electronics Information and Emergency Communication,QP1,7,1,1,,0
+5406,GEO-C: Enabling open cities and the open city toolkit,2018,International Archives of the Photogrammetry Remote Sensing and Spatial Information Sciences ISPRS Archives,QP1,7,1,1,,0
+5416,Real-Time Participatory Sensing-Driven Computational Framework toward Digital Twin City Modeling,2022,Construction Research Congress 2022 Computer Applications Automation and Data Analytics Selected Papers from Construction Research Congress 2022,QP1,7,1,1,,0
+5421,Application Research of 6G-Based Digital Twins in Smart Cities,2024,Proceedings 2024 2nd International Conference on Mechatronics Iot and Industrial Informatics Icmiii 2024,QP1,7,1,1,,0
+5433,"Digital Twin-Assisted Urban Resilience: A Data-Driven Framework for Sustainable Regeneration in Paranoá, Brasilia",2025,Urban Science,QP1,7,1,1,,0
+5486,A context model development process for smart city operations,2015,10th IEEE Int Conf on Service Operations and Logistics and Informatics Soli 2015 in Conjunction with Ict4all 2015,QP2,7,1,1,,0
+5526,Exploration and practice of digital twin city construction in Xiong’an New Area,2025,Dongnan Daxue Xuebao Ziran Kexue Ban Journal of Southeast University Natural Science Edition,QP1,7,1,1,,0
+5659,Conceptualising an Urban Digital Twin Framework for Simulating the Impact of Household Consumption Choices on the Carbon Footprint of Urban Neighborhoods,2024,International Archives of the Photogrammetry Remote Sensing and Spatial Information Sciences ISPRS Archives,QP1,7,1,1,,0
+5704,Improving security on IoT applications based on the FIWARE platform,2018,Proceedings International Conference on Advanced Information Networking and Applications AINA,QP4,7,1,1,,0
+5714,Implementation of a Fiware-based Integration Platform and a Web Portal as Aids to Improve the Control of Ships Navigation in a River,2020,Isse 2020 6th IEEE International Symposium on Systems Engineering Proceedings,QP1,7,1,1,,0
+5718,Helix SandBox: An open platform to fast prototype smart environments applications,2019,Proceedings of the 2019 IEEE 1st Sustainable Cities Latin America Conference Scla 2019,QP1,7,1,1,,0
+5730,Digital Twins and Augmented Reality for Humanitarian Logistics in Urban Disasters: Framework Development,2025,Logistics,QP1,6,1,1,,0
+5752,Open-Source Platform for Integrating High-Reporting rate Information Using FIWARE Technology,2023,2023 13th IEEE International Workshop on Applied Measurements for Power Systems Amps 2023 Proceedings,QP1,6,1,1,,0
+5838,"TwinCity: An Urban Digital Twin Framework for Data-Scarce Environments—A Case Study of Benguerir, Morocco",2026,Smart Cities,QP1,6,1,1,,0
+5856,Multi-Scalar Urban Digital Twin Design: Architecture and OpenUSD Standards Based Methodology,2023,,QP1,6,1,1,,0
+5906,A Slim Digital Twin for a Smart City and Its Residents,2023,ACM International Conference Proceeding Series,QP3,6,1,1,,0
+5918,SAPPARCHI: an Osmotic Platform to Execute Scalable Applications on Smart City Environments,2022,IEEE International Conference on Cloud Computing Cloud,QP1,6,1,1,,0
+5972,Innovative Digital Twin Platform Construction for Smart Grid System,2022,2021 IEEE 23rd International Conference on High Performance Computing and Communications 7th International Conference on Data Science and Systems 19th International Conference on Smart City and 7th International Conference on Dependability in Sensor Cloud and Big Data Systems and Applications Hpcc Dss Smartcity Dependsys 2021,QP1,6,1,1,,0
+6073,Urban Digital Twins for Intelligent Road Inspection,2022,Proceedings 2022 IEEE International Conference on Big Data Big Data 2022,QP1,6,1,1,,0
+6155,Applying Tropos modeling for smart mobility applications based on the FIWARE platform,2016,Ceur Workshop Proceedings,QP1,6,1,1,,0
+6184,IoT-enabled Smart Waste Disposal System: A Use Case for the Context Management Platform,2020,Giots 2020 Global Internet of Things Summit Proceedings,QP2,6,1,1,,0
+6201,Exploratory Study of oneM2M-Based Interoperability Architectures for IoT: A Smart City Perspective,2024,Proceedings IEEE 21st International Conference on Software Architecture Companion Icsa C 2024,QP1,6,1,1,,0
+6246,Conceptual Model of Graph-based Individual Tree and Its Utilization in Digital Twin and Metaverse of Urban Forest,2024,International Archives of the Photogrammetry Remote Sensing and Spatial Information Sciences ISPRS Archives,QP1,5,1,1,,0
+6354,A unified reference model for smart cities,2020,Lecture Notes of the Institute for Computer Sciences Social Informatics and Telecommunications Engineering Lnicst,QP1,5,1,1,,0
+6380,A framework for cloud-based context-aware information services for citizens in smart cities,2014,Metallography Microstructure and Analysis,QP2,5,1,1,,0
+6450,Advanced Cyber and Physical Situation Awareness in Urban Smart Spaces,2021,Lecture Notes in Networks and Systems,QP2,5,1,1,,0
+6599,UTwin: A digital twin of the UT Austin campus,2023,Buildsys 2023 Proceedings of The10th ACM International Conference on Systems for Energy Efficient Buildings Cities and Transportation,QP1,5,1,1,,0
+6604,Smart City + IoT Standardization Application Practice Model and Realization of Key Technologies,2022,Computational Intelligence and Neuroscience,QP1,5,1,1,,0
+6642,Digital twins for smart city,2024,Smart Spaces A Volume in Intelligent Data Centric Systems,QP1,5,1,1,,0
+6701,Integrating Epanet and FIWARE for Development of Water Distribution System Digital Twins,2022,Springer Water,QP1,5,1,1,,0
+6708,Towards Digital-Twin solutions for the 15 minute city,2023,2023 Joint Urban Remote Sensing Event Jurse 2023,QP1,5,1,1,,0
+6715,Scenario Modeling for Urban Road Emergency Management: A Cognitive Digital Twin-Based Method,2025,Journal of Computing in Civil Engineering,QP2,5,1,1,,0
+6739,Development and Application of a FIWARE-based ICT-Platform for Multi-Energy Systems on Building and District Level,2024,2024 Open Source Modelling and Simulation of Energy Systems Osmses 2024 Proceedings,QP1,5,1,1,,0
+6857,A model-driven approach for engineering Mobility Digital Twins: The Bologna case study,2025,Information and Software Technology,QP1,4,1,1,,0
+6871,Smart city logical framework and digital-twin platform technical requirements,2025,Cehui Xuebao Acta Geodaetica Et Cartographica Sinica,QP1,4,1,1,,0
+6887,Designing Interactive Web-GIS Dashboards for Data-Driven Emergency Management in Smart Cities,2024,Journal of Logistics Informatics and Service Science,QP1,4,1,1,,0
+6940,Digital Twin Micro-Services Architecture to Support a Scenario-based Integration of Smart Mobility Services and Simulations,2025,Annals of Computer Science and Information Systems,QP1,4,1,1,,0
+7009,Digital twins of micro crowd：The concept，framwork，and methods,2024,National Remote Sensing Bulletin,QP3,4,1,1,,0
+7017,Digital-twin–driven urban lifecycle paradigm: evidence from the Singapore–Nanjing eco Hi-Tech Island,2026,Frontiers in Sustainable Cities,QP1,4,1,1,,0
+7031,ProceThings: Data Processing Platform with In-situ IoT Devices for Smart Community Services,2021,ACM International Conference Proceeding Series,QP1,4,1,1,,0
+7038,Situational Awareness for Law Enforcement and Public Safety Agencies Operating in Smart Cities – Part 2: Platforms,2022,Eai Springer Innovations in Communication and Computing,QP1,4,1,1,,0
+7162,Smart Sustainable Cities as Digital Ecosystems: Concept and Framework Description,2025,Journal of Sustainability Research,QP1,4,1,1,,0
+7211,Cooperation of smart objects and urban operators for smart city applications,2016,Internet of Things,QP1,4,1,1,,0
+7244,Future rescue management: Design specifications for a 5G-enabled emergency response information system,2024,Intelligent Decision Technologies,QP2,4,1,1,,0
+7245,"Toward a City Digital Twin: Design Principles, and Challenges",2024,Proceedings 7th International Conference on Advanced Communication Technologies and Networking Commnet 2024,QP1,4,1,1,,0
+7382,A low-code assessment platform for urban digital twins,2025,Information and Software Technology,QP1,4,1,1,,0
+7408,DIORAMA: Digital twIn fOR sustAinable territorial MAnagement,2022,Ceur Workshop Proceedings,QP1,4,1,1,,0
+7509,Enhanced FIWARE-Based Architecture for Cyberphysical Systems With Tiny Machine Learning and Machine Learning Operations: A Case Study on Urban Mobility Systems,2024,IT Professional,QP1,4,1,1,,0
+7523,Smart city use case development based on FIWARE technology,2022,2022 30th Telecommunications Forum Telfor 2022 Proceedings,QP1,4,1,1,,0
+7688,Enablers framework: Developing applications using FIWARE,2018,Enterprise Interoperability Smart Services and Business Impact of Enterprise Interoperability,QP1,3,1,1,,0
+7867,A Smart City System using Backend as a Service Approach: Biskra City Case Study,2018,5th International Symposium on Innovation in Information and Communication Technology Isiict 2018,QP1,3,1,1,,0
+7898,"Citizen Fusion Service Platform for Smart Cities: Architecture, Technologies and Practice",2014,Proceedings International Computer Software and Applications Conference,QP1,3,1,1,,0
+7966,Towards Declarative Deployment and Lifecycle Orchestration of Digital Twin Ecosystems,2026,Proceedings IEEE Consumer Communications and Networking Conference Ccnc,QP1,3,1,1,,0
+8026,"A Digital Shadow for Modeling, Studying and Preventing Urban Crime",2025,IEEE Access,QP2,3,1,1,,0
+8070,A Practice of City-scale 3D Geographic Entity Representation and Application in China: The Smart Chongqing City Centre,2024,ISPRS Annals of the Photogrammetry Remote Sensing and Spatial Information Sciences,QP1,3,1,1,,0
+8131,The construction and optimization of resilient community living sphere driven by digital twins,2026,Scientific Reports,QP1,3,1,1,,0
+8189,Building a fiware smart city platform,2019,Proceedings of the Annual Hawaii International Conference on System Sciences,QP1,3,1,1,,0
+8192,Towards an Urban Digital Twins Continuum Architecture,2024,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,QP1,3,1,1,,0
+8204,Introducing Data Mesh paradigm for Smart City platforms design,2023,Proceedings of the Annual Hawaii International Conference on System Sciences,QP2,3,1,1,,0
+8222,A multi-agent architecture for context sources integration in smart cities,2025,Future Generation Computer Systems,QP2,3,1,1,,0
+8239,Crowdsl: Platform for incidents management in a smart city context,2021,Big Data and Cognitive Computing,QP1,3,1,1,,0
+8252,A Reference Architecture Supporting Smart City Applications,2019,Lecture Notes in Business Information Processing,QP1,3,1,1,,0
+8299,Urban and Spatial Planning Through the Support Tool of the Regional Digital Twin,2024,Lecture Notes in Civil Engineering,QP1,3,1,1,,0
+8331,A Model Based Decision Support System for Smart Cities,2023,Proceedings 2023 IEEE International Conference on Smart Computing Smartcomp 2023,QP2,3,1,1,,0
+8332,Interactive Digital Twin Platform for Enhancing Disaster Response and Coordination,2025,2025 IEEE 4th International Conference on Intelligent Reality Icir 2025,QP1,3,1,1,,0
+8470,Local digital twins: A central urban integrator to break down the silos,2025,Decide Better Open and Interoperable Local Digital Twins,QP1,3,1,1,,0
+8570,Research on block data intelligent platform of urban public security emergency management,2019,ACM International Conference Proceeding Series,QP2,2,1,1,,0
+8581,Spatial Crowdsensing for Self-Growing Digital Twin to Realize City as a Service,2024,Digest of Technical Papers IEEE International Conference on Consumer Electronics,QP1,2,1,1,,0
+8599,Context-aware multi-modal route selection service for urban computing scenarios,2024,Ad Hoc Networks,QP2,2,1,1,,0
+8626,A unifying architecture model for developing context-Aware systems,2018,2017 IEEE Smartworld Ubiquitous Intelligence and Computing Advanced and Trusted Computed Scalable Computing and Communications Cloud and Big Data Computing Internet of People and Smart City Innovation Smartworld Scalcom Uic Atc Cbdcom Iop SCI 2017 Conference Proceedings,QP2,2,1,1,,0
+8853,A Data Platform for the Integration of Smart City Subsystems,2025,Lecture Notes on Data Engineering and Communications Technologies,QP1,2,1,1,,0
+8875,An Integrated Digital Twin Architecture for Real-Time Urban Air Quality Management,2025,IEEE IFIP International Conference on Dependable Systems and Networks Workshops Dsn W,QP1,2,1,1,,0
+8886,Towards a Modular Digital Twin Microservice Architecture for Urban Multi-Energy Systems,2023,IEEE Pes Innovative Smart Grid Technologies Conference Europe,QP1,2,1,1,,0
+8935,GreenMov: A Fiware Based Interoperable Solution to Reduce the Environmental Impact of Mobility,2025,IFIP Advances in Information and Communication Technology,QP1,2,1,1,,0
+8937,Flexible Multi-Domain IoT Architecture for Smart Cities,2026,Applied Sciences Switzerland,QP1,2,1,1,,0
+8954,A Contemporary Secure Microservices Discovery Architecture with Service Tags for Smart City Infrastructures,2024,Vfast Transactions on Software Engineering,QP1,2,1,1,,0
+9067,A Conceptual Framework for Updating Urban Infrastructure in City Digital Twins,2025,International Archives of the Photogrammetry Remote Sensing and Spatial Information Sciences ISPRS Archives,QP1,2,1,1,,0
+9071,A holistic approach to multi-scale and multi-perspective urban digital twin development,2026,Computers Environment and Urban Systems,QP1,2,1,1,,0
+9077,"Designing and Implementing a Robust, Modular and Interoperable Digital Twin Smart City Framework for Critical Water Spatial Infrastructure",2024,Proceedings of the Annual Hawaii International Conference on System Sciences,QP1,2,1,1,,0
+9131,Interoperable FIWARE Architecture for Smart Building Management and Real-Time Data Processing,2025,Proceedings 2025 25th International Conference on Control Systems and Computer Science Cscs 2025,QP1,2,1,1,,0
+9157,FrontierCities: Leveraging FIWARE for advantages in smart mobility,2016,Communications in Computer and Information Science,QP1,2,1,1,,0
+9160,"Urban Digital-Twin Planning for Sustainable Smart Cities: System Architecture, Preliminary Experiments, and Open Challenges",2024,Midd4dt 2024 Proceedings of the 2nd ACM International Workshop on Middleware for Digital Twins Part of Middleware 2024,QP1,2,1,1,,0
+9165,Development and Evaluation of a FIWARE-based Digital Twin Prototype for Road Systems,2024,Ceur Workshop Proceedings,QP1,2,1,1,,0
+9173,An Architecture and Realisation of a Smart City Digital Twin With eHealth Case Studies,2025,Iet Smart Cities,QP1,2,1,1,,0
+9198,A Predictive Digital Twin Framework for Real-Time Urban Traffic Management,2026,IEEE Internet of Things Journal,QP1,2,1,1,,0
+9384,Emergency Response System Combining the Internal and External Domains (ERSCIED),2022,Journal of Circuits Systems and Computers,QP1,2,1,1,,0
+9386,Efforts Towards a Digital Twin-based Testbed for Public Safety,2023,ACM International Conference Proceeding Series,QP1,2,1,1,,0
+9531,Public development: Towards open standards and components for local digital twins,2025,Decide Better Open and Interoperable Local Digital Twins,QP1,2,1,1,,0
+9588,A Smart Integration Layer for Smart City Business Applications,2020,4th International Conference on Smart Grid and Smart Cities Icsgsc 2020,QP1,2,1,1,,0
+9628,Weaving Open Services with Runtime Models for Continuous Smart Cities KPIs Assessment,2021,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,QP2,2,1,1,,0
+9629,Data Distribution Platform for Smart City Applications,2021,Proceedings of the 2021 IEEE International Conference on Internet of Things and Intelligence Systems Iotais 2021,QP1,2,1,1,,0
+9634,An integrated platform for managing information in smart cities,2021,E3s Web of Conferences,QP1,2,1,1,,0
+9722,Enabling federated emergencies and Public Safety Answering Points with wearable and mobile Internet of Things support: An approach based on EENA and OMA LWM2M emerging standards,2015,IEEE International Conference on Communications,QP1,2,1,1,,0
+9738,Reference models for intelligent cities: An aligned template,2020,Developing and Monitoring Smart Environments for Intelligent Cities,QP2,2,1,1,,0
+9746,UST-GNN: A unified spatial–topological graph neural network framework for urban analytics demonstrated through a case study on urban health prediction,2026,Computers Environment and Urban Systems,QP2,1,1,1,,0
+9754,Context-Aware Sensor Active Prioritization for Emergency Management in Smart Cities,2025,Proceedings of the 11th IEEE International Smart Cities Conference Resilient and Sustainable Smart Communities Isc2 2025,QP2,1,1,1,,0
+9762,Waldo:Data Producers Registry and Discovery Service for Smart Cities Middleware,2015,Sbsi 2015 Proceedings of the Annual Conference on Brazilian Symposium on Information Systems Information Systems A Computer Socio Technical Perspective,QP1,1,1,1,,0
+9798,A Simulation-as-a-Service Engine for Urban Mobility Digital Twins,2026,Communications in Computer and Information Science,QP1,1,1,1,,0
+9844,TOWARDS FLEXIBLE AND LIGHTWEIGHT SOLUTIONS FOR URBAN DIGITAL TWINS,2025,Bsglg,QP1,1,1,1,,0
+9867,An Architectural Framework for Urban Digital Twin Design: A Case Study on Hydrogeological Risk Management,2025,IEEE IFIP International Conference on Dependable Systems and Networks Workshops Dsn W,QP1,1,1,1,,0
+9880,User Data Fusion Methods for Digital Twins in the Urban Internet of Things,2025,Iaeng International Journal of Computer Science,QP3,1,1,1,,0
+9881,Digital Twin for Smart Cities: An Enabler for Large-Scale Enterprise Interoperability,2022,Ceur Workshop Proceedings,QP2,1,1,1,,0
+9885,Modeling Urban Digital Twins over the Cloud-to-Thing Continuum,2022,Ceur Workshop Proceedings,QP1,1,1,1,,0
+9897,Beyond the Smart City. The Urban Digital Twin for the Augmented City: The Vox Hortus Project,2024,Lecture Notes in Civil Engineering,QP1,1,1,1,,0
+9912,Towards Sustainable Urban Development: Matera’s Urban Digital Twin and Challenges in Data Integration,2024,Lecture Notes in Civil Engineering,QP1,1,1,1,,0
+9950,A Resilient Cloud–Edge Digital Twin Framework for Urban UAV Logistics Under 3D Blockages and ADS-B Signal Anomalies,2026,Sensors,QP1,1,1,1,,0
+9968,Tackling the Complexity of Emergency Response Systems: Creating Transport-Focused Digital Twins,2026,Smart Cities,QP1,1,1,1,,0
+10033,A Conceptual Model of a Digital Twin Driven Co-Pilot for Speed Coordination in Congested Urban Traffic,2025,Future Internet,QP1,1,1,1,,0
+10046,SmartCityOS: Making Tomorrow Smarter,2025,ISPRS Annals of the Photogrammetry Remote Sensing and Spatial Information Sciences,QP1,1,1,1,,0
+10060,AI-Driven Decision-Making Architectures for Future-Ready Smart Urban Infrastructures,2025,2025 IEEE 5th International Conference on ICT in Business Industry and Government Ictbig 2025,QP2,1,1,1,,0
+10104,CyDT: The Cyprus Digital Twin for Resilient Cities and Robust Critical Infrastructure Systems,2025,Proceedings of the 11th IEEE International Smart Cities Conference Resilient and Sustainable Smart Communities Isc2 2025,QP1,1,1,1,,0
+10142,DISCS: An Approach for Accelerating the Development of Digital Twins for Smart Cities,2024,Digital Twin Fundamentals and Applications,QP1,1,1,1,,0
+10145,Key Technologies Study on Digital Twin Platform for Comprehensive Utility Tunnel,2024,Imcec 2024 IEEE 6th Advanced Information Management Communicates Electronic and Automation Control Conference,QP1,1,1,1,,0
+10159,Towards e-Cities: An Atlas to Enhance the Public Realm Through Interactive Urban Cyber-Physical Devices,2023,International Conference on Smart Cities and Green ICT Systems Smartgreens Proceedings,QP1,1,1,1,,0
+10166,SmartMoveChain: A Proposal for Unified Scalable BMaaS for Smart Cities,2024,10th IEEE International Smart Cities Conference Smart Cities Revolution for Mankind Isc2 2024 Proceedings,QP1,1,1,1,,0
+10171,Unlimited potential: The reusable local digital twin,2025,Decide Better Open and Interoperable Local Digital Twins,QP1,1,1,1,,0
+10298,Adaptive Cognitive Digital Twin Framework for Efficient Smart City Operations,2025,International Conference on Nexgen Networks and Cybernetics Ic2nc 2025 Proceedings,QP2,1,1,1,,0
+10337,Digital Twin-Enabled Urban Management: Multi-Modal Data Fusion for Real-Time City Simulation and Prediction,2025,2025 International Conference on Computing and Communications Computingcon 2025,QP1,1,1,1,,0
+10533,Application Analysis of Multi-Agent Collaborative AI-Driven Models in Urban Emergency Management: Model Construction for Urban Emergency Management,2026,Journal of Organizational and End User Computing,QP5,1,1,1,,0
+10540,FIWARE-based Architecture for Smart Local Energy Communities,2023,IEEE International Symposium on Industrial Electronics,QP1,1,1,1,,0
+10548,FIWARE IoT agent for Matter: Toward the integration of smart home devices into the FIWARE smart city platform,2026,Computer Communications,QP1,1,1,1,,0
+10556,FIWARE Architecture Concept for Smart University,2025,IFAC Papersonline,QP1,1,1,1,,0
+10594,Open Data Platform Tools for Energy Service Ecosystem in Urban Superblocks,2023,IEEE International Conference on Industrial Informatics Indin,QP1,1,1,1,,0
+10597,IoTMapper: A Metrics Aggregation System Architecture in Support of Smart City Solutions,2022,Sensors,QP1,1,1,1,,0
+10598,IoT Management Services: A Comparative Assessment of Popular FIWARE Agents,2022,Icce 2022 2022 IEEE 9th International Conference on Communications and Electronics,QP1,1,1,1,,0
+10602,Building a Smart City Platform: A FIWARE Example,2021,Public Administration and Information Technology,QP1,1,1,1,,0
+10616,A FIWARE-Based Component for Data Analysis in Smart Mobility Context,2018,2017 IEEE 1st Summer School on Smart Cities S3c 2017 Proceedings,QP1,1,1,1,,0
+10761,Construction of regional cooperative emergency management system for urban integrated pipeline corridor,2025,China Safety Science Journal,QP2,1,1,1,,0
+10763,From Digital Twins to Autonomous Local Agents: Rethinking AI for Smart Water Networks,2026,IEEE Internet of Things Journal,QP2,1,1,1,,0
+10810,From Fragmentation to Integration: A Framework for Heterogeneous IoT-based Smart City Systems,2025,IEEE International Conference on Emerging Technologies and Factory Automation ETFA,QP1,1,1,1,,0
+10866,Assessment and the Future Development of the Zagreb 3D City Model,2024,Tehnicki Glasnik,QP2,1,1,1,,0
+10903,Toward an Open IoT Implementation for Urban Environments: The Architecture of the DBL SmartCity Platform,2021,Public Administration and Information Technology,QP1,1,1,1,,0
+11023,An architecture of fog computing in smart cities: The middleware e2bs in emergency calls,2018,Proceedings 2018 44th Latin American Computing Conference Clei 2018,QP1,1,1,1,,0
+11061,MDMWARE: Model-Driven Domain-Specific Middleware as a Tool for IT/OT Integration in the Context of Smart Cities,2025,Mitoti 2025 Proceedings of the International Workshop on Middleware for IT Ot Integration Part of Middleware Conference 2025,QP1,1,1,1,,0
+11070,A platform for the recommendation of points of interest in brazilian cities: Architecture and case study,2015,Webmedia 2015 Proceedings of the 21st Brazilian Symposium on Multimedia and the Web,QP1,1,1,1,,0
+11152,Towards a Framework for Context-Aware Intelligent Transportation System: Case of Kigali,2022,Lecture Notes in Networks and Systems,QP2,1,1,1,,0
+11291,Integrated Block chain Architectures for Secure Smart City E-Governance Systems,2026,Proceedings of the 6th International Conference on Pervasive Computing and Social Networking Icpcsn 2026,QP4,1,1,1,,0
+11555,Application of BIM and GIS in Emergency Management of Smart Cities,2021,Proceedings 2021 3rd International Symposium on Smart and Healthy Cities Ishc 2021,QP1,1,1,1,,0
+11731,A meta-model for intelligent engineering design of complex city,2020,Systems Engineering in Research and Industrial Practice Foundations Developments and Challenges,QP2,1,1,1,,0
+11752,Flood Evacuation Models in Urban Areas: Towards a Digital Twin Framework for Emergency Management,2026,Lecture Notes in Civil Engineering,QP1,1,1,1,,0
+11753,Aggregating heterogeneous services in the smart city: The practice in china,2017,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,QP1,1,1,1,,0
+11770,Generative digital twinning for dynamic building codes in smart sustainable cities: a conceptual framework towards climate change adaptation,2026,Smart and Sustainable Built Environment,QP1,1,1,1,,0
+11794,A Dynamic Digital Twin System with Robotic Vision for Emergency Management,2026,Electronics Switzerland,QP1,1,1,1,,0
+11818,Assess Flooding Impacts in Urban Environment: Integrating Fluid-Dynamic Simulations in Smart City Digital Twin,2027,Lecture Notes in Computer Science,QP1,0,1,1,,0
+11831,DIGITAL TWIN AS AN INTEGRATED DECISION-SUPPORT PLATFORM FOR SUSTAINABLE URBAN DEVELOPMENT: A CONCEPTUAL AND IMPLEMENTATION FRAMEWORK FOR TASHKENT,2026,Thematic Journal of Applied Sciences,QP1,0,1,1,,0
+11840,Multilayer architecture on urban public crisis decision support system,2014,Advanced Materials Research,QP1,0,1,1,,0
+11845,Integrating NVIDIA AI Microservices with the Eclipse Arrowhead framework for smart city applications,2025,Smart Cities International Conference (SCIC) Proceedings,QP1,0,1,1,,0
+11877,The Patos Lagoon Digital Twin—A Framework for Assessing and Mitigating Impacts of Extreme Flood Events in Southern Brazil,2026,Climate,QP1,0,1,1,,0
+11899,A Scalable Edge-Integrated Architecture for Urban Flood Monitoring and Prediction,2026,SN Computer Science,QP1,0,1,1,,0
+11912,Design of Underground Pipe Gallery Monitoring and Early Warning System Based on Digital Twin Technology,2026,Internet of Things,QP1,0,1,1,,0
+11924,Construction of Data-Driven Urban Conflict Prevention and Governance Model,2026,International Journal of Electronic Government Research,QP4,0,1,1,,0
+11928,Intelligent Multi-Agent Digital Twin Architecture for Modeling and Monitoring Catastrophic Events,2026,2026 International Conference on Development and Application Systems Das 2026 Conference Proceedings,QP1,0,1,1,,0
+11979,The Regional Digital Twin for Spatial and Disaster Risk Planning,2026,Lecture Notes in Civil Engineering,QP1,0,1,1,,0
+12015,XCOP: An Integrated Solution for Emergency Management During Incidents in Critical Infrastructures,2026,Lecture Notes in Computer Science,QP1,0,1,1,,0
+12091,Towards a mobile cloud framework for first responder teams in smart emergency management,2018,Lecture Notes of the Institute for Computer Sciences Social Informatics and Telecommunications Engineering Lnicst,QP1,0,1,1,,0
+12177,S3DA2 framework for emergency command system and key technologies of emergency digital twin battlefield,2025,China Safety Science Journal,QP1,0,1,1,,0
+12268,A Digital Twin Approach to Advancing River Emergency Response Systems in Smart Cities,2025,Proceedings of the Annual Hawaii International Conference on System Sciences,QP1,0,1,1,,0
+12321,Conceptual Architecture Design and Implementation of a Digital Twin-based High-speed Railway Station: A Case Study of Guangzhou Baiyun Station,2025,Proceedings of SPIE the International Society for Optical Engineering,QP1,0,1,1,,0
+12349,RISK REDUCTION in EMERGENCY EVACUATION: A PROPOSED ARCHITECTURE for AN EMERGENCY MANAGEMENT SYSTEM,2025,Wit Transactions on Ecology and the Environment,QP1,0,1,1,,0
+12384,IoT as a Catalyst for Smart Urban Ecosystems: A Development Framework for the Next-Generation Cities,2024,Lecture Notes in Networks and Systems,QP1,0,1,1,,0
+12640,Data Integration and Sharing Architecture for Rapid Emergency Response,2026,Proceedings 2026 IEEE 14th International Conference on Healthcare Informatics Ichi 2026,QP1,0,1,1,,0
+12719,Leveraging GAIA-X for Intelligent Mobility and Transportation Systems in Europe,2026,Lecture Notes in Networks and Systems,QP1,0,1,1,,0
+12723,Towards Sovereign Service Platforms: Data Spaces for Sharing Dynamic Mobility Data,2026,Springer Proceedings in Complexity,QP1,0,1,1,,0
+12756,Multi-information Collaborative Model of Urban Public Health Emergency Management Based on Bayesian Algorithm,2023,2nd IEEE International Conference on Distributed Computing and Electrical Circuits and Electronics Icdcece 2023,QP2,0,1,1,,0
+13065,Integrating Urban Operation Center Systems for Enhanced Smart City Management and Emergency Response,2024,10th IEEE International Smart Cities Conference Smart Cities Revolution for Mankind Isc2 2024 Proceedings,QP2,0,1,1,,0
+13427,Next-Generation Smart Cities: An Overview and a Proposal for the Hub Architecture,2026,Sustainability Switzerland,QP1,0,1,1,,0
+13755,Bridging Edge and Cloud for Smart City Data and Service Continuity: The MASA Approach,2026,Proceedings IEEE Consumer Communications and Networking Conference Ccnc,QP1,0,1,1,,0
+13994,Improving Public Safety in Smart City Through a Decentralised Blockchain-Based System,2025,Social Impact of Next Generation Smart Cyber Technology,QP4,0,1,1,,0
+14104,Development of Smart City Data Marketplace and Service Based on oneM2M Standard Interface Extensions,2020,Journal of Korean Institute of Communications and Information Sciences,QP1,0,1,1,,0
+14163,Innovative Approaches of Incident Management Systems Architecture in Smart City Environment,2025,Lecture Notes in Networks and Systems,QP1,0,1,1,,0
+14168,Establishing a smart city data and interoperability platform,2023,Innovations and Challenges of the Energy Transition in Smart City Districts,QP1,0,1,1,,0
+14264,Building Transparent and Secure Smart City Platforms,2025,Artificial Intelligence of Everything and Sustainable Development,QP4,0,1,1,,0
+14345,Data Modelling for Multi-level Energy Systems: A Practical Framework from Buildings to Cities,2025,IFIP Advances in Information and Communication Technology,QP2,0,1,1,,0
+14396,Toward an Automated REOT: A Conceptual Planning Support System for Territorial Monitoring in Portugal,2026,Standards,QP5,0,1,1,,0
+14417,An Evaluation System for City Information Model (CIM) Platform Construction,2025,Proceedings of 2025 2nd International Conference on Image Processing Intelligent Control and Computer Engineering Ipice 2025,QP5,0,1,1,,0
+14496,Der „Federal Twin“ – eine föderierte Architektur für das digitale Erhaltungsmanagement,2026,Bautechnik,QP1,0,1,1,,0
+14551,Reconstructing Smart Cities through Smart Digital Addressing Systems,2026,International Conference on Smart Cities and Green ICT Systems Smartgreens Proceedings,QP1,0,1,1,,0
+14841,Autonomous Safety Systems for Smart Cities Using LLM Enabled Intelligent Multi-Agents,2026,2026 5th International Conference on Power Control and Computing Technologies Icpc2t 2026,QP2,0,1,1,,0
+14874,A Digital Twin-Driven Framework for Intelligent Sensing and Dynamic Assessment of Urban Public Health Environments,2026,Proceedings of the 2nd International Conference on Artificial Intelligence Virtual Reality and Interaction Design Aivrid 2026,QP1,0,1,1,,0
+14884,Research on Intelligent Service Method and Application of Changjiang River Waterway Based on Digital Twin,2026,Lecture Notes in Electrical Engineering,QP1,0,1,1,,0
+14919,Digital twin-based simulation for old city renovation and cultural heritage conservation,2026,Engineering Research Express,QP1,0,1,1,,0
+14978,GAEA: Experiences and Lessons Learned from a Country-Scale Environmental Digital Twin,2026,IEEE International Conference on Pervasive Computing and Communications Workshops Percom Workshops,QP1,0,1,1,,0
+15071,Edge-enabled IoT architecture for smart cities,2026,Smart City Computational Paradigms A Sustainable Approach,QP1,0,1,1,,0
+15082,SMARTSDK - A FIWARE-Based Software Development Kit for Smart Applications for the Needs of Europe and Mexico,2020,Communications in Computer and Information Science,QP1,0,1,1,,0
+15099,FreeDSM: An Open IoT Platform for Ambient Light Pollution Monitoring,2023,Lecture Notes in Networks and Systems,QP1,0,1,1,,0
+15115,City needs and FIWARE-based smart city solutions,2023,Transportation Research Procedia,QP1,0,1,1,,0
+15189,UrbanSense: A Multimodal Spatio-Temporal Neural Framework for Real-Incident Detection and Response Prioritization in Smart Cities,2026,Proceedings of 2nd International Conference on Multi Agent Systems for Collaborative Intelligence Icmsci 2026,QP2,0,1,1,,0
+15223,An Efficient Two-Dimensional Model for Data-Driven Smart City System,2025,Semantic Annotation of Edge Fog Services with Blockchain Integration,QP2,0,1,1,,0
+15235,An FL-Blockchain Urbanization Approach for Trust and Intelligent Collaboration Platform in Smart Cities,2026,IEEE Internet of Things Journal,QP4,0,1,1,,0
+15261,Edge-Cloud Solution Based on FIWARE and Context Augmentation to Monitor Usages of Carpooling Car Parks,2025,Communications in Computer and Information Science,QP1,0,1,1,,0
+15286,Developing a Data Ecosystem of City-Level Digital Twins for Urban Management Use Cases,2024,Computing in Civil Engineering 2024 Sustainability Resilience Safety and Education Selected Papers from the ASCE International Conference on Computing in Civil Engineering 2024,QP1,0,1,1,,0
+15291,An Adaptable Digital Twin Architecture for Smart and Interoperable Electrical Roads,2026,Proceedings IEEE Consumer Communications and Networking Conference Ccnc,QP1,0,1,1,,0
+15727,A DSS Methodology for Emergency Management: Preliminary Application to the Municipality of Amatrice (Italy) †,2026,Computers,QP2,0,1,1,,0
+15954,Towards Planning Digital Twins for Urban Mobility,2025,2025 9th International Conference on Models and Technologies for Intelligent Transportation Systems Mt ITS 2025,QP1,0,1,1,,0
+15965,A Digital Twins in Smart Cities for Building Resilient Urban Infrastructures,2025,Iranian Journal of Information Processing and Management,QP1,0,1,1,,0
+16018,Digital Twin-Driven Flood Evacuation System Using Graph Algorithms,2026,Proceedings of the 2026 International Conference on Intelligent and Innovative Technologies in Computing Electrical and Electronics Iitcee 2026,QP1,0,1,1,,0
+16211,Seguristmo: A Citizen Platform for Crime Reporting and Police-Validated Tracking in Panama,2027,Lecture Notes in Networks and Systems,QP4,0,1,1,,0
+16218,Multi-Agent Architecture Design for Urban Short-Distance Travel Planning,2026,Kst 2026 18th International Conference on Knowledge and Smart Technology,QP2,0,1,1,,0
+16314,Digital twin architectures for smart port operations: Lessons from European benchmarking,2026,Results in Engineering,QP1,0,1,1,,0
+16324,Urbiverse: A Metaverse Environment for Future Digital Cities and Digital Urban Services,2025,Digital Cities,QP1,0,1,1,,0
+16328,ELSSA: Explainable large language model-based decision support for public transit incident management,2026,Transportation Research Part C Emerging Technologies,QP2,0,1,1,,0
+16334,Blockchain-Enabled Digital Twin Framework for Secure Authentication and Enhanced Usability in the Intelligent Transport Systems,2026,Lecture Notes in Computer Science,QP4,0,1,1,,0
+16341,Open source Digital Twin development pipeline for Public Transport: A case study in Stockholm,2026,Journal of Public Transportation,QP1,0,1,1,,0
+16392,Digital Twin-Based Framework for Predictive Modeling of Infrastructure in IoT-Enabled Smart Cities,2026,Icfnds 2025 2025 the 9th International Conference on Future Networks and Distributed Systems,QP1,0,1,1,,0
+16420,An Integrated Network Data Model to Support Multimodal Navigation for Smart Mobility,2025,Journal of the Korean Society of Surveying Geodesy Photogrammetry and Cartography,QP2,0,1,1,,0
+16439,Simulating the Future: A Digital Twin Framework for Rapidly Developing Mid-Size Canadian Cities: The Abbotsford Public Transit Case Study,2026,Electronics Switzerland,QP1,0,1,1,,0
+16562,"Overall Framework of IoT Platform in Urban Agglomeration Cross-city, cross-domain, cross-level and one-network unified management architecture",2023,Proceedings of SPIE the International Society for Optical Engineering,QP1,0,1,1,,0
+16631,Towards Dynamic Urban Scene Synthesis: The Digital Twin Descriptor Service,2025,Proceedings of the 11th IEEE International Smart Cities Conference Resilient and Sustainable Smart Communities Isc2 2025,QP1,0,1,1,,0
+16643,Smartcitysystem: A Digital Twin Platform with Virtual Sensors for Urban Mobility Analysis,2025,Proceedings of the IEEE International Conference on Big Data Bigdata,QP1,0,1,1,,0
+16662,Digital Twin System for Urban Building Energy Efficiency: A Case Study in Shenzhen,2025,2025 6th International Conference on Computers and Artificial Intelligence Technology Cait 2025,QP1,0,1,1,,0
+16697,Digital Twins for Smart Decentralized Communities: Enabling Multi-Agency Collaboration with Business Capability and Capacity Maps,2025,3rd International Conference on Intelligent Metaverse Technologies and Applications Imeta 2025,QP1,0,1,1,,0
+16709,Towards a Decentralized Digital Twin for Waste Collection Fleets,2025,Communications in Computer and Information Science,QP1,0,1,1,,0
+16740,Snap4City Digital Twin Meeting European CityVerse Action,2025,Communications in Computer and Information Science,QP1,0,1,1,,0
+16825,Cognitive Digital Twins for Smart City Mobility: An Adaptive Multi-Agent System Approach,2026,IEEE Access,QP2,0,1,1,,0
+16838,Construction Path of Shanghai Oriental Hub Municipal Pipeline Full Cycle Digital Twin Platform,2026,Advances in Civil Engineering,QP1,0,1,1,,0
+16844,Cross Domain Digital Twins for Integrated Smart City Management,2026,Proceedings of 2nd International Conference on Visual Analytics and Data Visualization Icvadv 2026,QP1,0,1,1,,0
+16847,"A spatial digital twin framework for urban built environments: case studies in Victoria, Australia",2026,Frontiers in Built Environment,QP1,0,1,1,,0
+16859,A New Platform for Urban Mobility Data Integration and Analysis,2026,Lecture Notes in Civil Engineering,QP1,0,1,1,,0
+16896,Industrial Metaverse Urban Digital Twins: A Reference Architecture for Edge-Synchronized Smart-City Infrastructure,2026,Virtual Worlds,QP1,0,1,1,,0
+16911,UrbanOS: A Digital Twin-Based Multi-Agent Platform for Real-Time Urban Data Integration and Intelligent Application Ecosystem,2026,International Journal for Research in Applied Science and Engineering Technology,QP1,0,1,1,,0
+16923,Autonomous AI Digital Twins for Smart Cities,2026,International Journal for Research in Applied Science and Engineering Technology,QP1,0,1,1,,0
+16925,"A Holographic Twin System for Urban Emergency Logistics Integrating Spatial Coverage, Multi-Objective Optimization, and Adaptive Reconfiguration in the Internet of Things Environment",2026,IEEE Transactions on Consumer Electronics,QP2,0,1,1,,0
+16947,"AI-Empowered Digital Twins for Smart City Governance: Comparative Case Studies of Dubai, Herrenberg, West Cambridge, Málaga, and Ålesund",2026,Springer eBooks,QP1,0,1,1,,0
+16986,Twin City 2.0: (X)IM Models and Explainable AI for Sustainable and Democratic Territorial Governance,2026,Lecture Notes in Networks and Systems,QP5,0,1,1,,0
+16991,Real-time Spatial Retrieval Augmented Generation for Urban Environments,2026,Zenodo (CERN European Organization for Nuclear Research),QP2,0,1,1,,0
+16999,Integrating AI-Enhanced Industrial IoT Ecosystems with FIWARE for Smart Cities: A Scalable Enterprise Solution,2025,,QP1,0,1,1,,0
+17011,A Challenge-Led Digital Twin Federation Architecture for Urban Passenger Transport Decarbonisation,2026,Procedia Computer Science,QP1,0,1,1,,0
+17024,A Digital Twin-Based System to Support Urban Planners in Mitigating the Urban Heat Island Effect,2026,Lecture Notes in Computer Science,QP1,0,1,1,,0
+17045,AI-powered smart evacuation,2026,Elsevier eBooks,QP2,0,1,1,,0
+17072,Model Sistem Informasi Smart Evacuation Tsunami Kota Padang Berbasis Digital Twin dan Perilaku Mobilitas Penduduk,2026,Journal of Innovative and Creativity (Joecy),QP1,0,1,1,,0
+17135,Closed-Loop Intelligence Architectures for Data-Driven Smart Cities,2026,Www Companion 2026 Companion Proceedings of the ACM Web Conference 2026,QP2,0,1,1,,0
+17140,A Lightweight Replicable Local Digital Twin Workflow for Small Cities Using Open Data and Web-Based 3D Visualization,2026,Sustainability Switzerland,QP1,0,1,1,,0
+17144,Advancements in scalable smart city implementations: The JRC digital platform and its vertical applications,2026,Internet of Things the Netherlands,QP1,0,1,1,,0
+17196,From data to impact: Lifecycle-oriented digital twins for urban heat island mitigation and climate resilience,2026,Sustainable Cities and Society,QP1,0,1,1,,0
+17262,Experimenting Local Digital Twins in Real Urban Contexts: Insights from the Luxembourg SmartCityHub and Differdange,2027,Lecture Notes on Data Engineering and Communications Technologies,QP1,0,1,1,,0
+17265,Snap4City SUMI Manager: A Digital Twin-Integrated Framework for Sustainable Urban Mobility Indicator Processing and Visualization,2027,Lecture Notes in Computer Science,QP1,0,1,1,,0
+17270,Building an Application Framework for Dynamic Smart City Governance: A Case Study of a Four-Dimensional Spatial Intelligent Design,2027,Lecture Notes in Networks and Systems,QP2,0,1,1,,0
+17299,A Five-Layer Open-Source IoT Platform Architecture for Smart City Applications,2026,Electronics,QP1,0,1,1,,0
+17321,IMPLEMENTING A SMART CITY DIGITAL TWIN USING THE RAPIDS ARCHITECTURE,2024,International Conferences E Society 2024 and Mobile Learning 2024,QP1,0,1,1,,0
+17325,Urban Digital Twin Engineering: A Multi-Perspective and Holistic Approach,2025,Proceedings of International Conference on Computers and Industrial Engineering CIE,QP1,0,1,1,,0
+17330,Urban Digital Twin for Territorial Management,2025,Ceur Workshop Proceedings,QP2,0,1,1,,0
+17345,The concept of development a digital twin based on the FIWARE framework for effective air quality monitoring in urban areas,2025,Ceur Workshop Proceedings,QP1,0,1,1,,0
+17348,Designing Adaptive Urban Mobility: A Digital Twin-Driven Architecture for Intelligent Traffic Systems,2025,Proceedings of the Summer School Francesco Turco,QP2,0,1,1,,0
+17361,Digital Twin Orchestration: Framework and Smart City Applications,2024,Ceur Workshop Proceedings,QP1,0,1,1,,0
+17362,IMPLEMENTING DIGITAL TWIN SOLUTIONS INTO SMART CITY INFRASTRUCTURE MANAGEMENT: CASE STUDY OF NIDA SMART CAMPUS IN THAILAND,2024,Proceedings of the 28th International Conference of Hong Kong Society for Transportation Studies Hksts 2024 Technology and Service Innovation in Transportation,QP1,0,1,1,,0
+17379,Research on architecture and key technologies of urban traffic digital twin system,2025,Proceedings of SPIE the International Society for Optical Engineering,QP1,0,1,1,,0
+17393,The World Avatar: A New Era in Digital Twinning for Sustainable Urban Development,2026,Energy Proceedings,QP1,0,1,1,,0
+17468,Digital Twin Technology: Achieving Smartness Within the New Administrative Capital in Egypt,2025,Lecture Notes in Civil Engineering,QP1,0,1,1,,0
+17471,Construction and Application of Multi-Layered Urban Digital Twin Platform Integrating Open Data and 3D Visualization,2025,Gcce 2025 2025 IEEE 14th Global Conference on Consumer Electronics,QP1,0,1,1,,0
+17504,Urban Digital Twin of City Zurich – Added Values for Society and Government,2025,Avn Allgemeine Vermessungs Nachrichten,QP1,0,1,1,,0
+17527,Research on intelligent safety and emergency command system for smart fishing ports: a case study of Zhapo fishing port,2026,Port and Waterway Engineering,QP2,0,1,1,,0
+17704,Requirements for Urban Data Platform Federation across Cities,2025,Ceur Workshop Proceedings,QP1,0,1,1,,0
+17770,Space-time unified coordinate coding model for digital twin cities,2026,Big Earth Data,QP2,0,1,1,,0
+17774,Immersive and Cognitive Urban Digital Twins for Sustainable and Resilient Smart Territories,2026,Resilient Complex Adaptive Systems,QP1,0,1,1,,0
+17782,Development of “Machi Space®”: An Urban Digital Twin Platform for Environmental Numerical Simulation,2026,Lecture Notes in Civil Engineering,QP1,0,1,1,,0
+17802,Architecture and Algorithms for an Urban Mobility Digital Twin,2026,IEEE International Conference on Pervasive Computing and Communications Workshops Percom Workshops,QP1,0,1,1,,0
+17832,City Information Modelling and Urban Digital Twins: A Comparative Study of Imperative and Declarative Modes,2026,Buildings,QP1,0,1,1,,0
+17866,"A Hybrid Architecture for Urban Planning Decision Support Using Data-Driven Analysis and NLP: A Use Case in Nouakchott, Africa",2025,Sita 2025 15th International Conference on Intelligent Systems Theories and Applications,QP2,0,1,1,,0
+17876,From Open Urban Data to Locative Services: Eligibility Criteria and a Faceted Typology for Urban Digital Locative Elements,2026,Smart Cities,QP2,0,1,1,,0
+17940,Assessing and fixing LOD2 building models for Urban Energy Digital Twin,2026,ISPRS Annals of the Photogrammetry Remote Sensing and Spatial Information Sciences,QP1,0,1,1,,0

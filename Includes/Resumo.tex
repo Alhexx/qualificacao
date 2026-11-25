@@ -1,0 +1,23 @@
+% Resumo em lingua vernacula
+\begin{center}
+	{\Large{\textbf{Hiperpersonalização em Gêmeos Digitais Urbanos: uma Camada de Orquestração Sensível ao Contexto para Notificação e Resposta a Emergências}}}
+\end{center}
+
+\vspace{1cm}
+
+\begin{flushright}
+	Autor: Alexandre Cesar de Oliveira Guimarães\\
+	Orientador: Prof.\ Dr.\ Frederico Araujo da Silva Lopes
+\end{flushright}
+
+\vspace{1cm}
+
+\begin{center}
+	\Large{\textsc{\textbf{Resumo}}}
+\end{center}
+
+\noindent Os gêmeos digitais urbanos deixaram de ser maquetes tridimensionais e
+tornaram-se plataformas de dados em operação nas cidades. Cada vez mais, essas plataformas trazem com fidelidade a infraestrutura urbana, suas vias, edificações e dados de forma geral, mas tratam as pessoas como agregado estatístico, e não como entidades objeto de definição de contexto. A limitação se revela quando o sistema precisa agir sobre indivíduos, e não sobre a média deles. Numa emergência, a informação poderia ser direcionada a quem tem perfil competente para atuar, enquanto cada pessoa afetada receberia a orientação pertinente à sua própria condição; sem perfil no modelo de contexto, porém, a plataforma só é capaz de emitir a mesma mensagem para todos. O mapeamento sistemático da literatura conduzido neste trabalho mostra que a limitação é do campo, e não de implementações isoladas: entre os trabalhos confrontados em matriz comparativa, nenhum aborda como tratamento central mais de duas das cinco dimensões examinadas, e em nenhum deles o perfil humano aparece integrado às demais. As capacidades necessárias existem, validadas separadamente em perfilamento sobre grafos urbanos, em ontologias de consentimento e em barramentos semânticos; o que falta é o artefato arquitetural que as reúna. Esta qualificação propõe esse artefato: uma arquitetura de \textit{backend} que representa o perfil humano como entidade de primeira classe no grafo de contexto NGSI-LD, ao lado das entidades de infraestrutura e de evento, de modo que a travessia de relacionamentos permita derivar, de um mesmo evento crítico, uma resposta distinta para cada pessoa envolvida. O desenho adota o Stellio Context Broker como núcleo semântico, a assinatura declarativa de mudanças de contexto como mecanismo de integração entre componentes e a segregação da persistência entre PostGIS e TimescaleDB, conforme o perfil de acesso ao dado. Sobre esse núcleo opera uma camada de orquestração que agrega a experiência por caso de uso, mantém o gêmeo digital humano e separa a classificação da emergência do despacho da resposta. Cada decisão arquitetural está registrada com sua justificativa e rastreada até a lacuna que a origina. O documento especifica o ambiente da prova de conceito e o plano de validação funcional do cenário de resposta a incêndio com evacuação assistida, etapa prevista para os seis meses seguintes, ao fim dos quais se espera demonstrar que a residência do perfil humano no grafo semântico basta para produzir resposta diferenciada por pessoa.
+
+\noindent\textit{Palavras-chave}: gêmeo digital urbano; gêmeo digital humano;
+NGSI-LD; FIWARE; arquitetura orientada a eventos; sensibilidade ao contexto; interoperabilidade semântica.

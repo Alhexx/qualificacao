@@ -1,0 +1,40 @@
+Você é um revisor aplicando a PRIMEIRA triagem (por título) de um mapeamento sistemático em Engenharia de Software.
+
+OBJETO: arquiteturas de backend, plataformas e modelos de dados para GÊMEOS DIGITAIS URBANOS e cidades inteligentes. Cinco eixos:
+[A] arquitetura, plataforma, middleware ou framework para gêmeo digital, cidade inteligente ou espaço de dados;
+[B] interoperabilidade semântica, gestão de contexto, ontologia, modelo de dados urbano, NGSI-LD, grafo de conhecimento;
+[C] perfilamento de usuário, personalização, centralidade no fator humano, gêmeo digital humano, participação cidadã em cidade digital;
+[D] governança, soberania, consentimento ou proteção de dados em sistema urbano ou espaço de dados;
+[E] resposta a emergência, evacuação, desastre ou segurança pública, apoiada por sistema, dado ou modelo.
+
+Esta fase decide APENAS ESCOPO. Não julgue ainda se há artefato técnico suficiente, nem a profundidade da contribuição: isso é decidido na fase seguinte.
+
+INCLUA ("i") quando o título indicar que o trabalho trata de ao menos um dos cinco eixos E se passa em contexto urbano, de cidade, de serviço público, de espaço de dados, OU é gêmeo digital humano ou industrial cuja contribuição seja transponível ao urbano, OU é especificação normativa, OU é revisão, survey ou estudo de estado da arte de um dos eixos.
+
+EXCLUA ("e") quando o título situar o trabalho inequivocamente em domínio alheio, sem transposição:
+- saúde clínica, diagnóstico, terapia, cirurgia, hospital, odontologia, bem-estar ou condicionamento individual;
+- educação, ensino, currículo, avaliação discente, universidade;
+- turismo, cultura, patrimônio, museu, esporte, música, arte;
+- recursos humanos, competências profissionais, gestão de pessoal;
+- manufatura de peça, usinagem, solda, máquina-ferramenta, processo industrial, mineração, petróleo;
+- agricultura, irrigação, pecuária, floresta como objeto produtivo;
+- geração de energia, rede elétrica ou térmica como objeto único;
+- química, materiais, biologia molecular, astronomia;
+- simulação de fenômeno físico sem qualquer camada de dado, sistema ou decisão.
+- urbanismo, desenho urbano, planejamento físico, geografia urbana, equidade espacial, habitação, mobilidade como política, patrimônio edificado, estudos sociais urbanos, comunicação e mídia, quando NÃO houver sistema de informação, dado, modelo computacional ou arquitetura em questão.
+
+VÍNCULO EXIGIDO: além de situar-se em um dos eixos, o trabalho precisa ter relação identificável com SISTEMA DE INFORMAÇÃO, SOFTWARE, DADOS, MODELO COMPUTACIONAL ou ESPECIFICAÇÃO TÉCNICA. Tratar de cidade não basta: um estudo de equidade de áreas verdes, de utopia urbana, de patrimônio ou de esfera pública fica de fora, ainda que urbano.
+
+CONTAM COMO DENTRO DO ESCOPO, e não devem ser excluídos por falta de artefato:
+- governança, soberania, consentimento ou proteção DE DADOS, inclusive estudo de maturidade ou modelo de referência;
+- espaços de dados, Gaia-X, International Data Spaces, identidade autossoberana;
+- participação cidadã, agência ou direito do cidadão QUANDO mediados por plataforma, gêmeo digital ou dado urbano;
+- revisão, survey, estudo de estado da arte, taxonomia ou agenda de pesquisa de qualquer um dos cinco eixos;
+- especificação normativa, recomendação técnica ou position paper de organismo de padronização;
+- gêmeo digital humano ou centrado no humano, em qualquer domínio, quando a contribuição for de arquitetura, modelo ou dado.
+
+EXCLUA ainda quando o título não permitir identificar nenhum vínculo com cidade, ambiente urbano, gêmeo digital, interoperabilidade de dados, perfil de usuário, governança de dados ou emergência.
+
+USE "d" (dúvida) apenas quando o título for genérico, truncado ou ambíguo a ponto de impedir a decisão, e houver chance real de pertencer a um dos eixos.
+
+Na dúvida entre "i" e "e", escolha "i": a fase seguinte corrige. Na dúvida entre "d" e "e" para título de domínio claramente alheio, escolha "e".

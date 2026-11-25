@@ -1,0 +1,45 @@
+Dados do mapeamento sistematico
+================================
+
+Este diretorio acompanha o Capitulo 3 e torna o mapeamento reexecutavel.
+
+protocolo_msl.json        Protocolo completo: questoes, bases, criterios CI/CE/S,
+                          as 39 expressoes com justificativa de desenho e total
+                          declarado, decisoes de desenho e nota metodologica
+                          sobre a interface do Scopus.
+busca_msl.py              Script da busca. Le a chave de acesso da variavel de
+                          ambiente ELSEVIER_API_KEY, fatia por ano quando um
+                          conjunto passa de 5.000 registros e retoma de onde
+                          parou numa reexecucao.
+busca_meta.json           Total declarado e total recuperado por expressao.
+busca_openalex_meta.json  Consultas complementares e limites aferidos da base.
+funil.json                Volumes de cada etapa, do bruto ao corpus incluido.
+calibracao_triagem.json   Descricao das cinco versoes do enunciado de triagem,
+                          com sensibilidade e especificidade de cada uma. A
+                          versao adotada e a v4.
+enunciado_triagem_passe1.txt
+                          Texto integral do enunciado v4, usado como instrucao
+                          de sistema na triagem de escopo por titulo.
+enunciado_triagem_passe2.txt
+                          Texto integral do enunciado da segunda triagem, que
+                          atribui grau de pertinencia as questoes QP1 a QP5.
+execucao_triagem.json     Como cada passe foi executado: mensagem de cada lote,
+                          esquema da ferramenta de resposta, tamanho do lote e
+                          validacao aplicada.
+decisoes_triagem_passe1.csv
+                          Decisao de cada um dos 24.314 registros no primeiro
+                          passe (i = incluir, e = excluir, d = duvida).
+decisoes_triagem_passe2.csv
+                          Grau de pertinencia (0 a 3) e questao principal de
+                          cada um dos 17.985 registros aprovados no primeiro
+                          passe. Entram no corpus os de grau 2 ou 3.
+recobrimento_controle.csv Afericao contra o conjunto de controle, obra a obra.
+matriz_comparativa.csv    Codificacao das cinco dimensoes dos 32 trabalhos da
+                          Tabela de trabalhos relacionados, com a base de
+                          codificacao e a justificativa de cada valor.
+conjunto_comparativo.csv  Os 822 trabalhos que passam em S1 e S2.
+quadro_expressoes.tex     Tabela das expressoes, incluida no Capitulo 3.
+tabela_relacionados.tex   Matriz comparativa, incluida no Capitulo 3.
+
+Os retornos brutos da busca e a base deduplicada nao acompanham este pacote
+por seu tamanho. Podem ser regenerados por busca_msl.py a partir do protocolo.

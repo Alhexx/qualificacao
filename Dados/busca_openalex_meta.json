@@ -1,0 +1,71 @@
+{
+ "O1": {
+  "consulta": "urban digital twin architecture platform",
+  "api_total": 34184,
+  "recuperado": 200,
+  "truncado": true
+ },
+ "O2": {
+  "consulta": "human digital twin human-centric smart city",
+  "api_total": 24390,
+  "recuperado": 200,
+  "truncado": true
+ },
+ "O3": {
+  "consulta": "NGSI-LD context broker FIWARE smart city",
+  "api_total": 189,
+  "recuperado": 189,
+  "truncado": false
+ },
+ "O4": {
+  "consulta": "digital twin emergency evacuation disaster response city",
+  "api_total": 2157,
+  "recuperado": 200,
+  "truncado": true
+ },
+ "O5": {
+  "consulta": "data space sovereignty Gaia-X IDS connector",
+  "api_total": 290,
+  "recuperado": 200,
+  "truncado": true
+ },
+ "O6": {
+  "consulta": "context-aware middleware urban services personalization",
+  "api_total": 2142,
+  "recuperado": 200,
+  "truncado": true
+ },
+ "O7": {
+  "consulta": "semantic interoperability smart city data model ontology",
+  "api_total": 8533,
+  "recuperado": 200,
+  "truncado": true
+ },
+ "O8": {
+  "consulta": "event-driven microservice architecture urban platform",
+  "api_total": 2872,
+  "recuperado": 200,
+  "truncado": true
+ },
+ "papel": "complementar: cobertura de obras ausentes do Scopus e fornecimento de palavras-chave, topico e resumo",
+ "limites_aferidos": {
+  "teto_por_consulta": 500,
+  "recuperado_por_consulta": 200,
+  "busca_restrita_a_campo": false,
+  "resumo_liberado_por_licenca": true,
+  "taxa_resumo_aferida": "847 de 1589 registros (53%); apenas licencas abertas verificadas reconstroem o resumo",
+  "taxa_keywords_e_topico": "1589 de 1589 (100%)"
+ },
+ "inclusao_dirigida": {
+  "motivo": "obras aferidas como ausentes do Scopus, recuperadas por busca nominal",
+  "recuperadas_no_openalex": [
+   "cirillo2019standard",
+   "otto2019international",
+   "komninos2016smart"
+  ],
+  "ausentes_das_duas_bases": [
+   "storek2024filip",
+   "desai2022hyper"
+  ]
+ }
+}
